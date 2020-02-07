@@ -29,12 +29,9 @@ struct CompositionDetailView: View {
                     Group {
                         Text(self.composition
                                 .composer.name)
-                            .font(.callout)
+                            .font(.headline)
                             .padding(.horizontal)
                         Text(self.composition.date)
-                            .padding(.horizontal)
-                        Divider()
-                            .background(Color.green)
                             .padding(.horizontal)
                     }
                     Group {
@@ -50,23 +47,12 @@ struct CompositionDetailView: View {
                             Text(self.composition.genre)
                         }
                         .padding(.horizontal)
-                        HStack {
-                            Text("Mutes:")
-                                .font(.headline)
-                            Text(self.composition.mutes)
-                        }
-                        .padding(.horizontal)
-                        VStack(alignment: .leading) {
-                            Text("Common Difficulties:")
-                                .font(.headline)
-                            Text(self.composition.commonDifficulties)
-                                .padding(.horizontal)
-                            }
-                            .padding(.horizontal)
                         Divider()
                             .background(Color.green)
                             .padding(.horizontal)
                     }
+                    
+                    // Excerpt Group
                     Group {
                         ForEach(self.composition.excerpts) { item in
                             Group {
@@ -74,11 +60,8 @@ struct CompositionDetailView: View {
                                     .font(.headline)
                                     .padding(.horizontal)
                                     .padding(.top)
-                                Text("Measures: \(item.measures)")
+                                Text(item.measures)
                                     .padding(.horizontal)
-                                Text("Average Tempo: \(item.avgTempo)")
-                                    .padding(.horizontal)
-                                    .padding(.bottom)
                             }
                             ForEach(item.pictures, id:\.self) { picture in
                                 Group {
@@ -88,8 +71,6 @@ struct CompositionDetailView: View {
                                         .resizable()
                                         .scaledToFit()
                                         .background(Color.white)
-    //                                FixedImage(imageName: "\(picture[1])")
-                                        
                                 }
                             }
                         }
@@ -103,8 +84,6 @@ struct CompositionDetailView: View {
                         .padding(.leading)
                     ForEach(self.composition.videos, id: \.self) { item in
                         VStack(alignment: .leading) {
-                            //Text(item[0])
-                            //WebView(request: URLRequest(url: URL(string: "https://youtu.be/\(item[1])")!))
                             Button(action: {
                                 UIApplication.shared.open(URL(string: "https://youtu.be/\(item[1])")!)
                             }) {
@@ -132,48 +111,6 @@ struct CompositionDetailView: View {
             })
         }
         .navigationViewStyle(StackNavigationViewStyle())
-    }
-}
-
-struct WebView : UIViewRepresentable {
-    let request: URLRequest
-
-    func makeUIView(context: Context) -> WKWebView  {
-        let configuration = WKWebViewConfiguration()
-        configuration
-            .allowsInlineMediaPlayback = true
-        configuration
-            .mediaTypesRequiringUserActionForPlayback = .all
-        
-        let webView = WKWebView(frame: CGRect(x: 0, y: 0, width: 375, height: 375), configuration:
-        configuration)
-        
-        // I don't think that this is needed.
-        webView.translatesAutoresizingMaskIntoConstraints = false
-        
-        return webView
-    }
-
-    func updateUIView(_ uiView: WKWebView, context: Context) {
-        uiView.load(request)
-    }
-}
-
-struct FixedImage: UIViewRepresentable {
-
-    var imageName: String
-
-    func makeUIView(context: Context) -> UIImageView {
-        let imageView = UIImageView(image: UIImage(named: imageName))
-        imageView.contentMode = .scaleAspectFit
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        
-        return imageView
-    }
-
-    func updateUIView(_ uiView: UIImageView, context: Context) {
-        uiView.image = UIImage(named: imageName)
-        
     }
 }
 

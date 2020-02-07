@@ -53,7 +53,12 @@ struct Era: Identifiable {
     var popularComposers: String
 }
 
-// Composers
+//********************************************************//
+//                                                        //
+//                       Composers                        //
+//                                                        //
+//********************************************************//
+
 let bach = Composer(id: 0, name: "Johann Sebastian Bach", shortName: "Bach", ipa: "joˈhan zeˈbastjan bɑx", image: 2000, country: "Germany", dates: "1685-1750", bio: "Johann Sebastian Bach was a German Baroque composer and musician. He is most well known for is keyboard works, and works for voice and orchestra. Bach was a master of counterpoint and harmonic organization and his influences in these fields continue to affect composers to this day.")
 
 let beethoven = Composer(id: 1, name: "Ludwig Van Beethoven", shortName: "Beethoven", ipa: "ˈlʊdvɪɡ væn ˈbeɪt(h)oʊvən", image: 2001, country: "Germany", dates: "1770-1827", bio: "Ludwig van Beethoven was a German composer and pianist. Beethoven began his compositional life firmly in the classical era, but was a key figure in the early romantic era. Beethoven grew to be mostly deaf in his lifetime, but never ceased composing. He was the first composer to incorporate trombones in a symphonic setting, and composed nine symphonies in his lifetime. He is considered to be one of the greatest composers of all time.")
@@ -70,8 +75,18 @@ let bruckner = Composer(id: 6, name: "Anton Bruckner", shortName: "Bruckner", ip
 
 let dvorak = Composer(id: 7, name: "Antonín Dvořák", shortName: "Dvořák", ipa: "ˈɑn tɔ nyin ˈdvɔr ʒɑk", image: 2007, country: "Austrian Empire", dates: "1841-1904", bio: "Dvořák was one of the first Czech composers to recieve worldwide recognition. Dvořák was an admirer of Richard Wagner, and took influence from him especially in his Operas. He frequently included folk music in his compositions, and his music often had nationalistic themes.")
 
+let franck = Composer(id: 8, name: "César Franck", shortName: "Franck", ipa: "seɪˈzar frɑŋk", image: 2008, country: "United Kingdom of the Netherlands (Now Belgium)", dates: "1822 - 1890", bio: "Franck studied music in Paris at a young age. After his studies, he returned to Belgium and gained a terrible reputation for his oratorio \"Ruth\", and moved to Paris where he became an organist and teacher. Later in life, he became the organist for the Basilica of Saint Clotilde, where he remained for the rest of his life, composing in his free time pieces that are now considered standard repetoire.")
 
-// Excerpts
+let haydn = Composer(id: 9, name: "Franz Joseph Haydn", shortName: "Haydn", ipa: "ˈfʁants ˈjoːzɛf ˈhaɪdn̩", image: 2009, country: "Austria", dates: "1732-1809", bio: "Haydn was a classical composer who is commonly known as \"The father of the Symphony\". He spent most of his life as a court musician for the Esterházy family. He was isolated in this role, with little to no contact with the rest of the music community, and was forced to create his own style because of this. Haydn was a prolific composer, producing 104 numbered symphonies and an immense amount of chamber music.")
+
+let holst = Composer(id: 10, name: "Gustav Holst", shortName: "Holst", ipa: "ˈgʊs tɑv hoʊlst", image: 2010, country: "England", dates: "1874-1934", bio: "Holst was a popular English composer of the modern era. He aspired to become a concert pianist, but neuritis in his right arm prevented him. Against his father's wishes, he studied to become a composer. He was unable to support himself from his compositions alone, and started to play and teach the trombone professionally. He is most well known for his orchestral composition \"The Planets\".")
+
+//********************************************************//
+//                                                        //
+//                       Excerpts                         //
+//                                                        //
+//********************************************************//
+
 let bachCelloSuite = Composition(id: 0, composer: bach, name: "Cello Suite No. 5", date: "ca. 1720", era: "Baroque", genre: "Cello Suite", excerpts: [
     Excerpt(id: 0, description: "Sarabande", avgTempo: "72bpm", measures: "1-20 (All)", pictures: [["", "1000"]])
 ], mutes: "No", commonDifficulties: "smooth leaps, breathing", professionalAdvice: "\"As to tempo, we are left to find a comfortable tempo that communicates the gravity of the music without becoming glacial and static. Many trombonists play the Sarabande as if it was in six rather than three – such weighting of each note results in a dull, ponderous performance that is impossible to sustain musically. A tempo of quarter note = 50 is typical of that taken by many of the world’s great cello players and allows us to maintain forward motion without hurrying.\n\nKeep in mind that every measure contains a five note theme; the sixth note in several bars serves simply as a reinforcement of the cadence, a melodic movement to the key of the downbeat of the next bar, or resolution of a fifth note passing tone.\n\nBars 16-19 require a decision by the performer: whether or not to phrase over the bar lines. Many players (including myself in my 2001 version of this movement that was first posted on my website) have phrased over the bar line, making the sixth note a pickup to the next bar. But over time, I have become persuaded – as the earliest manuscripts of the Suites support – that playing all six notes in those bars as a phrase rather than giving each bar a five note theme with a pickup to the next bar makes the most cogent musical sense.\" -Douglas Yeo", videos: [["Christian Jones", "jO9BGyQveRY"], ["Pablo Casals", "XEN-Xhx8aDA"]])
@@ -221,7 +236,35 @@ let dvorak8 = Composition(id: 20, composer: dvorak, name: "Symphony No. 8", date
     Excerpt(id: 85, description: "Excerpt 12", avgTempo: "", measures: "Mov. IV, [R] to End", pictures: [["Trombone 1", "1250"], ["Trombone 2", "1251"], ["Trombone 3", "1252"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Manfred Honeck, Frankfurt Radio Symphony Orchestra", "QXAv-NGppFw"], ["Yannick Nézet-Séguin, Rotterdams Philharmonisch Orkest", "XRmcSm-YVZc"]])
 
+let dvorak9 = Composition(id: 21, composer: dvorak, name: "Symphony No. 9", date: "1893", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 86, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, 20 mm. before [1] to 8 mm. after [1], 23 mm. after [5] to [6]", pictures: [["Trombone 1", "1253"], ["Trombone 2", "1254"], ["Trombone 3", "1255"]]),
+    Excerpt(id: 87, description: "Excerpt 2", avgTempo: "", measures: "Mov. I, 5 mm. after [7] to 7 mm. before [9]", pictures: [["Trombone 1", "1256"], ["Trombone 2", "1257"], ["Trombone 3", "1258"]]),
+    Excerpt(id: 88, description: "Excerpt 3", avgTempo: "", measures: "Mov. I, 16 mm. before [10] to 5 mm. before [10]", pictures: [["Trombone 1", "1259"], ["Trombone 2", "1260"], ["Trombone 3", "1261"]]),
+    Excerpt(id: 89, description: "Excerpt 4", avgTempo: "", measures: "Mov. I, [13] to End", pictures: [["Trombone 1", "1262"], ["Trombone 2", "1263"], ["Trombone 3", "1264"]]),
+    Excerpt(id: 90, description: "Excerpt 5", avgTempo: "", measures: "Mov. II, Beginning to mm. 6", pictures: [["Trombone 1", "1265"], ["Trombone 2", "1266"], ["Trombone 3 and Tuba", "1267"]]),
+    Excerpt(id: 91, description: "Excerpt 6", avgTempo: "", measures: "Mov. II, 7 mm. after [4] to 10 mm. after [4]", pictures: [["Trombone 1", "1268"], ["Trombone 2", "1269"], ["Trombone 3 and Tuba", "1270"]]),
+    Excerpt(id: 92, description: "Excerpt 7", avgTempo: "", measures: "Mov. II, 8 mm. before End to 4 mm. before End", pictures: [["Trombone 1", "1271"], ["Trombone 2", "1272"], ["Trombone 3 and Tuba", "1273"]]),
+    Excerpt(id: 93, description: "Excerpt 8", avgTempo: "", measures: "Mov. IV, 9 mm. after [7] to 4 mm. after [9]", pictures: [["Trombone 1", "1274"], ["Trombone 2", "1275"], ["Trombone 3", "1276"]]),
+    Excerpt(id: 94, description: "Excerpt 9", avgTempo: "", measures: "Mov. IV, 5 mm. after [11] to 9 mm. after [12]", pictures: [["Trombone 1", "1277"], ["Trombone 2", "1278"], ["Trombone 3", "1279"]]),
+    Excerpt(id: 95, description: "Excerpt 10", avgTempo: "", measures: "Mov. IV, 26 mm. before End to End", pictures: [["Trombone 1", "1280"], ["Trombone 2", "1281"], ["Trombone 3", "1282"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Sergiu Celibidache, Münchner Philharmoniker", "_9RT2nHD6CQ"], ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "jOofzffyDSA"], ["Kurt Redel, Slovak Philharmonic Orchestra"], ["Lorin Maazel, New York Philharmonic", "nSd1ye8l4RE"], ["Ferenc Fricsay, Berliner Philharmoniker", "oLWpgWuUaU4"]])
 
+let franckD = Composition(id: 22, composer: franck, name: "Symphony in D minor", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 96, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, [N] to [O]", pictures: [["Trombones 1 and 2", "1283"], ["Trombone 3", "1284"]]),
+    Excerpt(id: 97, description: "Excerpt 2", avgTempo: "", measures: "Mov. III, [N] to 18 mm. after [N]", pictures: [["Trombones 1 and 2", "1285"], ["Trombone 3", "1286"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Marc Minkowski, Frankfurt Radio Symphony", "uRWFjK11lfw"], ["Leonard Bernstein, Orchestre National de France", "uosj6PZLKKE"], ["Ricardo Muti, Philadelphia Orchestra", "0nF6TobCyV4"]])
+
+let haydnCreation = Composition(id: 23, composer: haydn, name: "The Creation", date: "1798", era: "Classical", genre: "Oratorio", excerpts: [
+    Excerpt(id: 98, description: "Excerpt 1", avgTempo: "", measures: "No. 26, Beginning to [C]", pictures: [["Trombone 1", "1287"], ["Trombone 2", "1288"], ["Trombone 3", "1289"]]),
+    Excerpt(id: 99, description: "Excerpt 2", avgTempo: "", measures: "No. 28, [H] to 2 mm. before [K]", pictures: [["Trombone 1", "1290"], ["Trombone 2", "1291"], ["Trombone 3", "1292"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Phillip A. Swan, Lawrence Symphony Orchestra", "kaI8x-saprI"], ["Adam Fischer, Austro-Hungarian Haydn Philharmonic Orchestra & Wiener Kammerchor", "xIpSNMQZH9M"], ["Philipp von Steinaecker, Aus dem Dom zu Brixen", "l07oRR4u-rk"], ["Christopher Hogwood, Academy of Ancient Music", "bH5KM700AlQ"]])
+
+let holstPlanets = Composition(id: 24, composer: holst, name: "The Planets", date: "1916", era: "Modern", genre: "Orchestral Suite", excerpts: [
+    Excerpt(id: 100, description: "Excerpt 1", avgTempo: "", measures: "Jupiter, mm. 140 to 4 mm. before [8]", pictures: [["Trombones 1 and 2", "1293"], ["Trombone 3", "1294"]]),
+    Excerpt(id: 101, description: "Excerpt 2", avgTempo: "", measures: "Jupiter, mm. 267 to 4 mm. before [12] ", pictures: [["Trombones 1 and 2", "1295"], ["Trombone 3", "1296"]]),
+    Excerpt(id: 102, description: "Excerpt 3", avgTempo: "", measures: "Jupiter, [16] to 5 mm. after [17]", pictures: [["Trombones 1 and 2", "1297"], ["Trombone 3", "1298"]]),
+    Excerpt(id: 103, description: "Excerpt 4", avgTempo: "", measures: "Uranus, [7] to [8]", pictures: [["Trombones 1 and 2", "1299"], ["Trombone 3", "1300"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Edward Gardner, National Youth Orchestra", "be7uEyyNIT4"], ["William Steinberg, Boston Symphony Orchestra", "Isic2Z2e2xs"], ["Sir Adrian Boult, BBC Symphony Orchestra", "eSqb7gD5acY"]])
 
 
 
@@ -229,10 +272,10 @@ let pictures = [["Trombone 1", ""], ["Trombone 2", ""], ["Trombone 3", ""]]
 
 class TromboneContentModel: ObservableObject {
     var excerpts: [Composition] = [
-        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8
+        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets
     ]
     
     var composers: [Composer] = [
-        bach, beethoven, berlioz, bizet, borodin, brahms, bruckner, dvorak
+        bach, beethoven, berlioz, bizet, borodin, brahms, bruckner, dvorak, franck, haydn, holst
     ]
 }

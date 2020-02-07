@@ -14,17 +14,15 @@ struct SourcesView: View {
     var model = CitationsModel().citations
     
     var body: some View {
-        NavigationView {
-            ScrollView {
-                VStack(alignment: .leading) {
-                    ForEach(model, id: \.self) { item in
-                        Text(item)
-                            .padding()
-                    }
+        ScrollView {
+            VStack(alignment: .leading) {
+                ForEach(model, id: \.self) { item in
+                    Text(item)
+                        .padding()
                 }
             }
-            .navigationBarTitle("Citations")
         }
+    .navigationBarTitle("Citations")
     }
 }
 
