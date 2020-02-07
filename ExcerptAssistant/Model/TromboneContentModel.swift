@@ -81,6 +81,8 @@ let haydn = Composer(id: 9, name: "Franz Joseph Haydn", shortName: "Haydn", ipa:
 
 let holst = Composer(id: 10, name: "Gustav Holst", shortName: "Holst", ipa: "ˈgʊs tɑv hoʊlst", image: 2010, country: "England", dates: "1874-1934", bio: "Holst was a popular English composer of the modern era. He aspired to become a concert pianist, but neuritis in his right arm prevented him. Against his father's wishes, he studied to become a composer. He was unable to support himself from his compositions alone, and started to play and teach the trombone professionally. He is most well known for his orchestral composition \"The Planets\".")
 
+let mahler = Composer(id: 11, name: "Gustav Mahler", shortName: "Mahler", ipa: "ˈgʊs tɑf ˈmɑ lər", image: 2011, country: "Austrian Empire", dates: "1860-1911", bio: "Mahler is one of the most popular composers of all time. In 2016, a BBC Music survey ranked three of his symphonies among the top ten symphonies of all time. His music continues to be among the top recorded and perfomed in all of classical music. During his day, he was also among one of the top conductors of his era, and was the first conductor of the New York Philharmonic Orchestra.")
+
 //********************************************************//
 //                                                        //
 //                       Excerpts                         //
@@ -266,9 +268,33 @@ let holstPlanets = Composition(id: 24, composer: holst, name: "The Planets", dat
     Excerpt(id: 103, description: "Excerpt 4", avgTempo: "", measures: "Uranus, [7] to [8]", pictures: [["Trombones 1 and 2", "1299"], ["Trombone 3", "1300"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Edward Gardner, National Youth Orchestra", "be7uEyyNIT4"], ["William Steinberg, Boston Symphony Orchestra", "Isic2Z2e2xs"], ["Sir Adrian Boult, BBC Symphony Orchestra", "eSqb7gD5acY"]])
 
+let mahler2 = Composition(id: 25, composer: mahler, name: "Symphony No. 2", date: "1894", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 104, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, 10 mm. after [1] to [2]", pictures: [["Trombone 1", "1301"], ["Trombone 2", "1302"], ["Trombone 3", "1303"], ["Trombone 4", "1304"]]),
+    Excerpt(id: 105, description: "Excerpt 2", avgTempo: "", measures: "Mov. I, [5] to 4 mm. before [7]", pictures: [["Trombone 1", "1305"], ["Trombone 2", "1306"], ["Trombone 3", "1307"], ["Trombone 4", "1308"]]),
+    Excerpt(id: 106, description: "Excerpt 3", avgTempo: "", measures: "Mov. I, [11] to 5 mm. after [11]", pictures: [["Trombone 1", "1309"], ["Trombone 2", "1310"], ["Trombone 4", "1311"]]),
+    Excerpt(id: 107, description: "Excerpt 4", avgTempo: "", measures: "Mov. I, [15] to 4 mm. after [15]", pictures: [["Trombone 1", "1312"], ["Trombone 2", "1313"], ["Trombone 3", "1314"], ["Trombone 4", "1315"]]),
+    Excerpt(id: 108, description: "Excerpt 5", avgTempo: "", measures: "Mov. I, 8 mm. after [16] to 8 mm. before [17]", pictures: [["Trombone 1", "1316"],]),
+    Excerpt(id: 109, description: "Excerpt 6", avgTempo: "", measures: "Mov. I, 4 mm. after [17] to 7 mm. before [21]", pictures: [["Trombone 1", "1317"], ["Trombone 2", "1318"], ["Trombone 3", "1319"], ["Trombone 4", "1320"]]),
+    Excerpt(id: 110, description: "Excerpt 7", avgTempo: "", measures: "Mov. I, 2 mm. before [22] to 5 mm. after [22]", pictures: [["Trombone 1", "1321"], ["Trombone 2", "1322"], ["Trombone 3", "1323"], ["Trombone 4", "1324"]]),
+    Excerpt(id: 111, description: "Excerpt 8", avgTempo: "", measures: "Mov. I, 2 mm. after [24] to [26]", pictures: [["Trombone 1", "1325"], ["Trombone 2", "1326"], ["Trombone 3", "1327"], ["Trombone 4", "1328"]]),
+    Excerpt(id: 112, description: "Excerpt 9", avgTempo: "", measures: "Mov. II, [7] to 4 mm. before [9]", pictures: [["Trombone 1", "1329"], ["Trombone 2", "1330"], ["Trombone 3", "1331"]]),
+    Excerpt(id: 113, description: "Excerpt 10", avgTempo: "", measures: "Mov. III, [49] to 8 mm. before [51]", pictures: [["Trombone 1", "1332"], ["Trombone 2", "1333"], ["Trombone 3", "1334"], ["Trombone 4", "1335"]]),
+    Excerpt(id: 114, description: "Excerpt 11", avgTempo: "", measures: "Mov. V, mm. 5 to [2]", pictures: [["Trombone 1", "1336"], ["Trombone 2", "1337"], ["Trombone 3", "1338"], ["Trombone 4", "1339"]]),
+    Excerpt(id: 115, description: "Excerpt 12", avgTempo: "", measures: "Mov. V, 2 mm. before [4] to 2 mm. before [7]", pictures: [["Trombone 1", "1340"], ["Trombone 2", "1341"], ["Trombone 3", "1342"], ["Trombone 4", "1343"]]),
+    Excerpt(id: 116, description: "Excerpt 13", avgTempo: "", measures: "Mov. V, [10] to 8 mm. before [13]", pictures: [["Trombone 1", "1344"], ["Trombone 2", "1345"], ["Trombone 3", "1346"], ["Trombone 4", "1347"]]),
+    Excerpt(id: 117, description: "Excerpt 14", avgTempo: "", measures: "Mov. V, [14] to 10 mm. after [15]", pictures: [["Trombone 1", "1348"], ["Trombone 2", "1349"], ["Trombone 3", "1350"], ["Trombone 4", "1351"]]),
+    Excerpt(id: 118, description: "Excerpt 15", avgTempo: "", measures: "Mov. V, 2 mm. after [18] to [21]", pictures: [["Trombone 1", "1352"], ["Trombone 2", "1353"], ["Trombone 3", "1354"], ["Trombone 4", "1355"]]),
+    Excerpt(id: 119, description: "Excerpt 16", avgTempo: "", measures: "Mov. V, 1 mm. after [21] to 8 mm. after [21]", pictures: [["Trombone 1", "1356"]]),
+    Excerpt(id: 120, description: "Excerpt 17", avgTempo: "", measures: "Mov. V, 1 mm. before [25] to [27]", pictures: [["Trombone 1", "1357"], ["Trombone 2", "1358"], ["Trombone 3", "1359"], ["Trombone 4", "1360"]]),
+    Excerpt(id: 121, description: "Excerpt 18", avgTempo: "", measures: "Mov. V, 2 mm. before [37] to 5 mm. before [39]", pictures: [["Trombone 1", "1361"], ["Trombone 2", "1362"], ["Trombone 3", "1363"], ["Trombone 4", "1364"]]),
+    Excerpt(id: 122, description: "Excerpt 19", avgTempo: "", measures: "Mov. V, 1 mm. before [42] to [43]", pictures: [["Trombone 1", "1365"], ["Trombone 2", "1366"], ["Trombone 3", "1367"], ["Trombone 4", "1368"]]),
+    Excerpt(id: 123, description: "Excerpt 20", avgTempo: "", measures: "Mov. V, [48] to End", pictures: [["Trombone 1", "1369"], ["Trombone 2", "1370"], ["Trombone 3", "1371"], ["Trombone 4", "1372"]])
+], mutes: "Yes", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+
 
 
 let pictures = [["Trombone 1", ""], ["Trombone 2", ""], ["Trombone 3", ""]]
+let pictures4 = [["Trombone 1", ""], ["Trombone 2", ""], ["Trombone 3", ""], ["Trombone 4", ""]]
 
 class TromboneContentModel: ObservableObject {
     var excerpts: [Composition] = [
