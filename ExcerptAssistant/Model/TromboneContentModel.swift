@@ -289,7 +289,7 @@ let mahler2 = Composition(id: 25, composer: mahler, name: "Symphony No. 2", date
     Excerpt(id: 121, description: "Excerpt 18", avgTempo: "", measures: "Mov. V, 2 mm. before [37] to 5 mm. before [39]", pictures: [["Trombone 1", "1361"], ["Trombone 2", "1362"], ["Trombone 3", "1363"], ["Trombone 4", "1364"]]),
     Excerpt(id: 122, description: "Excerpt 19", avgTempo: "", measures: "Mov. V, 1 mm. before [42] to [43]", pictures: [["Trombone 1", "1365"], ["Trombone 2", "1366"], ["Trombone 3", "1367"], ["Trombone 4", "1368"]]),
     Excerpt(id: 123, description: "Excerpt 20", avgTempo: "", measures: "Mov. V, [48] to End", pictures: [["Trombone 1", "1369"], ["Trombone 2", "1370"], ["Trombone 3", "1371"], ["Trombone 4", "1372"]])
-], mutes: "Yes", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+], mutes: "Yes", commonDifficulties: "", professionalAdvice: "", videos: [["Mariss Jansons, Royal Concertgebouw Orchestra", "sHsFIv8VA7w"], ["Leonard Bernstein, London Symphony Orchestra", "edA9Zard3-U"], ["Gustavo Dudamel, Simón Bolívar Symphony Orchestra of Venezuela", "rKrsEbjXYX8"]])
 
 
 
