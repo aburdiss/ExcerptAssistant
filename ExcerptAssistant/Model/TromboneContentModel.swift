@@ -83,6 +83,12 @@ let holst = Composer(id: 10, name: "Gustav Holst", shortName: "Holst", ipa: "ˈg
 
 let mahler = Composer(id: 11, name: "Gustav Mahler", shortName: "Mahler", ipa: "ˈgʊs tɑf ˈmɑ lər", image: 2011, country: "Austrian Empire", dates: "1860-1911", bio: "Mahler is one of the most popular composers of all time. In 2016, a BBC Music survey ranked three of his symphonies among the top ten symphonies of all time. His music continues to be among the top recorded and perfomed in all of classical music. During his day, he was also among one of the top conductors of his era, and was the first conductor of the New York Philharmonic Orchestra.")
 
+let mozart = Composer(id: 12, name: "Wolfgang Amadeus Mozart", shortName: "Mozart", ipa: "ˈwʊlf gæŋ ˌæm əˈdeɪ əs ˈmoʊt sɑrt", image: 2012, country: "Germant", dates: "1756-1791", bio: "Mozart gained popularity as a pianist and composer at an early age. He gained employment as a court musician at the Salzburg court, but quickly lost interest and began traveling looking for other employment. In Vienna, he found great fame, but worked his whole life trying to achieve financial stability: a goal he was never able to achieve. Mozart's death is also very mysterious and controvercial.")
+
+let mussorgsky = Composer(id: 13, name: "Modest Mussorgsky", shortName: "Mussorgsky", ipa: "moʊˈdɛst mʊˈsɔrg ski", image: 2013, country: "Russia", dates: "1839-1881", bio: "Mussorgsky was one of the most important composers in Russia during his lifetime. He frequently incorporated folk music, and discarded western traditions in favor of Russian nationalism. Many of his works are most famous through arrangements by other composers.")
+
+let ravel = Composer(id: 14, name: "Maurice Ravel", shortName: "Ravel", ipa: "moʊˈris rəˈvɛl", image: 2014, country: "France", dates: "1875-1937", bio: "Ravel was an impressionist French composer. He was a careful, and slow composer, and composed much less compared to many other composers. He was also one of the first composers to realize the potential of recorded music, and was one of the first composers to record their music and marked it to a larger audience this way.")
+
 //********************************************************//
 //                                                        //
 //                       Excerpts                         //
@@ -330,16 +336,36 @@ let mahler7 = Composition(id: 28, composer: mahler, name: "Symphony No. 7", date
     Excerpt(id: 153, description: "Excerpt 21", avgTempo: "", measures: "Mov. V, [293] to End", pictures: [["Trombone 1", "1456"], ["Trombone 2", "1457"], ["Trombone 3", "1458"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Claudio Abbado, Lucerne Festival Orchestra", "QdxvC7NNSLQ"], ["Leonard Bernstein, Wiener Philharmoniker", "OCiKqIsF2IQ"], ["Bernard Haitink, Koninklijk Concertgebouworkest", "IEoYrRBAGqA"], ["James Levine, Chicago Symphony Orchestra", "zUZz38kq4pw"], ["Edo de Waart, The Radio Philharmonic Orchestra", "tGeJRmd0MSA"], ["Simon Rattle, Wiener Philharmoniker", "3FxBFaxBikU"], ["Otto Klemperer, New Philharmonia Orchestra", "0wMdEGIdZPU"], ["Sir Simon Rattle, Berlin Philharmonic", "C2LGbzI6diI"], ["Riccardo Chailly, Leipzig Gewandhaus Orchestra", "bXjaGRJNsqs"], ["Paavo Järvi, Frankfurt Radio Symphony Orchestra", "b0TsG3rIOU8"]])
 
+let mozartRequiem = Composition(id: 29, composer: mozart, name: "Requiem", date: "1791", era: "Classical", genre: "Requiem", excerpts: [
+    Excerpt(id: 154, description: "Excerpt 1", avgTempo: "72", measures: "Tuba Mirum, Beginning to [B]", pictures: [["Trombone 2", "1459"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["James Gaffigan, The Orchestre national de France", "Dp2SJN4UiE4"], ["Herbert von Karajan, Weiner Philharmoniker", "j8RXHA1M-f8"], ["Sir Colin Rex Davis, London Symphony Orchestra", "D95igow6I6g"], ["Sir Neville Marriner, Academy of St. Martin in the Fields", "sPlhKP0nZII"], ["John Eliot Gardiner, English Baroque Soloists", "FjiMQbLheLE"]])
+
+let mussorgskyPictures = Composition(id: 30, composer: mussorgsky, name: "Pictures at an Exhibition", date: "1874", era: "Romantic", genre: "Piano Suite (Arranged for Orchestra by Ravel)", excerpts: [
+    Excerpt(id: 155, description: "Excerpt 1", avgTempo: "", measures: "Promenade, 2 mm. before [5] to End", pictures: [["Trombone 1", "1460"], ["Trombone 3", "1461"]]),
+    Excerpt(id: 156, description: "Excerpt 2", avgTempo: "", measures: "Promenade", pictures: [["Trombone 3", "1462"]]),
+    Excerpt(id: 157, description: "Excerpt 3", avgTempo: "", measures: "The Great Gate of Kiev, [103] to [106]", pictures: [["Trombones 1 and 2", "1463"], ["Trombone 3", "1464"]]),
+    Excerpt(id: 158, description: "Excerpt 4", avgTempo: "", measures: "The Great Gate of Kiev, [107] to [109]", pictures: [["Trombones 1 and 2", "1465"], ["Trombone 3", "1466"]]),
+    Excerpt(id: 159, description: "Excerpt 5", avgTempo: "", measures: "The Great Gate of Kiev, [114] to [118]", pictures: [["Trombones 1 and 2", "1467"], ["Trombone 3", "1468"]]),
+    Excerpt(id: 160, description: "Excerpt 6", avgTempo: "", measures: "The Great Gate of Kiev, [120] to End", pictures: [["Trombones 1 and 2", "1469"], ["Trombone 3", "1470"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Georg Solti, Chicago Symphony Orchestra", "syLm-9JyhuY"], ["Kurt Masur, Leipzig Gewandhaus Orchestra", "Sq7Qd9PSmR0"], ["Herbert von Karajan, Berliner Philharmoniker", "kkC3chi_ysw"]])
+
+let ravelBolero = Composition(id: 31, composer: ravel, name: "Bolero", date: "1928", era: "Modern", genre: "Orchestral Piece", excerpts: [
+    Excerpt(id: 161, description: "Excerpt 1", avgTempo: "", measures: "[10] to [11]", pictures: [["Trombone 1", "1471"]]),
+    Excerpt(id: 162, description: "Excerpt 2", avgTempo: "", measures: "2 mm. after [17] to End", pictures: [["Trombones 1 and 2", "1472"], ["Trombone 3", "1473"]]),
+], mutes: "", commonDifficulties: "Range", professionalAdvice: "", videos: [["Gustavo Dudamel, Wiener Philharmoniker", "mhhkGyJ092E"], ["Valery Gergiev, London Symphony Orchestra", "ODeNHRtVNO4"], ["정명훈 (Chung Myung-Whun), Seoul Philharmonic Orchestra", "avhSABEy_i4"], ["Sergiu Celibidache, The Danish National Radio Symphony Orchestra", "gy5Ve3338-E"]])
+
+
+
 
 
 let pictures = [["Trombone 1", ""], ["Trombone 2", ""], ["Trombone 3", ""]]
 
 class TromboneContentModel: ObservableObject {
     var excerpts: [Composition] = [
-        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7
+        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, mussorgskyPictures, ravelBolero
     ]
     
     var composers: [Composer] = [
-        bach, beethoven, berlioz, bizet, borodin, brahms, bruckner, dvorak, franck, haydn, holst, mahler
+        bach, beethoven, berlioz, bizet, borodin, brahms, bruckner, dvorak, franck, haydn, holst, mahler, mozart, mussorgsky, ravel
     ]
 }
