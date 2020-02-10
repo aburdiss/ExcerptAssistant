@@ -291,17 +291,55 @@ let mahler2 = Composition(id: 25, composer: mahler, name: "Symphony No. 2", date
     Excerpt(id: 123, description: "Excerpt 20", avgTempo: "", measures: "Mov. V, [48] to End", pictures: [["Trombone 1", "1369"], ["Trombone 2", "1370"], ["Trombone 3", "1371"], ["Trombone 4", "1372"]])
 ], mutes: "Yes", commonDifficulties: "", professionalAdvice: "", videos: [["Mariss Jansons, Royal Concertgebouw Orchestra", "sHsFIv8VA7w"], ["Leonard Bernstein, London Symphony Orchestra", "edA9Zard3-U"], ["Gustavo Dudamel, Simón Bolívar Symphony Orchestra of Venezuela", "rKrsEbjXYX8"]])
 
+let mahler3 = Composition(id: 26, composer: mahler, name: "Symphony No. 3", date: "1896", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 124, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, [13] to [17]", pictures: [["Trombone 1", "1373"], ["Trombone 2", "1374"], ["Trombone 3", "1375"], ["Trombone 4", "1376"]]),
+    Excerpt(id: 125, description: "Excerpt 2", avgTempo: "", measures: "Mov. I, 1 mm. before [33] to 2 mm. after [34]", pictures: [["Trombone 1", "1377"]]),
+    Excerpt(id: 126, description: "Excerpt 3", avgTempo: "", measures: "Mov. I, 1 mm. before [58] to 5 mm. before [62]", pictures: [["Trombone 1", "1378"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [[" Leonard Bernstein, Vienna Philharmonic Orchestra", "1AwFutIcnrU"], ["Semyon Bychkov, WDR Sinfonie-Orchester Koln", "pRhQhUtOpPI"]])
+
+let mahler5 = Composition(id: 27, composer: mahler, name: "Symphony No. 5", date: "1902", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 127, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, 8 mm. after [11] to 4 mm. Before [12]", pictures: [["Trombone 1", "1379"], ["Trombone 2", "1380"], ["Trombone 3", "1381"]]),
+    Excerpt(id: 128, description: "Excerpt 2", avgTempo: "", measures: "Mov. I, [17] to 8 mm. after [18], [19] to Tempo I", pictures: [["Trombone 1", "1382"], ["Trombone 2", "1383"], ["Trombone 3", "1384"]]),
+    Excerpt(id: 129, description: "Excerpt 3", avgTempo: "", measures: "Mov. II, [24] to [25]", pictures: [["Trombone 1", "1385"], ["Trombone 2", "1386"], ["Trombone 3", "1387"]]),
+    Excerpt(id: 130, description: "Excerpt 4", avgTempo: "", measures: "Mov. III, 12 mm. after [15] to [17]", pictures: [["Trombone 1", "1388"], ["Trombone 2", "1389"], ["Trombone 3", "1390"]]),
+    Excerpt(id: 131, description: "Excerpt 5", avgTempo: "", measures: "Mov. III, 12 mm. after [23] to 16 mm. after [23]", pictures: [["Trombone 1", "1391"], ["Trombone 2", "1392"]]),
+    Excerpt(id: 132, description: "Excerpt 6", avgTempo: "", measures: "Mov. V, 2 mm. after [23] to [24]", pictures: [["Trombone 1", "1393"], ["Trombone 2", "1394"], ["Trombone 3", "1395"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Valery Gergiev, World Orchestra for Peace", "UjmthMDpyco"], ["Leonard Bernstein, Vienna Philharmonic", "nO0nytFsumo"], ["Claudio Abbado, Lucerne Festival Orchestra", "vOvXhyldUko"]])
+
+let mahler7 = Composition(id: 28, composer: mahler, name: "Symphony No. 7", date: "1905", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 133, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, Beginning to [3]", pictures: [["Trombone 1", "1396"], ["Trombone 2", "1397"], ["Trombone 3", "1398"]]),
+    Excerpt(id: 134, description: "Excerpt 2", avgTempo: "", measures: "Mov. I, 5 mm. before [4] to 5 mm. after [5]", pictures: [["Trombone 1", "1399"], ["Trombone 2", "1400"], ["Trombone 3", "1401"]]),
+    Excerpt(id: 135, description: "Excerpt 3", avgTempo: "", measures: "Mov. I, 3 mm. after [18] to [20]", pictures: [["Trombone 1", "1402"], ["Trombone 2", "1403"], ["Trombone 3", "1404"]]),
+    Excerpt(id: 136, description: "Excerpt 4", avgTempo: "", measures: "Mov. I, [39] to 5 mm. after [41]", pictures: [["Trombone 1", "1405"], ["Trombone 2", "1406"], ["Trombone 3", "1407"]]),
+    Excerpt(id: 137, description: "Excerpt 5", avgTempo: "", measures: "Mov. I, [42] to 3 mm. after [44]", pictures: [["Trombone 1", "1408"], ["Trombone 2", "1409"], ["Trombone 3", "1410"]]),
+    Excerpt(id: 138, description: "Excerpt 6", avgTempo: "", measures: "Mov. I, 5 mm. before [46] to 2 mm. before [49]", pictures: [["Trombone 1", "1411"], ["Trombone 2", "1412"], ["Trombone 3", "1413"]]),
+    Excerpt(id: 139, description: "Excerpt 7", avgTempo: "", measures: "Mov. I, 3 mm. before [51] to 6 mm. before [54]", pictures: [["Trombone 1", "1414"], ["Trombone 2", "1415"], ["Trombone 3", "1416"]]),
+    Excerpt(id: 140, description: "Excerpt 8", avgTempo: "", measures: "Mov. I, [59] to 3 mm. after [61]", pictures: [["Trombone 1", "1417"], ["Trombone 2", "1418"], ["Trombone 3", "1419"]]),
+    Excerpt(id: 141, description: "Excerpt 9", avgTempo: "", measures: "Mov. I, 4 mm. before [62] to 4 mm. after [65]", pictures: [["Trombone 1", "1420"], ["Trombone 2", "1421"], ["Trombone 3", "1422"]]),
+    Excerpt(id: 142, description: "Excerpt 10", avgTempo: "", measures: "Mov. I, 4 mm. before [66] to End", pictures: [["Trombone 1", "1423"], ["Trombone 2", "1424"], ["Trombone 3", "1425"]]),
+    Excerpt(id: 143, description: "Excerpt 11", avgTempo: "", measures: "Mov. III, 6 mm. before [164] to 5 mm. before [166]", pictures: [["Trombone 1", "1426"], ["Trombone 2", "1427"], ["Trombone 3", "1428"]]),
+    Excerpt(id: 144, description: "Excerpt 12", avgTempo: "", measures: "Mov. V, 1 mm. before [228] to 3 mm. after [229]", pictures: [["Trombone 1", "1429"], ["Trombone 2", "1430"], ["Trombone 3", "1431"]]),
+    Excerpt(id: 145, description: "Excerpt 13", avgTempo: "", measures: "Mov. V, 5 mm. after [233] to 8 mm. after [233]", pictures: [["Trombone 1", "1432"], ["Trombone 2", "1433"], ["Trombone 3", "1434"]]),
+    Excerpt(id: 146, description: "Excerpt 14", avgTempo: "", measures: "Mov. V, [247] to 4 mm. after [247]", pictures: [["Trombone 1", "1435"], ["Trombone 2", "1436"], ["Trombone 3", "1437"]]),
+    Excerpt(id: 147, description: "Excerpt 15", avgTempo: "", measures: "Mov. V, [254] to 5 mm. after [256]", pictures: [["Trombone 1", "1438"], ["Trombone 2", "1439"], ["Trombone 3", "1440"]]),
+    Excerpt(id: 148, description: "Excerpt 16", avgTempo: "", measures: "Mov. V, 1 mm. after [258] to 3 mm. after [261]", pictures: [["Trombone 1", "1441"], ["Trombone 2", "1442"], ["Trombone 3", "1443"]]),
+    Excerpt(id: 149, description: "Excerpt 17", avgTempo: "", measures: "Mov. V, [268] to [269]", pictures: [["Trombone 1", "1444"], ["Trombone 2", "1445"], ["Trombone 3", "1446"]]),
+    Excerpt(id: 150, description: "Excerpt 18", avgTempo: "", measures: "Mov. V, 3 mm. before [272] to 2 mm. after [274]", pictures: [["Trombone 1", "1447"], ["Trombone 2", "1448"], ["Trombone 3", "1449"]]),
+    Excerpt(id: 151, description: "Excerpt 19", avgTempo: "", measures: "Mov. V, 3 mm. before [285] to 2 mm. after [286]", pictures: [["Trombone 1", "1450"], ["Trombone 2", "1451"], ["Trombone 3", "1452"]]),
+    Excerpt(id: 152, description: "Excerpt 20", avgTempo: "", measures: "Mov. V, 3 mm. after [290] to 1 mm. before [291]", pictures: [["Trombone 1", "1453"], ["Trombone 2", "1454"], ["Trombone 3", "1455"]]),
+    Excerpt(id: 153, description: "Excerpt 21", avgTempo: "", measures: "Mov. V, [293] to End", pictures: [["Trombone 1", "1456"], ["Trombone 2", "1457"], ["Trombone 3", "1458"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Claudio Abbado, Lucerne Festival Orchestra", "QdxvC7NNSLQ"], ["Leonard Bernstein, Wiener Philharmoniker", "OCiKqIsF2IQ"], ["Bernard Haitink, Koninklijk Concertgebouworkest", "IEoYrRBAGqA"], ["James Levine, Chicago Symphony Orchestra", "zUZz38kq4pw"], ["Edo de Waart, The Radio Philharmonic Orchestra", "tGeJRmd0MSA"], ["Simon Rattle, Wiener Philharmoniker", "3FxBFaxBikU"], ["Otto Klemperer, New Philharmonia Orchestra", "0wMdEGIdZPU"], ["Sir Simon Rattle, Berlin Philharmonic", "C2LGbzI6diI"], ["Riccardo Chailly, Leipzig Gewandhaus Orchestra", "bXjaGRJNsqs"], ["Paavo Järvi, Frankfurt Radio Symphony Orchestra", "b0TsG3rIOU8"]])
+
 
 
 let pictures = [["Trombone 1", ""], ["Trombone 2", ""], ["Trombone 3", ""]]
-let pictures4 = [["Trombone 1", ""], ["Trombone 2", ""], ["Trombone 3", ""], ["Trombone 4", ""]]
 
 class TromboneContentModel: ObservableObject {
     var excerpts: [Composition] = [
-        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets
+        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7
     ]
     
     var composers: [Composer] = [
-        bach, beethoven, berlioz, bizet, borodin, brahms, bruckner, dvorak, franck, haydn, holst
+        bach, beethoven, berlioz, bizet, borodin, brahms, bruckner, dvorak, franck, haydn, holst, mahler
     ]
 }
