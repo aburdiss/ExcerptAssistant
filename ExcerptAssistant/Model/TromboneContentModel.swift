@@ -354,6 +354,24 @@ let ravelBolero = Composition(id: 31, composer: ravel, name: "Bolero", date: "19
     Excerpt(id: 162, description: "Excerpt 2", avgTempo: "", measures: "2 mm. after [17] to End", pictures: [["Trombones 1 and 2", "1472"], ["Trombone 3", "1473"]]),
 ], mutes: "", commonDifficulties: "Range", professionalAdvice: "", videos: [["Gustavo Dudamel, Wiener Philharmoniker", "mhhkGyJ092E"], ["Valery Gergiev, London Symphony Orchestra", "ODeNHRtVNO4"], ["정명훈 (Chung Myung-Whun), Seoul Philharmonic Orchestra", "avhSABEy_i4"], ["Sergiu Celibidache, The Danish National Radio Symphony Orchestra", "gy5Ve3338-E"]])
 
+let ravelDaphnis = Composition(id: 32, composer: ravel, name: "Daphnis et Chloé", date: "1912", era: "Modern", genre: "Ballet", excerpts: [
+    Excerpt(id: 163, description: "Excerpt 1", avgTempo: "", measures: "1 mm. before [14] to 4 mm. after [14]", pictures: [["Trombones 1 and 2", "1474"], ["Trombone 3", "1475"]]),
+    Excerpt(id: 164, description: "Excerpt 2", avgTempo: "", measures: "3 mm. before [36] to [36]", pictures: [["Trombones 1 and 2", "1476"], ["Trombone 3", "1477"]]),
+    Excerpt(id: 165, description: "Excerpt 3", avgTempo: "", measures: "1 mm. before [38] to 4 mm. after [40]", pictures: [["Trombones 1 and 2", "1478"], ["Trombone 3", "1479"]]),
+    Excerpt(id: 166, description: "Excerpt 4", avgTempo: "", measures: "[49] to 3 mm. After [49]", pictures: [["Trombones 1 and 2", "1480"]]),
+    Excerpt(id: 167, description: "Excerpt 5", avgTempo: "", measures: "3 mm. after [66] to 2 mm. before [67]", pictures: [["Trombones 1 and 2", "1481"], ["Trombone 3", "1482"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Jukka-Pekka Saraste, O4lzPz3NnI0"], ["David Robertson, Radio Filharmonisch Orkest and Groot Omroepkoor", "R8RjYT5CLe8"], ["Charles Dutoit, Orchestre Symphonique de Montréal", "sYNlYMvFA5U"]])
+
+let ravelValse = Composition(id: 33, composer: ravel, name: "La Valse", date: "1920", era: "Modern", genre: "Orchestral Poem", excerpts: [
+    Excerpt(id: 168, description: "Excerpt 1", avgTempo: "", measures: "3 mm. before [62] to [66]", pictures: [["Trombones 1 and 2", "1483"], ["Trombone 3", "1484"]]),
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Myung-Whun Chung, Orchestre Philharmonique de Radio France", "TMSgWhIENSk"], ["Charles Munch, Boston Symphony Orchestra", "YDk2RUaoEJQ"], ["Leonard Bernstein, Orchestre National de France", "Fg2i2NB-i3o"], ["Pablo Heras-Casado, Frankfurt Radio Symphony", "UlMJ6Ri-LMM"]])
+
+let ravelLEnfant = Composition(id: 34, composer: ravel, name: "L’enfant et les Sortileges", date: "1925", era: "Modern", genre: "Opera", excerpts: [
+    Excerpt(id: 169, description: "Excerpt 1", avgTempo: "", measures: "[14] to 6 mm. after [14]", pictures: [["Trombones 1 and 2", "1485"], ["Trombone 3", "1486"]]),
+    Excerpt(id: 170, description: "Excerpt 2", avgTempo: "", measures: "2 mm. before [31] to [31]", pictures: [["Trombones 1 and 2", "1487"], ["Trombone 3", "1488"]]),
+    Excerpt(id: 171, description: "Excerpt 3", avgTempo: "", measures: "[33] to 1 mm. after [35]", pictures: [["Trombones 1 and 2", "1489"], ["Trombone 3", "1490"]]),
+    Excerpt(id: 172, description: "Excerpt 4", avgTempo: "", measures: "[87] to 4 mm. after [88]", pictures: [["Trombones 1 and 2", "1491"], ["Trombone 3", "1492"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["l'opéra de Lyon", "JbqySviU4YQ"], ["Kazushi Ono, London Philharmonic Orchestra", "TjWLxmquYCo"], ["Ernest Bour, Maîtrise et Orchestre National de la Radiodiffusion Française", "gpXBOQFbnig"]])
 
 
 
@@ -362,7 +380,7 @@ let pictures = [["Trombone 1", ""], ["Trombone 2", ""], ["Trombone 3", ""]]
 
 class TromboneContentModel: ObservableObject {
     var excerpts: [Composition] = [
-        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, mussorgskyPictures, ravelBolero
+        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, mussorgskyPictures, ravelBolero, ravelDaphnis, ravelValse
     ]
     
     var composers: [Composer] = [
