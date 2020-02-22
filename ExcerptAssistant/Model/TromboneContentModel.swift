@@ -45,14 +45,6 @@ struct Composer: Identifiable {
     var bio: String
 }
 
-struct Era: Identifiable {
-    let id: Int
-    var name: String
-    var dates: String
-    var description: String
-    var popularComposers: String
-}
-
 //********************************************************//
 //                                                        //
 //                       Composers                        //
@@ -88,6 +80,14 @@ let mozart = Composer(id: 12, name: "Wolfgang Amadeus Mozart", shortName: "Mozar
 let mussorgsky = Composer(id: 13, name: "Modest Mussorgsky", shortName: "Mussorgsky", ipa: "moʊˈdɛst mʊˈsɔrg ski", image: 2013, country: "Russia", dates: "1839-1881", bio: "Mussorgsky was one of the most important composers in Russia during his lifetime. He frequently incorporated folk music, and discarded western traditions in favor of Russian nationalism. Many of his works are most famous through arrangements by other composers.")
 
 let ravel = Composer(id: 14, name: "Maurice Ravel", shortName: "Ravel", ipa: "moʊˈris rəˈvɛl", image: 2014, country: "France", dates: "1875-1937", bio: "Ravel was an impressionist French composer. He was a careful, and slow composer, and composed much less compared to many other composers. He was also one of the first composers to realize the potential of recorded music, and was one of the first composers to record their music and marked it to a larger audience this way.")
+
+let respighi = Composer(id: 15, name: "Ottorino Respighi", shortName: "Respighi", ipa: "ottoˈriːno reˈspiːɡi", image: 2015, country: "Italy", dates: "1879-1936", bio: "Respighi was an Italian violinist, composer, and musicologist. Hist interest in musicology led to the composition of his three most famous compositions: \"Fountains of Rome\", \"Pines of Rome\", and \"Roman Festivals\"")
+
+let rimskyKorsakov = Composer(id: 16, name: "Nikolai Rimsky-Korsakov", shortName: "Rimsky-Korsakov", ipa: "nʲɪkəˈlaj ˈrʲimskʲɪj ˈkorsəkəf", image: 2016, country: "Russia", dates: "1844-1908", bio: "Nikolai Rimsky-Korsakov was one of the most famous Russian composers. He was a master orchestrator, publishing a textbook on the subject using musical examples solely from his own compositions, and his most famous compositions are his orchestral works. Rimsky-Korsakov also spent a large portion of his musical life in association with the Russian military.")
+
+let rossini = Composer(id: 17, name: "Gioachino Rossini", shortName: "Rossini", ipa: "dʒɔ ɑkˈki nɔ roʊˈsi ni", image: 2017, country: "Italy", dates: "1792-1868", bio: "Rossini was an Italian composer from the romantic era. His 39 operas gained him great success early in life, but he unexplainably gave up music almost entirely for the last 40 years of his life.")
+
+let saintSaens = Composer(id: 18, name: "Camille Saint-Saëns", shortName: "Saint-Saëns", ipa: "kamij sɛ̃ sɑ̃(s)", image: 2018, country: "France", dates: "1835-1921", bio: "Saint-Saëns was a French composer, conductor, organist, and pianist during the romantic era. Revered as a genius, he lived a mostly conventional carreer as a church organist. His most notable student was Gabriel Fauré.")
 
 //********************************************************//
 //                                                        //
@@ -373,17 +373,79 @@ let ravelLEnfant = Composition(id: 34, composer: ravel, name: "L’enfant et les
     Excerpt(id: 172, description: "Excerpt 4", avgTempo: "", measures: "[87] to 4 mm. after [88]", pictures: [["Trombones 1 and 2", "1491"], ["Trombone 3", "1492"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["l'opéra de Lyon", "JbqySviU4YQ"], ["Kazushi Ono, London Philharmonic Orchestra", "TjWLxmquYCo"], ["Ernest Bour, Maîtrise et Orchestre National de la Radiodiffusion Française", "gpXBOQFbnig"]])
 
+let respighiFountains = Composition(id: 35, composer: respighi, name: "Fontane di Roma", date: "1916", era: "Modern", genre: "Symphonic Poem", excerpts: [
+    Excerpt(id: 173, description: "Excerpt 1", avgTempo: "", measures: "[10] to [12]", pictures: [["Trombone 1", "1493"], ["Trombone 2", "1494"], ["Trombone 3", "1495"]]),
+    Excerpt(id: 174, description: "Excerpt 2", avgTempo: "", measures: "[12] to [14]", pictures: [["Trombone 1", "1496"], ["Trombone 2", "1497"], ["Trombone 3", "1498"]]),
+    Excerpt(id: 175, description: "Excerpt 3", avgTempo: "", measures: "[14] to 4 mm. before [17]", pictures: [["Trombone 1", "1499"], ["Trombone 2", "1500"], ["Trombone 3", "1501"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Herbert von Karajan, Berlin Philharmonic", "eGZ9oslaeak"], ["Alan Gilbert, New York Philharmonic", "kk7LTvjdv1M"], ["Eugene Ormandy, Philadelphia Orchestra", "aSVOR3_aJ3M"], ["Arturo Toscanini, Maazel Filarmonica", "u6bRHpcxJcM"], ["Jerry Junkin, The University of Texas Wind Ensemble", "PM_UjFqclIc"]])
 
+let rimskyKorsakovCapriccio = Composition(id: 36, composer: rimskyKorsakov, name: "Capriccio Espagnol", date: "1887", era: "Romantic", genre: "Orchestral Suite", excerpts: [
+    Excerpt(id: 176, description: "Excerpt 1", avgTempo: "", measures: "Mov. V, 1 mm. before [W] to End", pictures: [["Trombone 1", "1502"], ["Trombone 2", "1503"], ["Trombone 3", "1504"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Leonard Bernstein, New York Philharmonic Orchestra", "3rqwvMMxeA8"], ["Zubin Mehta, Berliner Philharmoniker", "Lh6mDL-VwYw"], ["Pablo Heras-Casado, Frankfurt Radio Symphony", "X_HSpn3tE_A"], ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "vh8X9sYXvmI"], ["Valery Gergiev, Mariinsky Orchestra", "I_nyInowbuU"]])
+
+let rimskyKorsakovGolden = Composition(id: 37, composer: rimskyKorsakov, name: "The Golden Cockerel", date: "1907", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 177, description: "Excerpt 1", avgTempo: "", measures: "Mov. II, [24] to 4 mm. after [26]", pictures: [["Trombone 1", "1505"], ["Trombone 2", "1506"], ["Trombone 3", "1507"]]),
+    Excerpt(id: 178, description: "Excerpt 2", avgTempo: "", measures: "Mov. IV, [49] to 8 mm. before [51]", pictures: [["Trombone 1", "1508"], ["Trombone 2", "1509"], ["Trombone 3", "1510"]]),
+    Excerpt(id: 179, description: "Excerpt 3", avgTempo: "", measures: "Mov. IV, [55] to 8 mm. after [55]", pictures: [["Trombones 1 and 2", "1511"]]),
+    Excerpt(id: 180, description: "Excerpt 4", avgTempo: "", measures: "Mov. IV, 1 mm. after [56] to End", pictures: [["Trombone 1", "1512"], ["Trombone 2", "1513"], ["Trombone 3", "1514"]]),
+    Excerpt(id: 181, description: "Excerpt 4 (Part 2)", avgTempo: "", measures: "[59] to end", pictures: [["Trombone 1", "1515"], ["Trombone 2", "1516"], ["Trombone 3", "1517"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Evgeny Svetlanov, Orchestra of the Bolshoi Theatre", "AJnAkpqVDcc"], ["Dmitri Kitaenko, Academic Symphony Orchestra of Moscow State Philharmonic", "PZt9sG5lxd0"], ["Rani Calderon, Opéra national de Lorraine", "1v1szTXS7E0"], ["Julius Rudel, New York State Theater", "pY1TePizviE"]])
+
+let rimskyKorsakovRussianEaster = Composition(id: 38, composer: rimskyKorsakov, name: "Russian Easter Festival Overture", date: "1888", era: "Romantic", genre: "Concert Overture", excerpts: [
+    Excerpt(id: 182, description: "Excerpt 1", avgTempo: "", measures: "[B] to 4 mm. before [C]", pictures: [["Trombone 1", "1518"], ["Trombone 2", "1519"], ["Trombone 3", "1520"]]),
+    Excerpt(id: 183, description: "Excerpt 2", avgTempo: "", measures: "[F] to [G]", pictures: [["Trombone 1", "1521"], ["Trombone 2", "1522"], ["Trombone 3", "1523"]]),
+    Excerpt(id: 184, description: "Excerpt 3", avgTempo: "", measures: "[G] to 6 mm. before [H]", pictures: [["Trombone 1", "1524"], ["Trombone 2", "1525"], ["Trombone 3", "1526"]]),
+    Excerpt(id: 185, description: "Excerpt 4", avgTempo: "", measures: "[H] to 11 mm. after [I]", pictures: [["Trombone 1", "1527"], ["Trombone 2", "1528"], ["Trombone 3", "1529"]]),
+    Excerpt(id: 186, description: "Excerpt 5", avgTempo: "", measures: "[M] to [N]", pictures: [["Trombone 2", "1530"]]),
+    Excerpt(id: 187, description: "Excerpt 6", avgTempo: "", measures: "3 mm. after [P] to [R]", pictures: [["Trombone 1", "1531"], ["Trombone 2", "1532"], ["Trombone 3", "1533"]]),
+    Excerpt(id: 188, description: "Excerpt 7", avgTempo: "", measures: "[R] to 6 mm. before [S]", pictures: [["Trombone 1", "1534"], ["Trombone 2", "1535"], ["Trombone 3", "1536"]]),
+    Excerpt(id: 189, description: "Excerpt 8", avgTempo: "", measures: "[S] to 11 mm. after [T]", pictures: [["Trombone 1", "1537"], ["Trombone 2", "1538"], ["Trombone 3", "1539"]]),
+    Excerpt(id: 190, description: "Excerpt 9", avgTempo: "", measures: "6 mm. after [V] to 9 mm. before [W]", pictures: [["Trombone 1", "1540"], ["Trombone 2", "1541"], ["Trombone 3", "1542"]]),
+    Excerpt(id: 191, description: "Excerpt 10", avgTempo: "", measures: "[Y] to End", pictures: [["Trombone 1", "1543"], ["Trombone 2", "1544"], ["Trombone 3", "1545"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Leonard Slatkin, St. Louis Orchestra", "rXR0tloMmoo"], ["Evgeny Svetlanov, USSR Symphony Orchestra", "z4e8CvxV4Ho"], ["Valery Gergiev, Mariinsky orchestra", "hbDYtAHTQoE"], ["Antal Dorati, London Symphony Orchestra", "d5cZHc5p870"], ["Pavel Kravchuk, Slavic Chorale Orchestra", "ANUbQ9TavKc"], ["Seiji Ozawa, Wiener Philharmoniker", "yak5D-6BKn0"], ["Jos van Immerseel, Anima Eterna Orchestra", "7FHFJ0lU9Us"], ["Leopold Stokowski, Chicago Symphony Orchestra", "bHLWUiqa3Z0"], ["Andrés Cárdenes, Carnegie Mellon University Philharmonic", "oH8dS9gKPzw"]])
+
+let rimskyKorsakovScheherazade = Composition(id: 39, composer: rimskyKorsakov, name: "Scheherazade", date: "1888", era: "Romantic", genre: "Symphonic Suite", excerpts: [
+    Excerpt(id: 192, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, mm. 1-4", pictures: [["Trombone 1", "1546"], ["Trombone 2", "1547"], ["Trombone 3", "1548"]]),
+    Excerpt(id: 193, description: "Excerpt 2", avgTempo: "", measures: "9 mm. before [E] to [F]", pictures: [["Trombone 1", "1549"], ["Trombone 2", "1550"], ["Trombone 3", "1551"]]),
+    Excerpt(id: 194, description: "Excerpt 3", avgTempo: "", measures: "[H] to [L]", pictures: [["Trombone 1", "1552"], ["Trombone 2", "1553"], ["Trombone 3", "1554"]]),
+    Excerpt(id: 195, description: "Excerpt 4", avgTempo: "", measures: "Mov. II, 4 mm. after [D] to [F]", pictures: [["Trombone 1", "1555"], ["Trombone 2", "1556"], ["Trombone 3", "1557"]]),
+    Excerpt(id: 196, description: "Excerpt 5", avgTempo: "", measures: "Mov. II, 20 mm. before [K] to [L]", pictures: [["Trombone 1", "1558"], ["Trombone 2", "1559"], ["Trombone 3", "1560"]]),
+    Excerpt(id: 197, description: "Excerpt 6", avgTempo: "", measures: "Mov. II, 9 mm. before [P] to 14 mm. after [P]", pictures: [["Trombone 1", "1561"], ["Trombone 2", "1562"], ["Trombone 3", "1563"]]),
+    Excerpt(id: 198, description: "Excerpt 7", avgTempo: "", measures: "Mov. II, 10 mm. after [R] to End", pictures: [["Trombone 1", "1564"], ["Trombone 2", "1565"], ["Trombone 3", "1566"]]),
+    Excerpt(id: 199, description: "Excerpt 8", avgTempo: "", measures: "Mov. IV, mm. 10 to mm. 27", pictures: [["Trombone 1", "1567"], ["Trombone 2", "1568"], ["Trombone 3", "1569"]]),
+    Excerpt(id: 200, description: "Excerpt 9", avgTempo: "", measures: "Mov. IV, 4 mm. after [K] to 8 mm. before [M]", pictures: [["Trombone 1", "1570"], ["Trombone 2", "1571"], ["Trombone 3", "1572"]]),
+    Excerpt(id: 201, description: "Excerpt 10", avgTempo: "", measures: "Mov. IV, [P] to 3 mm. before [T], ", pictures: [["Trombone 1", "1573"], ["Trombone 2", "1574"], ["Trombone 3", "1575"]]),
+    Excerpt(id: 202, description: "Excerpt 11", avgTempo: "", measures: "Mov. IV, 4 mm. before [W] to 10 mm. before [Z]", pictures: [["Trombone 1", "1576"], ["Trombone 2", "1577"], ["Trombone 3", "1578"]]),
+    Excerpt(id: 203, description: "Excerpt 11 (Part 2)", avgTempo: "", measures: "[Allegro non troppo e maestoso] to 10 mm. before [Z]", pictures: [["Trombone 1", "1579"], ["Trombone 2", "1580"], ["Trombone 3", "1581"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Valery Gergiev, Vienna Philharmonic", "SQNymNaTr-Y"], ["Leif Segerstam, Sinfónica de Galicia", "zY4w4_W30aQ"], ["Yevgeny Svetlanov, USSR State Symphony Orchestra", "jR_Q7NbLzyU"], ["André Previn, Vienna Philharmonic Orchestra", "p_iPn1GbUUU"], ["Nejc Bečan, Gimnazija Kranj Symphony Orchestra", "17lEx0ytE_0"], ["Eugene Ormandy, Philadelphia Orchestra", "LEN5ObBND88"], ["Yuri Temirkanov, Saint-Petersburg Philharmonic Orchestra", "vdnUBQT5Bqw"]])
+
+let rossiniLaGazza = Composition(id: 40, composer: rossini, name: "La gazza ladra", date: "1817", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 204, description: "Excerpt 1", avgTempo: "", measures: "[C] to mm. 139", pictures: [["Trombone", "1582"]]),
+    Excerpt(id: 205, description: "Excerpt 2", avgTempo: "", measures: "[F] to 16 mm. After [F]", pictures: [["Trombone", "1583"]]),
+    Excerpt(id: 206, description: "Excerpt 3", avgTempo: "", measures: "[I] to 14 mm. after [I]", pictures: [["Trombone", "1584"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+
+let rossiniWilliamTell = Composition(id: 41, composer: rossini, name: "William Tell", date: "1829", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 207, description: "Excerpt 1", avgTempo: "", measures: "[C] to 8 mm. after [D]", pictures: [["Trombone 1", "1585"], ["Trombone 2", "1586"], ["Trombone 3", "1587"]]),
+    Excerpt(id: 208, description: "Excerpt 2", avgTempo: "", measures: "[O] to 7 mm. before [Q]", pictures: [["Trombone 1", "1588"], ["Trombone 2", "1589"], ["Trombone 3", "1590"]]),
+    Excerpt(id: 209, description: "Excerpt 3", avgTempo: "", measures: "1 mm. after [Q] to End", pictures: [["Trombone 1", "1591"], ["Trombone 2", "1592"], ["Trombone 3", "1593"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+
+let saintSaens3 = Composition(id: 42, composer: saintSaens, name: "Symphony No. 3", date: "1886", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 210, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, [Q] to 2 mm. before [R], 11 mm. after [R] to 1 mm. after [S]", pictures: [["Trombone 1", "1594"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
 
 
 let pictures = [["Trombone 1", ""], ["Trombone 2", ""], ["Trombone 3", ""]]
 
+
+
 class TromboneContentModel: ObservableObject {
     var excerpts: [Composition] = [
-        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, mussorgskyPictures, ravelBolero, ravelDaphnis, ravelValse
+        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, mussorgskyPictures, ravelBolero, ravelDaphnis, ravelValse, ravelLEnfant, respighiFountains, rimskyKorsakovCapriccio, rimskyKorsakovGolden, rimskyKorsakovRussianEaster, rimskyKorsakovScheherazade, rossiniLaGazza, rossiniWilliamTell, saintSaens3
     ]
     
     var composers: [Composer] = [
-        bach, beethoven, berlioz, bizet, borodin, brahms, bruckner, dvorak, franck, haydn, holst, mahler, mozart, mussorgsky, ravel
+        bach, beethoven, berlioz, bizet, borodin, brahms, bruckner, dvorak, franck, haydn, holst, mahler, mozart, mussorgsky, ravel, respighi, rimskyKorsakov, rossini, saintSaens
     ]
 }
