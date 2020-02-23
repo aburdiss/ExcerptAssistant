@@ -89,6 +89,8 @@ let rossini = Composer(id: 17, name: "Gioachino Rossini", shortName: "Rossini", 
 
 let saintSaens = Composer(id: 18, name: "Camille Saint-Saëns", shortName: "Saint-Saëns", ipa: "kamij sɛ̃ sɑ̃(s)", image: 2018, country: "France", dates: "1835-1921", bio: "Saint-Saëns was a French composer, conductor, organist, and pianist during the romantic era. Revered as a genius, he lived a mostly conventional carreer as a church organist. His most notable student was Gabriel Fauré.")
 
+let schubert = Composer(id: 19, name: "Franz Schubert", shortName: "Schubert", ipa: "ˈfʁant͡s ˈʃuːbɐt", image: 2019, country: "Austria", dates: "1797-1828", bio: "Schubert was a prolific Austrian composer during the late Classical and early Romantic eras. During his short lifetime he composed over 1500 works. During his lifetime, he recieved little fame and success. It was only after his lifetime when musicians such as Schumann, Mendelssohn, Liszt, and Brahms discovered and praised his music that it became well known and widely recieved.")
+
 //********************************************************//
 //                                                        //
 //                       Excerpts                         //
@@ -423,17 +425,55 @@ let rossiniLaGazza = Composition(id: 40, composer: rossini, name: "La gazza ladr
     Excerpt(id: 204, description: "Excerpt 1", avgTempo: "", measures: "[C] to mm. 139", pictures: [["Trombone", "1582"]]),
     Excerpt(id: 205, description: "Excerpt 2", avgTempo: "", measures: "[F] to 16 mm. After [F]", pictures: [["Trombone", "1583"]]),
     Excerpt(id: 206, description: "Excerpt 3", avgTempo: "", measures: "[I] to 14 mm. after [I]", pictures: [["Trombone", "1584"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [["Daniel Harding, Orchestra del Teatro La Fenice", "UjDXNqG0Deg"], ["Michael Halasz, Zagreb Festival Orchestra", "Qqa_NADTVQw"], ["Sir Thomas Beecham,  the Royal Philharmonic Orchestra", "Kw1bfRa83EQ"], ["Boian Videnoff, Mannheimer Philharmoniker", "KYfaKAIf-SU"], ["Gustavo Dudamel, Wiener Philharmoniker", "3MIbDR1QRHs"], ["Gianluigi Gelmetti, Orchestra Sinfonica della RAI di Torino", "0F73mZjtMXU"]])
 
 let rossiniWilliamTell = Composition(id: 41, composer: rossini, name: "William Tell", date: "1829", era: "Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 207, description: "Excerpt 1", avgTempo: "", measures: "[C] to 8 mm. after [D]", pictures: [["Trombone 1", "1585"], ["Trombone 2", "1586"], ["Trombone 3", "1587"]]),
     Excerpt(id: 208, description: "Excerpt 2", avgTempo: "", measures: "[O] to 7 mm. before [Q]", pictures: [["Trombone 1", "1588"], ["Trombone 2", "1589"], ["Trombone 3", "1590"]]),
     Excerpt(id: 209, description: "Excerpt 3", avgTempo: "", measures: "1 mm. after [Q] to End", pictures: [["Trombone 1", "1591"], ["Trombone 2", "1592"], ["Trombone 3", "1593"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Alfred Scholz, London Philharmonic", "xoBE69wdSkQ"],
+    ["Joni Swenson, Santa Monica High School Symphony Orchestra", "YIMJ1yfR19Y"],
+    ["Gianluigi Gelmetti, Radio-Sinfonieorchester Stuttgart des SWR", "DVudBHoysXI"],
+    ["Erich Kuenzel, Cincinnati Pops", "D5LVM_lIXqY"],
+    ["Colonel Michael J. Colburn, \"The President's Own\" United States Marine Band", "mZF4xHhPtRc"],
+    ["Leonard Bernstein, New York Philharmonic Orchestra", "7uPuXoDHSM4"],
+    ["Col. Jason K. Fettig, \"The President's Own\" United States Marine Band", "P0qau_1CNxY"],
+    ["Georges Prêtre, Orchestra del Teatro La Fenice", "BGo2eiy0VcE"]
+])
 
 let saintSaens3 = Composition(id: 42, composer: saintSaens, name: "Symphony No. 3", date: "1886", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 210, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, [Q] to 2 mm. before [R], 11 mm. after [R] to 1 mm. after [S]", pictures: [["Trombone 1", "1594"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Paavo Järvi, Orchestre de Paris", "ZWCZq33BrOo"],
+    ["Mariss Jansons, Symphonieorchester des Bayerischen Rundfunks", "y60L-N9iY9k"],
+    ["Paavo Järvi, Philharmonie de Paris", "TPvhPHIdjs0"],
+    ["Conrad van Alphen, Sinfonia Rotterdam", "8cnDMQFt3TQ"],
+    ["Charles Dutoit, Orchestre symphonique de Montréal", "Vo24ojUaKCg"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "ivcpGPrdKd8"],
+    ["Daniel Barenboim, Orchestre de Paris", "V-bTxNw4ny8"]
+])
+
+let schubert8 = Composition(id: 43, composer: schubert, name: "Symphony No. 8", date: "1822", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 211, description: "Excerpt 1", avgTempo: "", measures: "Mov. II, [A] to 12 mm. after [A]", pictures: [["Trombone 1", "1595"], ["Trombone 2", "1596"], ["Trombone 3", "1597"]]),
+    Excerpt(id: 212, description: "Excerpt 2", avgTempo: "", measures: "[D] to [F]", pictures: [["Trombone 1", "1598"], ["Trombone 2", "1599"], ["Trombone 3", "1600"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Leonard Bernstein, Concertgebouw Orchestra", "uWnKMzAedK4"],
+    ["Wolfgang Sawallisch, Staatskapelle Dresden", "0mnrHf7p0jM"],
+    ["Philippe Jordan, Wiener Symphoniker", "TgZj4Vd3HHk"],
+    ["Christoph Eschenbach, Frankfurt Radio Symphony Orchestra", "oBPwpX3VDZE"],
+    ["Georg Solti, Chicago Symphony Orchestra", "1-p58OSYhG0"],
+    ["Seiji Ozawa, Westminster Philharmonic Orchestra"],
+    ["Elisabeth Fuchs, Philharmonie Salzburg", "YU3b723XEVY"]
+])
+
+let schubert9 = Composition(id: 44, composer: schubert, name: "Symphony No. 9", date: "1824", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 213, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, 3 mm. before [A] to 9 mm. after [B]", pictures: [["Trombone 1", "1601"], ["Trombone 2", "1602"], ["Trombone 3", "1603"]]),
+    Excerpt(id: 214, description: "Excerpt 2", avgTempo: "", measures: "Mov. I, 13 mm. after [F] to 12 mm. after [G]", pictures: [["Trombone 1", "1604"], ["Trombone 2", "1605"], ["Trombone 3", "1606"]]),
+    Excerpt(id: 215, description: "Excerpt 3", avgTempo: "", measures: "Mov. I, 12 mm. before [H] to 10 mm. after [H]", pictures: [["Trombone 1", "1607"], ["Trombone 2", "1608"], ["Trombone 3", "1609"]]),
+    Excerpt(id: 216, description: "Excerpt 4", avgTempo: "", measures: "Mov. I, 7 mm. after [M] to [Piu moto]", pictures: [["Trombone 1", "1610"], ["Trombone 2", "1611"], ["Trombone 3", "1612"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+])
 
 
 let pictures = [["Trombone 1", ""], ["Trombone 2", ""], ["Trombone 3", ""]]
@@ -442,10 +482,10 @@ let pictures = [["Trombone 1", ""], ["Trombone 2", ""], ["Trombone 3", ""]]
 
 class TromboneContentModel: ObservableObject {
     var excerpts: [Composition] = [
-        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, mussorgskyPictures, ravelBolero, ravelDaphnis, ravelValse, ravelLEnfant, respighiFountains, rimskyKorsakovCapriccio, rimskyKorsakovGolden, rimskyKorsakovRussianEaster, rimskyKorsakovScheherazade, rossiniLaGazza, rossiniWilliamTell, saintSaens3
+        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, mussorgskyPictures, ravelBolero, ravelDaphnis, ravelValse, ravelLEnfant, respighiFountains, rimskyKorsakovCapriccio, rimskyKorsakovGolden, rimskyKorsakovRussianEaster, rimskyKorsakovScheherazade, rossiniLaGazza, rossiniWilliamTell, saintSaens3, schubert8, schubert9
     ]
     
     var composers: [Composer] = [
-        bach, beethoven, berlioz, bizet, borodin, brahms, bruckner, dvorak, franck, haydn, holst, mahler, mozart, mussorgsky, ravel, respighi, rimskyKorsakov, rossini, saintSaens
+        bach, beethoven, berlioz, bizet, borodin, brahms, bruckner, dvorak, franck, haydn, holst, mahler, mozart, mussorgsky, ravel, respighi, rimskyKorsakov, rossini, saintSaens, schubert
     ]
 }
