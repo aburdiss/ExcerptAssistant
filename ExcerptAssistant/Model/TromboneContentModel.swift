@@ -473,6 +473,14 @@ let schubert9 = Composition(id: 44, composer: schubert, name: "Symphony No. 9", 
     Excerpt(id: 215, description: "Excerpt 3", avgTempo: "", measures: "Mov. I, 12 mm. before [H] to 10 mm. after [H]", pictures: [["Trombone 1", "1607"], ["Trombone 2", "1608"], ["Trombone 3", "1609"]]),
     Excerpt(id: 216, description: "Excerpt 4", avgTempo: "", measures: "Mov. I, 7 mm. after [M] to [Piu moto]", pictures: [["Trombone 1", "1610"], ["Trombone 2", "1611"], ["Trombone 3", "1612"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Wolfgang Sawallisch, Wiener Philharmoniker", "kNocKxKd8-I"],
+    ["Leonard Bernstein, Symphonieorchester des Bayerischen Rundfunks", "hCuC8--m-98"],
+    ["John Eliot Gardiner, Wiener Philarmoniker", "TPpvJnwf5BU"],
+    ["Riccardo Muti, Vienna Philharmonic Orchestra", "bA6pzRx6gBE"],
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "z9RTvJS8F64"],
+    ["Josef Krips, London Symphony Orchestra", "Vi85_BDRFXo"],
+    ["Seiji Ozawa, Saito Kinen Orchestra", "X4qN_dE39VQ"],
+    ["Lorin Maazel, Bavarian Radio Symphony", "5kQTHhcIWnI"]
 ])
 
 
