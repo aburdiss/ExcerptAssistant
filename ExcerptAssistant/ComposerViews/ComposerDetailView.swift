@@ -25,28 +25,28 @@ struct ComposerDetailView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 250, height: 250)
-                HStack {
-                    Text("Country:")
-                        .font(.headline)
-                    Text(composer.country)
-                    Spacer()
-                }
-                HStack {
-                    Text("Dates:")
-                        .font(.headline)
-                    Text(composer.dates)
-                    Spacer()
-                }
-                HStack {
+                VStack(alignment: .leading) {
+                    Group {
+                        Text("Country: ")
+                            .font(.headline)
+                        + Text(composer.country)
+                    }
+                        .padding(.bottom)
+                    
+                    Group {
+                        Text("Dates: ")
+                            .font(.headline)
+                        + Text(composer.dates)
+                    }
+                        .padding(.bottom)
+
                     Text("About:")
                         .font(.headline)
-                    Spacer()
-                }
-                VStack(alignment: .leading) {
+                        .padding(.bottom)
                     Text(composer.bio)
-                    .fixedSize(horizontal: false, vertical: true)
+                        .fixedSize(horizontal: false, vertical: true)
                 }
-                Spacer()
+                
             }
                 .padding(.horizontal, 40)
                 .padding(.bottom, 20)
@@ -58,7 +58,10 @@ struct ComposerDetailView: View {
                         NavigationLink(destination: CompositionDetailView(composition: item)) {
                             HStack {
                                 Text(item.name)
-                                Spacer()
+                                Rectangle()
+                                    .opacity(0.0000000000000001)
+                                    .frame(minWidth: 0, maxHeight: 15)
+                                    .scaledToFill()
                                 Image(systemName: "chevron.right")
                                     .foregroundColor(.gray)
                             }

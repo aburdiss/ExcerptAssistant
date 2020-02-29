@@ -570,11 +570,119 @@ let straussEulenspiegel = Composition(id: 57, composer: "Richard Strauss", compo
     ["", ""]
 ])
 
+let stravinskyFirebird = Composition(id: 58, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "The Firebird", date: "1919", era: "Modern", genre: "Ballet", excerpts: [
+    Excerpt(id: 272, description: "Excerpt 1", avgTempo: "", measures: "Danse Infernale du Roi Kastchei: 2 mm. before [1] to [3]", pictures: [["Trombone 1", "1775"], ["Trombone 2", "1776"], ["Trombone 3", "1777"]]),
+    Excerpt(id: 273, description: "Excerpt 2", avgTempo: "", measures: "Danse Infernale du Roi Kastchei: [10] to 4 mm. before [14]", pictures: [["Trombone 1", "1778"], ["Trombone 2", "1779"], ["Trombone 3", "1780"]]),
+    Excerpt(id: 274, description: "Excerpt 3", avgTempo: "", measures: "Finale: [17] to End", pictures: [["Trombone 1", "1781"], ["Trombone 2", "1782"], ["Trombone 3", "1783"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["", ""]
+])
 
+let tchaikovsky4 = Composition(id: 59, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 4", date: "1878", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 275, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, Beginning to [A]", pictures: [["Trombone 1", "1784"], ["Trombone 2", "1785"], ["Trombone 3", "1786"]]),
+    Excerpt(id: 276, description: "Excerpt 2", avgTempo: "", measures: "Mov. I, 1 mm. after [P] to 15 mm. before [R]", pictures: [["Trombone 1", "1787"], ["Trombone 2", "1788"], ["Trombone 3", "1789"]]),
+    Excerpt(id: 277, description: "Excerpt 3", avgTempo: "", measures: "Mov. IV, mm. 38 - [B]", pictures: [["Trombone 1", "1790"], ["Trombone 2", "1791"], ["Trombone 3", "1792"]]),
+    Excerpt(id: 278, description: "Excerpt 4", avgTempo: "", measures: "Mov. IV, [H] to End", pictures: [["Trombone 1", "1793"], ["Trombone 2", "1794"], ["Trombone 3", "1795"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["", ""]
+])
 
+let tchaikovsky5 = Composition(id: 60, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 5", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 279, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, 1 mm. before [D] to 1 mm. after [F]", pictures: [["Trombone 1", "1796"], ["Trombone 2", "1797"], ["Trombone 3", "1798"]]),
+    Excerpt(id: 280, description: "Excerpt 2", avgTempo: "", measures: "Mov. I, mm. 188 to [K]", pictures: [["Trombone 1", "1799"], ["Trombone 2", "1800"], ["Trombone 3", "1801"]]),
+    Excerpt(id: 281, description: "Excerpt 3", avgTempo: "", measures: "Mov. I, mm. 285 to 3 mm. before [Q]", pictures: [["Trombone 1", "1802"], ["Trombone 2", "1803"], ["Trombone 3", "1804"]]),
+    Excerpt(id: 282, description: "Excerpt 4", avgTempo: "", measures: "Mov. I, 1 mm. after [S] to 8 mm. after [T]", pictures: [["Trombone 1", "1805"], ["Trombone 2", "1806"], ["Trombone 3", "1807"]]),
+    Excerpt(id: 283, description: "Excerpt 5", avgTempo: "", measures: "Mov. II, mm. 95 to mm. 107", pictures: [["Trombone 1", "1808"], ["Trombone 2", "1809"], ["Trombone 3", "1810"]]),
+    Excerpt(id: 284, description: "Excerpt 6", avgTempo: "", measures: "Mov. II, mm. 141 to mm. 169", pictures: [["Trombone 1", "1811"], ["Trombone 2", "1812"], ["Trombone 3", "1813"]]),
+    Excerpt(id: 285, description: "Excerpt 7", avgTempo: "", measures: "Mov. IV, mm. 66 to [H]", pictures: [["Trombone 1", "1814"], ["Trombone 2", "1815"], ["Trombone 3", "1816"]]),
+    Excerpt(id: 286, description: "Excerpt 8", avgTempo: "", measures: "Mov. IV, [K] to [O]", pictures: [["Trombone 1", "1817"], ["Trombone 2", "1818"], ["Trombone 3", "1819"]]),
+    Excerpt(id: 287, description: "Excerpt 9", avgTempo: "", measures: "Mov. IV, 15 mm. after [Q] to [R]", pictures: [["Trombone 1", "1820"], ["Trombone 2", "1821"], ["Trombone 3", "1822"]]),
+    Excerpt(id: 288, description: "Excerpt 10", avgTempo: "", measures: "Mov. IV, [T] to 10 mm. after [U]", pictures: [["Trombone 1", "1823"], ["Trombone 2", "1824"], ["Trombone 3", "1825"]]),
+    Excerpt(id: 289, description: "Excerpt 11", avgTempo: "", measures: "Mov. IV, [X] to [Molto Vivace]", pictures: [["Trombone 1", "1826"], ["Trombone 2", "1827"], ["Trombone 3", "1828"]]),
+    Excerpt(id: 290, description: "Excerpt 12", avgTempo: "", measures: "Mov. IV, [Aa] to End", pictures: [["Trombone 1", "1829"], ["Trombone 2", "1830"], ["Trombone 3", "1831"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["", ""]
+])
 
-let pictures = [["Trombone 1", ""], ["Trombone 2", ""], ["Trombone 3", ""]]
+let tchaikovsky6 = Composition(id: 61, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 6", date: "1893", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 291, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, 10 mm. before [D] to [D]", pictures: [["Trombone 1", "1832"], ["Trombone 2", "1833"], ["Trombone 3", "1834"]]),
+    Excerpt(id: 292, description: "Excerpt 2", avgTempo: "", measures: "Mov. I, mm. 201 to [M]", pictures: [["Trombone 1", "1835"], ["Trombone 2", "1836"], ["Trombone 3", "1837"]]),
+    Excerpt(id: 293, description: "Excerpt 3", avgTempo: "", measures: "Mov. I, 4 mm. after [Q] to 3 mm. after [R]", pictures: [["Trombone 1", "1838"], ["Trombone 2", "1839"], ["Trombone 3", "1840"]]),
+    Excerpt(id: 294, description: "Excerpt 4", avgTempo: "", measures: "Mov. I, mm. 336 to End", pictures: [["Trombone 1", "1841"], ["Trombone 2", "1842"], ["Trombone 3", "1843"]]),
+    Excerpt(id: 295, description: "Excerpt 5", avgTempo: "", measures: "Mov. III, 2 mm. before [E] to 2 mm. before [H]", pictures: [["Trombone 1", "1844"], ["Trombone 2", "1845"], ["Trombone 3", "1846"]]),
+    Excerpt(id: 296, description: "Excerpt 6", avgTempo: "", measures: "Mov. III, 4 mm. after [U] to 7 mm. after [Aa]", pictures: [["Trombone 1", "1487"], ["Trombone 2", "1848"], ["Trombone 3", "1849"]]),
+    Excerpt(id: 297, description: "Excerpt 7", avgTempo: "", measures: "Mov. III, 3 mm. after [Ii] to End", pictures: [["Trombone 1", "1850"], ["Trombone 2", "1851"], ["Trombone 3", "1852"]]),
+    Excerpt(id: 298, description: "Excerpt 8", avgTempo: "", measures: "Mov. IV, 4 mm. before [D] to 5 mm. after [D]", pictures: [["Trombone 1", "1853"], ["Trombone 2", "1854"]]),
+    Excerpt(id: 299, description: "Excerpt 9", avgTempo: "", measures: "Mov. IV, [L] to 3 mm. before [N]", pictures: [["Trombone 1", "1855"], ["Trombone 2", "1856"], ["Trombone 3", "1857"]]),
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["", ""]
+])
 
+let tchaikovskyFrancesca = Composition(id: 62, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Francesca da Rimini", date: "1876", era: "Romantic", genre: "Symphonic Poem", excerpts: [
+    Excerpt(id: 300, description: "Excerpt 1", avgTempo: "", measures: "4 mm. after [A] to 15 mm. after [B]", pictures: [["Trombone 1", "1858"], ["Trombone 2", "1859"]]),
+    Excerpt(id: 301, description: "Excerpt 2", avgTempo: "", measures: "[F] to [G]", pictures: [["Trombone 1", "1860"], ["Trombone 2", "1861"], ["Trombone 3", "1862"]]),
+    Excerpt(id: 302, description: "Excerpt 3", avgTempo: "", measures: "[S] to 14 mm. after [S]", pictures: [["Trombone 1", "1863"], ["Trombone 2", "1864"], ["Trombone 3", "1865"]]),
+    Excerpt(id: 303, description: "Excerpt 4", avgTempo: "", measures: "[U] to 8 mm. after [X]", pictures: [["Trombone 1", "1866"], ["Trombone 2", "1867"], ["Trombone 3", "1868"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["", ""]
+])
+
+let verdiForza = Composition(id: 63, composer: "Giuseppe Verdi", composerLast: "Verdi", name: "La forza del destino", date: "1862", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 304, description: "Excerpt 1", avgTempo: "", measures: "7 mm. after [C] to 5 mm. before [D]", pictures: [["Trombone 1", "1869"], ["Trombone 2", "1870"], ["Trombone 3", "1871"]]),
+    Excerpt(id: 305, description: "Excerpt 2", avgTempo: "", measures: "6 mm. before [E] to 3 mm. after [E]", pictures: [["Trombone 1", "1872"], ["Trombone 2", "1873"], ["Trombone 3", "1874"]]),
+    Excerpt(id: 306, description: "Excerpt 3", avgTempo: "", measures: "[H] to [L]", pictures: [["Trombone 1", "1875"], ["Trombone 2", "1876"], ["Trombone 3", "1877"]]),
+    Excerpt(id: 307, description: "Excerpt 4", avgTempo: "", measures: "8 mm. after [P] to End", pictures: [["Trombone 1", "1878"], ["Trombone 2", "1879"], ["Trombone 3", "1880"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["", ""]
+])
+
+let verdiNabucco = Composition(id: 64, composer: "Giuseppe Verdi", composerLast: "Verdi", name: "Nabucco", date: "1842", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 308, description: "Excerpt 1", avgTempo: "", measures: "Overture, mm. 1 to mm. 16", pictures: [["Trombone 1", "1881"], ["Trombone 2", "1882"], ["Trombone 3", "1883"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["", ""]
+])
+
+let wagnerRheingold = Composition(id: 65, composer: "Richard Wagner", composerLast: "Wagner", name: "Das Rheingold", date: "1854", era: "Late Romantic", genre: "Music Drama", excerpts: [
+    Excerpt(id: 309, description: "Excerpt 1", avgTempo: "", measures: "Scene 2, mm. 1 to mm. 20", pictures: [["Trombone 1", "1884"], ["Trombone 2", "1885"], ["Trombone 3", "1886"], ["Trombone 4", "1887"]]),
+    Excerpt(id: 310, description: "Excerpt 2", avgTempo: "", measures: "Scene 2, [a tempo] to [Common Time]", pictures: [["Trombone 1", "1888"], ["Trombone 2", "1889"], ["Trombone 3", "1890"], ["Trombone 4", "1891"]]),
+    Excerpt(id: 311, description: "Excerpt 3", avgTempo: "", measures: "Scene 2, [modulation to C] to [7 mm. after modulation]", pictures: [["Trombone 1", "1892"], ["Trombone 2", "1893"], ["Trombone 3", "1894"], ["Trombone 4", "1895"]]),
+    Excerpt(id: 312, description: "Excerpt 4", avgTempo: "", measures: "Scene 4, 21 mm. before End to End", pictures: [["Trombone 1", "1896"], ["Trombone 2", "1897"], ["Trombone 3", "1898"], ["Trombone 4", "1899"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["", ""]
+])
+
+let wagnerFlying = Composition(id: 66, composer: "Richard Wagner", composerLast: "Wagner", name: "The Flying Dutchman", date: "1843", era: "Late Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 313, description: "Excerpt 1", avgTempo: "", measures: "Overture, Beginning to 3 mm. after [A]", pictures: [["Trombone 1", "1900"], ["Trombone 2", "1901"], ["Trombone 3", "1902"]]),
+    Excerpt(id: 314, description: "Excerpt 2", avgTempo: "", measures: "Overture, [C] to [D]", pictures: [["Trombone 1", "1903"], ["Trombone 2", "1904"], ["Trombone 3", "1905"]]),
+    Excerpt(id: 315, description: "Excerpt 3", avgTempo: "", measures: "Overture, [G] to 1 mm. before [H]", pictures: [["Trombone 1", "1906"], ["Trombone 2", "1907"], ["Trombone 3", "1908"]]),
+    Excerpt(id: 316, description: "Excerpt 4", avgTempo: "", measures: "Overture, 41 mm. before End to End", pictures: [["Trombone 1", "1909"], ["Trombone 2", "1910"], ["Trombone 3", "1911"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["", ""]
+])
+
+let wagnerValyrie = Composition(id: 67, composer: "Richard Wagner", composerLast: "Wagner", name: "Die Walküre", date: "1870", era: "Late Romantic", genre: "Music Drama", excerpts: [
+    Excerpt(id: 317, description: "Excerpt 1", avgTempo: "", measures: "", pictures: [["Trombone 1", "1912"], ["Trombone 2", "1913"], ["Trombone 3", "1914"]]),
+    Excerpt(id: 318, description: "Excerpt 2", avgTempo: "", measures: "8 mm. before [11] to [12]", pictures: [["Trombone 1", "1915"], ["Trombone 2", "1916"], ["Trombone 3", "1917"]]),
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["", ""]
+])
+
+let wagnerLohengrin = Composition(id: 68, composer: "Richard Wagner", composerLast: "Wagner", name: "Lohengrin", date: "1850", era: "Late Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 319, description: "Excerpt 1", avgTempo: "", measures: "Act I, Scene 3, [46] to 6 mm. before [47]", pictures: [["Trombone 1", "1918"], ["Trombone 2", "1919"], ["Trombone 3", "1920"]]),
+    Excerpt(id: 320, description: "Excerpt 2", avgTempo: "", measures: "Prelude to Act III, [2] to [3]", pictures: [["Trombone 1", "1921"], ["Trombone 2", "1922"], ["Trombone 3", "1923"]]),
+    Excerpt(id: 321, description: "Excerpt 3", avgTempo: "", measures: "Prelude to Act III, 1 mm. after [5] to 5 mm. after [6]", pictures: [["Trombone 1", "1924"], ["Trombone 2", "1925"], ["Trombone 3", "1926"]]),
+    Excerpt(id: 322, description: "Excerpt 4", avgTempo: "", measures: "Act III, Scene 3, [47] to 4 mm. before [49]", pictures: [["Trombone 1", "1927"], ["Trombone 2", "1928"], ["Trombone 3", "1929"]]),
+    Excerpt(id: 323, description: "Excerpt 5", avgTempo: "", measures: "Act III, Scene 3, [62] to 17 mm. after [62]", pictures: [["Trombone 1", "1930"], ["Trombone 2", "1931"], ["Trombone 3", "1932"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["", ""]
+])
+
+let wagnerTannhauser = Composition(id: 69, composer: "Richard Wagner", composerLast: "Wagner", name: "Tannhäuser", date: "1845", era: "Late Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 324, description: "Excerpt 1", avgTempo: "", measures: "Overture, [A] to 27 mm. before [B]", pictures: [["Trombone 1", "1933"], ["Trombone 2", "1934"], ["Trombone 3", "1935"]]),
+    Excerpt(id: 325, description: "Excerpt 2", avgTempo: "", measures: "Overture, 1 mm. before [M] to End", pictures: [["Trombone 1", "1936"], ["Trombone 2", "1937"], ["Trombone 3", "1938"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["", ""]
+])
 
 //********************************************************//
 //                                                        //
@@ -674,6 +782,22 @@ let rStrauss = Composer(id: 22, name: "Richard Strauss", ipa: "ˈʁɪçaʁt ˈʃ
     straussAlpine, straussZarathustra, straussBourgeois, straussDeathAndTransfiguration, straussDonJuan, straussHeldenleben, straussSalome, straussEulenspiegel
 ])
 
+let stravinsky = Composer(id: 23, name: "Igor Stravinsky", ipa: "ˈi gɔr strəˈvɪn ski", image: 2023, country: "Russia", dates: "1882-1971", bio: "Igor Stravinsky was one of the most influential composers of the twentieth century. Stravinsky's music is very unique from that of other composers, and often contains russian folk melodies. Throughout his life, the kinds of compositions that he composed also changed dramatically, from symphonies, to chamber music, to ballets.", excerpts: [
+    stravinskyFirebird
+])
+
+let tchaikovsky = Composer(id: 24, name: "Pyotr Ilyich Tchaikovsky", ipa: "ˈpyɔtr iˈlyitʃ tʃaɪˈkɒfski", image: 2024, country: "Russia", dates: "1840-1893", bio: "Tchaikovsky was the first Russian composer to gain international fame. Tchaikovsky recieved a western European style music education, which seemed to counter the traditional Russian music practices. This dichotomy posed a great challenge for Tchaikovsky, one that affected his self confidence a lot. Although Tchaikovsky's music gained popular support, his life was deeply affected by depression and personal crises.", excerpts: [
+    tchaikovsky4, tchaikovsky5, tchaikovsky6, tchaikovskyFrancesca
+])
+
+let verdi = Composer(id: 25, name: "Giuseppe Verdi", ipa: "dʒuˈzɛppe ˈverdi", image: 2025, country: "Italy", dates: "1813-1901", bio: "Giuseppe Verdi was an Italian opera composer who took after Rossini, Bellini, and Donizetti. Rossini had sympathy for the Risorgimento movement for the unification of Italy, and some choruses from his early operas were in the spirit of this movement. Verdi participated briefly as an elected politician, and sought to establish himself as a landowner in his native region.", excerpts: [
+    verdiForza, verdiNabucco
+])
+
+let wagner = Composer(id: 26, name: "Richard Wagner", ipa: "ˈʁɪçaʁt ˈvaːɡnɐ", image: 2026, country: "Germany", dates: "1813-1883", bio: "Wagner is one of the most well known composers of all time. His music frequently appears in television shows and movies. He was most well known in his era for his operas, which usually run about four hours. Wagner was unusual as an opera composer because he himself wrote the liberetto for the operas he composed. Wagner had his own opera house constructed, which still stands to this day.", excerpts: [
+    wagnerRheingold, wagnerFlying, wagnerValyrie, wagnerLohengrin
+])
+
 
 
 
@@ -681,10 +805,10 @@ let rStrauss = Composer(id: 22, name: "Richard Strauss", ipa: "ˈʁɪçaʁt ˈʃ
 
 class TromboneContentModel: ObservableObject {
     var excerpts: [Composition] = [
-        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, mussorgskyPictures, ravelBolero, ravelDaphnis, ravelValse, ravelLEnfant, respighiFountains, rimskyKorsakovCapriccio, rimskyKorsakovGolden, rimskyKorsakovRussianEaster, rimskyKorsakovScheherazade, rossiniLaGazza, rossiniWilliamTell, saintSaens3, schubert8, schubert9, schumann1, schumann2, schumann3, schumann4, smetanaBarteredBride, straussAlpine, straussZarathustra, straussBourgeois, straussDeathAndTransfiguration, straussDonJuan, straussHeldenleben, straussSalome, straussEulenspiegel
+        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, mussorgskyPictures, ravelBolero, ravelDaphnis, ravelValse, ravelLEnfant, respighiFountains, rimskyKorsakovCapriccio, rimskyKorsakovGolden, rimskyKorsakovRussianEaster, rimskyKorsakovScheherazade, rossiniLaGazza, rossiniWilliamTell, saintSaens3, schubert8, schubert9, schumann1, schumann2, schumann3, schumann4, smetanaBarteredBride, straussAlpine, straussZarathustra, straussBourgeois, straussDeathAndTransfiguration, straussDonJuan, straussHeldenleben, straussSalome, straussEulenspiegel, stravinskyFirebird, tchaikovsky4, tchaikovsky5, tchaikovsky6, tchaikovskyFrancesca, verdiForza, verdiNabucco, wagnerRheingold, wagnerFlying, wagnerValyrie, wagnerLohengrin
     ]
     
     var composers: [Composer] = [
-        bach, beethoven, berlioz, bizet, borodin, brahms, bruckner, dvorak, franck, haydn, holst, mahler, mozart, mussorgsky, ravel, respighi, rimskyKorsakov, rossini, saintSaens, schubert, smetana, rStrauss
+        bach, beethoven, berlioz, bizet, borodin, brahms, bruckner, dvorak, franck, haydn, holst, mahler, mozart, mussorgsky, ravel, respighi, rimskyKorsakov, rossini, saintSaens, schubert, smetana, rStrauss, stravinsky, tchaikovsky, verdi, wagner
     ]
 }

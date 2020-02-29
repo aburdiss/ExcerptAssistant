@@ -20,6 +20,10 @@ struct CompositionDetailView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
+                Text(self.composition.name)
+                    .font(.largeTitle)
+                    .bold()
+                    .padding()
                 Group {
                     Text(self.composition
                             .composer)
@@ -95,7 +99,7 @@ struct CompositionDetailView: View {
             }
             .padding()
         }
-        .navigationBarTitle(self.composition.name)
+        .navigationBarTitle(Text(""), displayMode: .inline)
     }
 }
 
