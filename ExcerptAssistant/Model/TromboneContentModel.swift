@@ -91,6 +91,12 @@ let saintSaens = Composer(id: 18, name: "Camille Saint-Saëns", shortName: "Sain
 
 let schubert = Composer(id: 19, name: "Franz Schubert", shortName: "Schubert", ipa: "ˈfʁant͡s ˈʃuːbɐt", image: 2019, country: "Austria", dates: "1797-1828", bio: "Schubert was a prolific Austrian composer during the late Classical and early Romantic eras. During his short lifetime he composed over 1500 works. During his lifetime, he recieved little fame and success. It was only after his lifetime when musicians such as Schumann, Mendelssohn, Liszt, and Brahms discovered and praised his music that it became well known and widely recieved.")
 
+let schumann = Composer(id: 20, name: "Robert Schumann", shortName: "Schumann", ipa: "ˈrɒb ərt ˈʃu mɑn", image: 2020, country: "Germany", dates: "1810-1856", bio: "Schumann was one of the most popular composers of the romantic era. He gave up the study of law to become a concert pianist, but his dreams were crushed by a hand injury. He subsequently pursued a career in composition, and married his teacher's daughter, Clara Wieck. Schumann mainly composed for piano, but later in live began to compose lieder, orchestral works, and one opera.")
+
+let smetana = Composer(id: 21, name: "Bedřich Smetana", shortName: "Smetana", ipa: "ˌbɛdərʒɪx ˈsmɛtənə", image: 2021, country: "Austrian Empire, Austria-Hugary (Now Czech Republic)", dates: "1824-1884", bio: "Smetana was a child prodigy who had his first composition performed at age six. His music became closely tied to sentiments and movements of independant statehood. He became completely deaf for the last ten years of his life.")
+
+let rStrauss = Composer(id: 22, name: "Richard Strauss", shortName: "Strauss", ipa: "ˈʁɪçaʁt ˈʃtʁaʊs", image: 2022, country: "Germany", dates: "1864-1949", bio: "Richard Strauss was one of the leading composers of the Romantic Era. He, along with Gustav Mahler, were considered successors of Richard Wagner. Although Strauss composed music for almost every classical genre, he is most famous for his tone poems. Strauss' compositional output began when he was just six years old, and continued almost eighty years later until his death.")
+
 //********************************************************//
 //                                                        //
 //                       Excerpts                         //
@@ -483,6 +489,86 @@ let schubert9 = Composition(id: 44, composer: schubert, name: "Symphony No. 9", 
     ["Lorin Maazel, Bavarian Radio Symphony", "5kQTHhcIWnI"]
 ])
 
+let schumann1 = Composition(id: 45, composer: schumann, name: "Symphony No. 1", date: "1841", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 217, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, mm. 270 to mm. 308", pictures: [["Trombone 1", "1613"], ["Trombone 2", "1614"], ["Trombone 3", "1615"]]),
+    Excerpt(id: 218, description: "Excerpt 2", avgTempo: "", measures: "Mov. II, mm. 112 to End", pictures: [["Trombone 1", "1616"], ["Trombone 2", "1617"], ["Trombone 3", "1618"]]),
+    Excerpt(id: 219, description: "Excerpt 3", avgTempo: "", measures: "Mov. IV, mm. 81 to mm. 89", pictures: [["Trombone 1", "1619"], ["Trombone 2", "1620"], ["Trombone 3", "1621"]]),
+    Excerpt(id: 220, description: "Excerpt 4", avgTempo: "", measures: "Mov. IV, mm. 120 to mm. 152", pictures: [["Trombone 1", "1622"], ["Trombone 2", "1623"], ["Trombone 3", "1624"]]),
+    Excerpt(id: 221, description: "Excerpt 5", avgTempo: "", measures: "Mov. IV, mm. 301 to mm. 335", pictures: [["Trombone 1", "1625"], ["Trombone 2", "1626"], ["Trombone 3", "1627"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Zubin Mehta, The Buchmann-Mehta School of Music Symphony Orchestra", "abrie8X9seU"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "FuBDGAHBedo"],
+    ["Gerard Oskamp, Philharmonie Südwestfalen", "1Lk2V6YOcIc"],
+    ["Leonard Bernstein, Vienna Philharmonic", "2TEBBskS0qE"],
+    ["Yannick Nézet-Séguin, Chamber Orchestra of Europe", "a5PGq1Q3nEg"],
+    ["George Szell, The Cleveland Orchestra", "RjTb5mypZ3A"],
+    ["David Zinman, Tonhalle Zürich", "SOhl73QnZIA"]
+])
+
+let schumann2 = Composition(id: 46, composer: schumann, name: "Symphony No. 2", date: "1847", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 222, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, Beginning to mm. 37", pictures: [["Trombone 1", "1628"], ["Trombone 2", "1629"], ["Trombone 3", "1630"]]),
+    Excerpt(id: 223, description: "Excerpt 2", avgTempo: "", measures: "Mov. IV, mm. 165 to mm. 179", pictures: [["Trombone 1", "1631"], ["Trombone 2", "1632"], ["Trombone 3", "1633"]]),
+    Excerpt(id: 224, description: "Excerpt 3", avgTempo: "", measures: "Mov. IV, mm. 423 to mm. 492", pictures: [["Trombone 1", "1634"], ["Trombone 2", "1635"], ["Trombone 3", "1636"]]),
+    Excerpt(id: 225, description: "Excerpt 4", avgTempo: "", measures: "Mov. IV, mm. 533 to End", pictures: [["Trombone 1", "1637"], ["Trombone 2", "1638"], ["Trombone 3", "1639"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Marek Janowski, Frankfurt Radio Symphony", "YD-dluM2gJQ"],
+    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "2eGkxHaGu0"]
+    //TODO: Add more videos here
+])
+
+let schumann3 = Composition(id: 47, composer: schumann, name: "Symphony No. 3", date: "1850", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 226, description: "Excerpt 1", avgTempo: "", measures: "Mov. IV, mm. 1 to mm. 23, [B] to End", pictures: [["Trombone 1", "1640"], ["Trombone 2", "1641"], ["Trombone 3", "1642"]])
+], mutes: "", commonDifficulties: "Range", professionalAdvice: "", videos: <#T##[[String]]#>)
+
+let schumann4 = Composition(id: 48, composer: schumann, name: "Symphony No. 4", date: "1841", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 227, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, 2 mm. after [D] to 13 mm. after [E]", pictures: [["Trombone 1", "1643"], ["Trombone 2", "1644"], ["Trombone 3", "1645"]]),
+    Excerpt(id: 228, description: "Excerpt 2", avgTempo: "", measures: "Mov. I, 2 mm. after [F] to [H]", pictures: [["Trombone 1", "1646"], ["Trombone 2", "1647"], ["Trombone 3", "1648"]]),
+    Excerpt(id: 229, description: "Excerpt 3", avgTempo: "", measures: "Mov. I, mm. 241 to 8 mm. before [L]", pictures: [["Trombone 1", "1649"], ["Trombone 2", "1650"], ["Trombone 3", "1651"]]),
+    Excerpt(id: 230, description: "Excerpt 4", avgTempo: "", measures: "Mov. IV, 6 mm. before [T] to 12 mm. after [T]", pictures: [["Trombone 1", "1652"], ["Trombone 2", "1653"], ["Trombone 3", "1654"]]),
+    Excerpt(id: 231, description: "Excerpt 5", avgTempo: "", measures: "Mov. IV, 12 mm. after [V] to [W]", pictures: [["Trombone 1", "1655"], ["Trombone 2", "1656"], ["Trombone 3", "1657"]]),
+    Excerpt(id: 232, description: "Excerpt 6", avgTempo: "", measures: "Mov. IV, 12 mm. after [Z] to 4 mm. after [AA]", pictures: [["Trombone 1", "1658"], ["Trombone 2", "1659"], ["Trombone 3", "1660"]]),
+    Excerpt(id: 233, description: "Excerpt 7", avgTempo: "", measures: "Mov. IV, 10 mm. before End to End", pictures: [["Trombone 1", "1661"], ["Trombone 2", "1662"], ["Trombone 3", "1663"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+
+let smetanaBarteredBride = Composition(id: 49, composer: smetana, name: "The Bartered Bride", date: "1866", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 234, description: "Excerpt 1", avgTempo: "", measures: "44 mm. after [A] to 39 mm. before [B]", pictures: [["Trombone 1", "1664"], ["Trombone 2", "1665"], ["Trombone 3", "1666"]]),
+    Excerpt(id: 235, description: "Excerpt 2", avgTempo: "", measures: "[C] to 23 mm. after [C]", pictures: [["Trombone 1", "1667"], ["Trombone 2", "1668"], ["Trombone 3", "1669"]]),
+    Excerpt(id: 236, description: "Excerpt 3", avgTempo: "", measures: "49 mm. before End to End", pictures: [["Trombone 1", "1670"], ["Trombone 2", "1671"], ["Trombone 3", "1672"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+
+let straussAlpine = Composition(id: 50, composer: rStrauss, name: "An Alpine Symphony", date: "1915", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 237, description: "Excerpt 1", avgTempo: "", measures: "[1] to [2]", pictures: [["Trombone 1", "1673"], ["Trombone 2", "1674"], ["Trombone 3", "1675"], ["Trombone 4", "1676"]]),
+    Excerpt(id: 238, description: "Excerpt 2", avgTempo: "", measures: "[21] to [22]", pictures: [["Trombone 1", "1677"], ["Trombone 2", "1678"], ["Trombone 3", "1679"], ["Trombone 4", "1680"]]),
+    Excerpt(id: 239, description: "Excerpt 3", avgTempo: "", measures: "1 mm. before [39] to [41]", pictures: [["Trombone 1", "1681"], ["Trombone 2", "1682"], ["Trombone 3", "1683"], ["Trombone 4", "1684"]]),
+    Excerpt(id: 240, description: "Excerpt 4", avgTempo: "", measures: "[64] to [68]", pictures: [["Trombone 1 (Mit Dampfer)", "1685"], ["Trombone 2 (Mit Dampfer)", "1686"], ["Trombone 3 (Mit Dampfer)", "1687"], ["Trombone 4 (Mit Dampfer)", "1688"]]),
+    Excerpt(id: 241, description: "Excerpt 5", avgTempo: "", measures: "3 mm. before [80] to 5 mm. after [80]", pictures: [["Trombone 1", "1689"], ["Trombone 2", "1690"], ["Trombone 3", "1691"], ["Trombone 4", "1692"]]),
+    Excerpt(id: 242, description: "Excerpt 6", avgTempo: "", measures: "[93] to [94]", pictures: [["Trombone 1", "1693"], ["Trombone 2", "1694"], ["Trombone 3", "1695"], ["Trombone 4", "1696"]]),
+    Excerpt(id: 243, description: "Excerpt 7", avgTempo: "", measures: "[96] to [97]", pictures: [["Trombone 1", "1697"], ["Trombone 2", "1698"], ["Trombone 3", "1699"], ["Trombone 4", "1700"]]),
+    Excerpt(id: 244, description: "Excerpt 8", avgTempo: "", measures: "[120] to 1 mm. before [121]", pictures: [["Trombone 1", "1701"], ["Trombone 2", "1702"], ["Trombone 3", "1703"], ["Trombone 4", "1704"]]),
+    Excerpt(id: 245, description: "Excerpt 9", avgTempo: "", measures: "[122] to [123]", pictures: [["Trombone 1", "1705"], ["Trombone 2", "1706"], ["Trombone 3", "1707"], ["Trombone 4", "1708"]]),
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+
+let straussAlsoSprach = Composition(id: 51, composer: rStrauss, name: "Also sprach Zarathustra", date: "1896", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 246, description: "Excerpt 1", avgTempo: "", measures: "8 mm. before [6] to 3 mm. after [6]", pictures: [["Trombone 1", "1709"], ["Trombone 2", "1710"], ["Trombone 3", "1711"]]),
+    Excerpt(id: 247, description: "Excerpt 2", avgTempo: "", measures: "4 mm. before [16] to [16]", pictures: [["Trombone 1", "1712"]]),
+    Excerpt(id: 248, description: "Excerpt 3", avgTempo: "", measures: "6 mm. after [50] to 4 mm. after [53]", pictures: [["Trombone 1", "1713"], ["Trombone 2", "1714"], ["Trombone 3", "1715"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+
+let straussBourgeois = Composition(id: 52, composer: rStrauss, name: "Le bourgeois gentilhomme", date: "1917", era: "Late Romantic", genre: "Orchestral Suite", excerpts: [
+    Excerpt(id: 249, description: "Excerpt 1", avgTempo: "", measures: "No. 3, Beginning to [38]", pictures: [["Trombone", "1716"]]),
+    Excerpt(id: 250, description: "Excerpt 2", avgTempo: "", measures: "No. 4, [46] to [50]", pictures: [["Trombone", "1717"]]),
+    Excerpt(id: 251, description: "Excerpt 3", avgTempo: "", measures: "No. 9, [72] to [75]", pictures: [["Trombone", "1718"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+
+let straussDeathAndTransfiguration = Composition(id: 53, composer: rStrauss, name: "Death and Transfiguration", date: "1889", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 252, description: "Excerpt 1", avgTempo: "", measures: "3 mm. after [F] to 9 mm. after [L]", pictures: [["Trombone 1", "1719"], ["Trombone 2", "1720"], ["Trombone 3", "1721"]]),
+    Excerpt(id: 253, description: "Excerpt 2", avgTempo: "", measures: "8 mm. after [P] to 9 mm. after [S]", pictures: [["Trombone 1", "1722"], ["Trombone 2", "1723"], ["Trombone 3", "1724"]]),
+    Excerpt(id: 254, description: "Excerpt 3", avgTempo: "", measures: "12 mm. before [X] to 24 mm. before [Y]", pictures: [["Trombone 1", "1725"], ["Trombone 2", "1726"], ["Trombone 3", "1727"]]),
+    Excerpt(id: 255, description: "Excerpt 4", avgTempo: "", measures: "[Aa] to End", pictures: [["Trombone 1", "1728"], ["Trombone 2", "1729"], ["Trombone 3", "1730"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+
+
+
 
 let pictures = [["Trombone 1", ""], ["Trombone 2", ""], ["Trombone 3", ""]]
 
@@ -490,10 +576,10 @@ let pictures = [["Trombone 1", ""], ["Trombone 2", ""], ["Trombone 3", ""]]
 
 class TromboneContentModel: ObservableObject {
     var excerpts: [Composition] = [
-        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, mussorgskyPictures, ravelBolero, ravelDaphnis, ravelValse, ravelLEnfant, respighiFountains, rimskyKorsakovCapriccio, rimskyKorsakovGolden, rimskyKorsakovRussianEaster, rimskyKorsakovScheherazade, rossiniLaGazza, rossiniWilliamTell, saintSaens3, schubert8, schubert9
+        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, mussorgskyPictures, ravelBolero, ravelDaphnis, ravelValse, ravelLEnfant, respighiFountains, rimskyKorsakovCapriccio, rimskyKorsakovGolden, rimskyKorsakovRussianEaster, rimskyKorsakovScheherazade, rossiniLaGazza, rossiniWilliamTell, saintSaens3, schubert8, schubert9, schumann1, schumann2, schumann3, schumann4, smetanaBarteredBride, straussAlpine, straussAlsoSprach, straussBourgeois, straussDeathAndTransfiguration
     ]
     
     var composers: [Composer] = [
-        bach, beethoven, berlioz, bizet, borodin, brahms, bruckner, dvorak, franck, haydn, holst, mahler, mozart, mussorgsky, ravel, respighi, rimskyKorsakov, rossini, saintSaens, schubert
+        bach, beethoven, berlioz, bizet, borodin, brahms, bruckner, dvorak, franck, haydn, holst, mahler, mozart, mussorgsky, ravel, respighi, rimskyKorsakov, rossini, saintSaens, schubert, smetana, rStrauss
     ]
 }
