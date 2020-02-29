@@ -15,7 +15,8 @@ struct SettingsView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("App Design and Content by Alexander Burdiss")
+                Text("App Design and Content by Alexander Burdiss and Qian Yu")
+                    .multilineTextAlignment(.center)
                     .padding()
                 Button(action: {
                     let url = URL(string: "mailto:aburdiss@gmail.com")!
@@ -27,8 +28,6 @@ struct SettingsView: View {
                         .stroke(Color.green, lineWidth: 1))
                         .padding()
                 }
-                Text("Notice: The Listening files in this app are intended to show embedded YouTube videos. However, there are certain technical limitations that are temporarily preventing this desired behaviour, that will only be fixed in coming iOS versions.")
-                    .padding()
                 Spacer()
                 HStack {
                     Image("excerptBookCover")
@@ -52,7 +51,7 @@ struct SettingsView: View {
                     }
                 }
                 .padding(.horizontal, 40)
-                Text("© 2020 Alexander Burdiss")
+                Text("© 2020 Alexander Burdiss & Qian Yu")
                     .padding()
             }
             .navigationBarTitle("More")

@@ -2,7 +2,7 @@
 //  CompositionListView.swift
 //  ExcerptAssistant
 //
-//  Created by Alex Burdiss on 1/24/20.
+//  Created by Alex Burdiss and Qian Yu on 1/24/20.
 //  Copyright © 2020 Alex Burdiss. All rights reserved.
 //
 
@@ -15,29 +15,17 @@ import SwiftUI
 struct CompositionListView: View {
     
     var model = TromboneContentModel().excerpts
-    @State var excerptIsPresented = false
-    
-    func showExcerpt() {
-        excerptIsPresented = true
-    }
     
     var body: some View {
         NavigationView {
             List {
                 ForEach(model) { item in
-                    Button(action: {
-                        self.showExcerpt()
-                        
-                    }) {
+                    NavigationLink(destination: CompositionDetailView(composition: item)) {
                         HStack {
-                            Text(item.composer.shortName)
+                            Text(item.composerLast)
                                 .bold()
                             Text(item.name)
                             Spacer()
-                            Image(systemName: "chevron.right")
-                        }
-                       .sheet(isPresented: self.$excerptIsPresented) {
-                        CompositionDetailView(composition: item, isPresented: self.$excerptIsPresented)
                         }
                     }
                 }

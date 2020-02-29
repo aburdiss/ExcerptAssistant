@@ -14,28 +14,26 @@ import SwiftUI
 struct ComposerListView: View {
     
     var model = TromboneContentModel().composers
-    @State var composerIsPresented = false
-    
-    func showComposer() {
-        composerIsPresented = true
-    }
     
     var body: some View {
         NavigationView {
             List {
                 ForEach(model) { item in
-                    Button(action: {
-                        self.showComposer()
-                    }) {
-                        HStack {
-                            Text(item.name)
-                            Spacer()
-                            Image(systemName: "chevron.right")
-                        }
-                        .sheet(isPresented: self.$composerIsPresented) {
-                        ComposerDetailView(composer: item, isPresented: self.$composerIsPresented)
-                        }
+                    NavigationLink(destination: ComposerDetailView(composer: item)) {
+                        Text(item.name)
                     }
+//                    Button(action: {
+//                        self.showComposer()
+//                    }) {
+//                        HStack {
+//                            Text(item.name)
+//                            Spacer()
+//                            Image(systemName: "chevron.right")
+//                        }
+//                        .sheet(isPresented: self.$composerIsPresented) {
+//                        ComposerDetailView(composer: item, isPresented: self.$composerIsPresented)
+//                        }
+//                    }
                     
                 }
                 

@@ -13,14 +13,9 @@ import SwiftUI
 
 struct ComposerDetailView: View {
     var composer: Composer
-    @Binding var isPresented: Bool
-    
-    func stopDisplaying(){
-        isPresented = false
-    }
     
     var body: some View {
-        NavigationView {
+        ScrollView(.vertical) {
             VStack {
                 Text("\\\(composer.ipa)\\")
                 //Divider()
@@ -49,25 +44,42 @@ struct ComposerDetailView: View {
                 }
                 VStack(alignment: .leading) {
                     Text(composer.bio)
+                    .fixedSize(horizontal: false, vertical: true)
                 }
                 Spacer()
             }
-            .padding(.horizontal, 40)
-            .navigationBarTitle(composer.name)
-            .navigationBarItems(trailing:
-            Button(action: {
-                self.stopDisplaying()}) {
-                VStack {
-                    Image(systemName: "chevron.down")
+                .padding(.horizontal, 40)
+                .padding(.bottom, 20)
+            VStack {
+                ForEach(composer.excerpts) { item in
+                    VStack {
+                        Divider()
+                            .padding(.leading)
+                        NavigationLink(destination: CompositionDetailView(composition: item)) {
+                            HStack {
+                                Text(item.name)
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .foregroundColor(.gray)
+                            }
+                            .padding(.top, 6)
+                            .padding(.bottom, 3)
+                            .padding(.horizontal)
+                        }
+                    .buttonStyle(PlainButtonStyle())
+                    }
+                        
                 }
-            })
+                Divider()
+                    .padding(.leading)
+            }
         }
-        .navigationViewStyle(StackNavigationViewStyle())
+        .navigationBarTitle(composer.name)
     }
 }
 
 struct ComposerDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ComposerDetailView(composer: bach, isPresented: .constant(true))
+        ComposerDetailView(composer: bach)
     }
 }
