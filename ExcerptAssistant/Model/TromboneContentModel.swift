@@ -567,6 +567,34 @@ let straussDeathAndTransfiguration = Composition(id: 53, composer: rStrauss, nam
     Excerpt(id: 255, description: "Excerpt 4", avgTempo: "", measures: "[Aa] to End", pictures: [["Trombone 1", "1728"], ["Trombone 2", "1729"], ["Trombone 3", "1730"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
 
+let straussDonJuan = Composition(id: 54, composer: rStrauss, name: "Don Juan", date: "1888", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 256, description: "Excerpt 1", avgTempo: "", measures: "4 mm. before [P] to 14 mm. before [Q]", pictures: [["Trombone 1", "1731"], ["Trombone 2", "1732"], ["Trombone 3", "1733"]]),
+    Excerpt(id: 257, description: "Excerpt 2", avgTempo: "", measures: "[X] to 2 mm. after [Y]", pictures: [["Trombone 1", "1734"], ["Trombone 2", "1735"], ["Trombone 3", "1736"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+
+let straussHeldenleben = Composition(id: 55, composer: rStrauss, name: "Ein Heldenleben", date: "1898", era: "", genre: "Late Romantic", excerpts: [
+    Excerpt(id: 258, description: "Excerpt 1", avgTempo: "", measures: "[1] to 2 mm. after [3]", pictures: [["Trombone 1", "1737"], ["Trombone 2", "1738"], ["Trombone 3", "1739"]]),
+    Excerpt(id: 259, description: "Excerpt 2", avgTempo: "", measures: "2 mm. before [9] to 7 mm. after [13]", pictures: [["Trombone 1", "1740"], ["Trombone 2", "1741"], ["Trombone 3", "1742"]]),
+    Excerpt(id: 260, description: "Excerpt 3", avgTempo: "", measures: "[15] to 8 mm. after [15]", pictures: [["Trombone 1", "1743"], ["Trombone 2", "1744"], ["Trombone 3", "1745"]]),
+    Excerpt(id: 261, description: "Excerpt 4", avgTempo: "", measures: "5 mm. before [20] to 3 mm. after [20]", pictures: [["Trombone 1", "1746"], ["Trombone 2", "1747"], ["Trombone 3", "1748"]]),
+    Excerpt(id: 262, description: "Excerpt 5", avgTempo: "", measures: "[45] to [50]", pictures: [["Trombone 1", "1749"], ["Trombone 2", "1750"], ["Trombone 3", "1751"]]),
+    Excerpt(id: 263, description: "Excerpt 6", avgTempo: "", measures: "[51] to [53]", pictures: [["Trombone 3", "1752"]]),
+    Excerpt(id: 264, description: "Excerpt 7", avgTempo: "", measures: "[55] to [59]", pictures: [["Trombone 1", "1753"], ["Trombone 2", "1754"], ["Trombone 3", "1755"]]),
+    Excerpt(id: 265, description: "Excerpt 8", avgTempo: "", measures: "2 mm. before [60] to [66]", pictures: [["Trombone 1", "1756"], ["Trombone 2", "1757"], ["Trombone 3", "1758"]]),
+    Excerpt(id: 266, description: "Excerpt 9", avgTempo: "", measures: "[68] to [74]", pictures: [["Trombone 1", "1759"], ["Trombone 2", "1760"], ["Trombone 3", "1761"]]),
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+
+let straussSalome = Composition(id: 56, composer: rStrauss, name: "Salome", date: "1905", era: "Late Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 267, description: "Excerpt 1", avgTempo: "", measures: "Dance of the Seven Veils: [f] to 3 mm. after [k]", pictures: [["Trombone 1", "1762"], ["Trombone 2", "1763"], ["Trombone 3", "1764"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+
+let straussEulenspiegel = Composition(id: 57, composer: rStrauss, name: "Till Eulenspiegel's Merry Pranks", date: "1895", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 268, description: "Excerpt 1", avgTempo: "", measures: "2 mm. before [3] to 5 mm. after [4]", pictures: [["Trombone 1", "1765"]]),
+    Excerpt(id: 269, description: "Excerpt 2", avgTempo: "", measures: "2 mm. after [18] to 6 mm. before [20]", pictures: [["Trombone 1", "1766"], ["Trombone 2", "1767"], ["Trombone 3", "1768"]]),
+    Excerpt(id: 270, description: "Excerpt 3", avgTempo: "", measures: "[31] to [32]", pictures: [["Trombone 1", "1769"], ["Trombone 2", "1770"], ["Trombone 3", "1771"]]),
+    Excerpt(id: 271, description: "Excerpt 4", avgTempo: "", measures: "4 mm. before [36] to 4 mm. before [38]", pictures: [["Trombone 1", "1772"], ["Trombone 2", "1773"], ["Trombone 3", "1774"]])
+], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: <#T##[[String]]#>)
+
 
 
 
@@ -576,7 +604,7 @@ let pictures = [["Trombone 1", ""], ["Trombone 2", ""], ["Trombone 3", ""]]
 
 class TromboneContentModel: ObservableObject {
     var excerpts: [Composition] = [
-        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, mussorgskyPictures, ravelBolero, ravelDaphnis, ravelValse, ravelLEnfant, respighiFountains, rimskyKorsakovCapriccio, rimskyKorsakovGolden, rimskyKorsakovRussianEaster, rimskyKorsakovScheherazade, rossiniLaGazza, rossiniWilliamTell, saintSaens3, schubert8, schubert9, schumann1, schumann2, schumann3, schumann4, smetanaBarteredBride, straussAlpine, straussAlsoSprach, straussBourgeois, straussDeathAndTransfiguration
+        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, mussorgskyPictures, ravelBolero, ravelDaphnis, ravelValse, ravelLEnfant, respighiFountains, rimskyKorsakovCapriccio, rimskyKorsakovGolden, rimskyKorsakovRussianEaster, rimskyKorsakovScheherazade, rossiniLaGazza, rossiniWilliamTell, saintSaens3, schubert8, schubert9, schumann1, schumann2, schumann3, schumann4, smetanaBarteredBride, straussAlpine, straussAlsoSprach, straussBourgeois, straussDeathAndTransfiguration, straussDonJuan, straussHeldenleben, straussSalome, straussEulenspiegel
     ]
     
     var composers: [Composer] = [
