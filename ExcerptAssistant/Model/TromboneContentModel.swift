@@ -982,7 +982,13 @@ let wagnerRheingold = Composition(id: 65, composer: "Richard Wagner", composerLa
     Excerpt(id: 311, description: "Excerpt 3", avgTempo: "", measures: "Scene 2, [modulation to C] to [7 mm. after modulation]", pictures: [["Trombone 1", "1892"], ["Trombone 2", "1893"], ["Trombone 3", "1894"], ["Trombone 4", "1895"]]),
     Excerpt(id: 312, description: "Excerpt 4", avgTempo: "", measures: "Scene 4, 21 mm. before End to End", pictures: [["Trombone 1", "1896"], ["Trombone 2", "1897"], ["Trombone 3", "1898"], ["Trombone 4", "1899"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["", ""]
+    ["Herbert von Karajan", "dBi0YXM3zmI"],
+    ["Pierre Boulez", "3ZP-yXsNV2E"],
+    ["Georg Solti, Vienna Philharmonic Orchestra (With Score)", "VsR11uFzBJg"],
+    ["Zubin Mehta, Valencian Community Orchestra", "XgX14XYfYxQ"],
+    ["Sir Simon Rattle, Orchestra of the Age of Enlightenment", "CUFWNKFajjA"],
+    ["China National Opera House", "9d-3nqzKTKU"],
+    ["Georg Solti, Vienna Philharmonic Orchestra (With Score)", "loTqK2Fyrrw"]
 ])
 
 let wagnerFlying = Composition(id: 66, composer: "Richard Wagner", composerLast: "Wagner", name: "The Flying Dutchman", date: "1843", era: "Late Romantic", genre: "Opera", excerpts: [
@@ -991,14 +997,24 @@ let wagnerFlying = Composition(id: 66, composer: "Richard Wagner", composerLast:
     Excerpt(id: 315, description: "Excerpt 3", avgTempo: "", measures: "Overture, [G] to 1 mm. before [H]", pictures: [["Trombone 1", "1906"], ["Trombone 2", "1907"], ["Trombone 3", "1908"]]),
     Excerpt(id: 316, description: "Excerpt 4", avgTempo: "", measures: "Overture, 41 mm. before End to End", pictures: [["Trombone 1", "1909"], ["Trombone 2", "1910"], ["Trombone 3", "1911"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["", ""]
+    ["Joseph Keilberth, Bayreuth Festival Orchestra (With Score)", "HI3CS0xfico"],
+    ["Andris Nelsons, Orchestra of the Royal Opera House", "EW1yXBl_aQA"],
+    ["Marek Janowski, Frankfurt Radio Symphony", "Ezqen5-UxlQ"],
+    ["Franz Konwitschny, Staatskapelle Berlin", "CvIIajk4M2k"],
+    ["Antal Dorati, Orchestra of the Royal Opera House", "cum3HoVhMIs"],
+    ["Christian Thielemann, Bayreuther Festspiele", "mFqX_oZPL6g"],
+    ["Georg Solti", "_qhNF1R6AYk"]
 ])
 
 let wagnerValyrie = Composition(id: 67, composer: "Richard Wagner", composerLast: "Wagner", name: "Die Walküre", date: "1870", era: "Late Romantic", genre: "Music Drama", excerpts: [
     Excerpt(id: 317, description: "Excerpt 1", avgTempo: "", measures: "", pictures: [["Trombone 1", "1912"], ["Trombone 2", "1913"], ["Trombone 3", "1914"]]),
     Excerpt(id: 318, description: "Excerpt 2", avgTempo: "", measures: "8 mm. before [11] to [12]", pictures: [["Trombone 1", "1915"], ["Trombone 2", "1916"], ["Trombone 3", "1917"]]),
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["", ""]
+    ["Georg Solti, Vienna Philharmonic Orchestra (With Score)", "Qx55EmiFadg"],
+    ["Adam Fischer, Vienna State Opera", "NMTc4t6RHmw"],
+    ["Marek Janowski, Bayreuth Festival Orchestra", "80KUzCA71tg"],
+    ["Herbert von Karajan,  Berlin Philharmonic", "w8v6rlasLyw"],
+    ["Zubin Mehta, Valencian Community Orchestra", "_C-0hH5G8MU"]
 ])
 
 let wagnerLohengrin = Composition(id: 68, composer: "Richard Wagner", composerLast: "Wagner", name: "Lohengrin", date: "1850", era: "Late Romantic", genre: "Opera", excerpts: [
@@ -1008,14 +1024,21 @@ let wagnerLohengrin = Composition(id: 68, composer: "Richard Wagner", composerLa
     Excerpt(id: 322, description: "Excerpt 4", avgTempo: "", measures: "Act III, Scene 3, [47] to 4 mm. before [49]", pictures: [["Trombone 1", "1927"], ["Trombone 2", "1928"], ["Trombone 3", "1929"]]),
     Excerpt(id: 323, description: "Excerpt 5", avgTempo: "", measures: "Act III, Scene 3, [62] to 17 mm. after [62]", pictures: [["Trombone 1", "1930"], ["Trombone 2", "1931"], ["Trombone 3", "1932"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["", ""]
+    ["Silvio Varviso, Bayreuth Festival Orchestra and Chorus", "_ReY89_fM0g"],
+    ["Georg Solti, Vienna Philharmonic Orchestra", "zUrXqwmf3ZU"],
+    ["Andris Nelsons, Bayreuth Festival", "VXwSV0sjYzg"],
+    ["Daniel Barenboim, Orchestra of the Milan Scala", "kSzkYafY0pM"]
 ])
 
 let wagnerTannhauser = Composition(id: 69, composer: "Richard Wagner", composerLast: "Wagner", name: "Tannhäuser", date: "1845", era: "Late Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 324, description: "Excerpt 1", avgTempo: "", measures: "Overture, [A] to 27 mm. before [B]", pictures: [["Trombone 1", "1933"], ["Trombone 2", "1934"], ["Trombone 3", "1935"]]),
     Excerpt(id: 325, description: "Excerpt 2", avgTempo: "", measures: "Overture, 1 mm. before [M] to End", pictures: [["Trombone 1", "1936"], ["Trombone 2", "1937"], ["Trombone 3", "1938"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["", ""]
+    ["Daniel Barenboim", "Ozp8CbktEwQ"],
+    ["Wolfgang Sawallisch, Bayreuth Festival Orchestra & Choir (With Score)", "LyZlLsBWwbo"],
+    ["Klaus Tennstedt, Berliner Philharmoniker", "AWIjohOIYNc"],
+    ["Christian Thielemann, Münchner Philharmoniker", "KTM7E4-DN0o"],
+    ["Zubin Mehta, New York Philharmonic Orchestra (With Score)", "3_Eq9H4bSdQ"]
 ])
 
 //********************************************************//
