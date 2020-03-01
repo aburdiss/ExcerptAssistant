@@ -109,7 +109,7 @@ let berliozRomanCarnival = Composition(id: 5, composer: "Hector Berlioz", compos
     ["YouTube Symphony Orchestra", "uYqItMmwwKE"],
     ["Jukka Pekka Saraste, WDR Sinfonieorchester Köln", "g4qZrpGI-fk"],
     ["Charles Dutoit, Orchestre symphonique de Montréal", "LK8mdW0LF6I"],
-    ["Myung-Whun Chung, The Orchestre Philharmonique de Radio France", "0nJUSHqSaV8"],
+    ["정명훈 (Chung Myung-Whun), The Orchestre Philharmonique de Radio France", "0nJUSHqSaV8"],
     ["\"The President's Own\" U.S. Marine Band", "8GVLupxK9fI"],
     ["Major Larry H. Lang, US Air Force Heritage of America Band", "OifAYPuJHsE"]
 ])
@@ -128,7 +128,7 @@ let berliozSymphonie = Composition(id: 7, composer: "Hector Berlioz", composerLa
 ], mutes: "", commonDifficulties: "Range, Potential Alto Trombone", professionalAdvice: "\"Originally written for the alto trombone, the Symphonie Fantastique is better played on the tenor today. Most conductors demand a wider dynamic range than is possible from the alto. In Berlioz, strive for a ringing brilliant sound.\" -Ralph Sauer", videos: [
     ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc?t=284"],
     ["Leopold Stokowski, New Philharmonia Orchestra", "ewoAW-Zyuj8"],
-    ["Myung-Whun Chung", "5HgqPpjIH5c"],
+    ["정명훈 (Chung Myung-Whun)", "5HgqPpjIH5c"],
     ["Sir Colin Davis, London Symphony Orchestra", "HSsxoPcUaaQ"],
     ["Southeast Trombone Symposium", "oYSnGq5wNxU"],
     ["Joseph Alessi", "Mm8lPg8O0vw"]
@@ -179,7 +179,7 @@ let brahms4 = Composition(id: 13, composer: "Johannes Brahms", composerLast: "Br
     Excerpt(id: 25, description: "Excerpt 1", avgTempo: "", measures: "Mov. IV, [E] to 23 after [E]", pictures: [["Trombone 1", "1070"], ["Trombone 2", "1071"], ["Trombone 3", "1072"]])
 ], mutes: "", commonDifficulties: "Dynamics, Intonation", professionalAdvice: "Brahms also intended his first trombone parts to be played on the alto trombone. In the United States, the alto has not been a requirement on auditions, however it is being used more and more by today's players. As in the Schumann, strive for a clear, bright fortissimo that is not too loud. Attacks can be slightly more Marcato than Schubert, but not as aggressive as Mahler or Bartok.\" -Ralph Sauer", videos: [
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "o69YVL_XKJo"],
-    ["Myung-Whun Chung, The Orchestre Philharmonique de Radio France", "G8R7T0R4NC0"]
+    ["정명훈 (Chung Myung-Whun), The Orchestre Philharmonique de Radio France", "G8R7T0R4NC0"]
 ])
 
 let brahmsAcademic = Composition(id: 14, composer: "Johannes Brahms", composerLast: "Brahms", name: "Academic Festival Overture", date: "1880", era: "Romantic", genre: "Overture", excerpts: [
@@ -468,7 +468,7 @@ let ravelDaphnis = Composition(id: 32, composer: "Maurice Ravel", composerLast: 
 let ravelValse = Composition(id: 33, composer: "Maurice Ravel", composerLast: "Ravel", name: "La Valse", date: "1920", era: "Modern", genre: "Orchestral Poem", excerpts: [
     Excerpt(id: 168, description: "Excerpt 1", avgTempo: "", measures: "3 mm. before [62] to [66]", pictures: [["Trombones 1 and 2", "1483"], ["Trombone 3", "1484"]]),
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Myung-Whun Chung, Orchestre Philharmonique de Radio France", "TMSgWhIENSk"],
+    ["정명훈 (Chung Myung-Whun), Orchestre Philharmonique de Radio France", "TMSgWhIENSk"],
     ["Charles Munch, Boston Symphony Orchestra", "YDk2RUaoEJQ"],
     ["Leonard Bernstein, Orchestre National de France", "Fg2i2NB-i3o"],
     ["Pablo Heras-Casado, Frankfurt Radio Symphony", "UlMJ6Ri-LMM"]
@@ -864,7 +864,11 @@ let stravinskyFirebird = Composition(id: 58, composer: "Igor Stravinsky", compos
     Excerpt(id: 273, description: "Excerpt 2", avgTempo: "", measures: "Danse Infernale du Roi Kastchei: [10] to 4 mm. before [14]", pictures: [["Trombone 1", "1778"], ["Trombone 2", "1779"], ["Trombone 3", "1780"]]),
     Excerpt(id: 274, description: "Excerpt 3", avgTempo: "", measures: "Finale: [17] to End", pictures: [["Trombone 1", "1781"], ["Trombone 2", "1782"], ["Trombone 3", "1783"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["", ""]
+    ["Valery Gergiev, Vienna Philharmonic", "RZkIAVGlfWk"],
+    ["Pierre Boulez, Chicago Symphony Orchestra (With Score)", "MHmk7yccvws"],
+    ["정명훈 (Chung Myung-Whun), Orchestre de l'Opera Bastille (With Score)", "6wbkKWrUD-A"],
+    ["Peter Oundjian, Toronto Symphony Orchestra", "pHxstiIybz4"],
+    ["Igor Stravinsky, New York Philharmonic", "IrMGqAmjbug"]
 ])
 
 let tchaikovsky4 = Composition(id: 59, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 4", date: "1878", era: "Romantic", genre: "Symphony", excerpts: [
@@ -873,7 +877,12 @@ let tchaikovsky4 = Composition(id: 59, composer: "Pyotr Ilyich Tchaikovsky", com
     Excerpt(id: 277, description: "Excerpt 3", avgTempo: "", measures: "Mov. IV, mm. 38 - [B]", pictures: [["Trombone 1", "1790"], ["Trombone 2", "1791"], ["Trombone 3", "1792"]]),
     Excerpt(id: 278, description: "Excerpt 4", avgTempo: "", measures: "Mov. IV, [H] to End", pictures: [["Trombone 1", "1793"], ["Trombone 2", "1794"], ["Trombone 3", "1795"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["", ""]
+    ["Leonard Bernstein, New York Philharmonic", "4d1Me2gRZIQ"],
+    ["Claudio Abbado, Chicago Symphony Orchestra", "XxvTGgoStcY"],
+    ["Carlos Miguel Prieto, Frankfurt Radio Symphony", "Y7G5ithbFys"],
+    ["Gennady Rozhdestvensky, USSR State TV and Radio Symphony Orchestra (With Score)", "_Xldfaf4NGw"],
+    ["Christian Lindberg, The Arctic Philharmonic Orchestra", "ieYFdj1wI_M"],
+    ["Herbert Von Karajan, Vienna Philharmonic Orchestra", "cnXd4ZqN_c8"]
 ])
 
 let tchaikovsky5 = Composition(id: 60, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 5", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
@@ -890,7 +899,14 @@ let tchaikovsky5 = Composition(id: 60, composer: "Pyotr Ilyich Tchaikovsky", com
     Excerpt(id: 289, description: "Excerpt 11", avgTempo: "", measures: "Mov. IV, [X] to [Molto Vivace]", pictures: [["Trombone 1", "1826"], ["Trombone 2", "1827"], ["Trombone 3", "1828"]]),
     Excerpt(id: 290, description: "Excerpt 12", avgTempo: "", measures: "Mov. IV, [Aa] to End", pictures: [["Trombone 1", "1829"], ["Trombone 2", "1830"], ["Trombone 3", "1831"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["", ""]
+    ["Leonard Bernstein, Boston Symphony Orchestra", "w2JBT0HC98I"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "NeNeQrUXymg"],
+    ["Manfred Honeck, Frankfurt Radio Symphony", "a_B02BZp-5Y"],
+    ["Leonard Bernstein, New York Philharmonic Orchestra (With Score)", "4_PSjr47AUo"],
+    ["Elim Chan, Netherlands Philharmonic Orchestra", "xFf5GA2UpMs"],
+    ["Vasily Petrenko, The Oslo Philharmonic", "JUk0WZVCnk4"],
+    ["Valery Gergiev, Mariinsky Orchestra", "nmMLFvjkcEs"],
+    ["Emmanuel Krivine, Orchestre National de France", "Z1hFlRVB7DI"]
 ])
 
 let tchaikovsky6 = Composition(id: 61, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 6", date: "1893", era: "Romantic", genre: "Symphony", excerpts: [
@@ -904,7 +920,14 @@ let tchaikovsky6 = Composition(id: 61, composer: "Pyotr Ilyich Tchaikovsky", com
     Excerpt(id: 298, description: "Excerpt 8", avgTempo: "", measures: "Mov. IV, 4 mm. before [D] to 5 mm. after [D]", pictures: [["Trombone 1", "1853"], ["Trombone 2", "1854"]]),
     Excerpt(id: 299, description: "Excerpt 9", avgTempo: "", measures: "Mov. IV, [L] to 3 mm. before [N]", pictures: [["Trombone 1", "1855"], ["Trombone 2", "1856"], ["Trombone 3", "1857"]]),
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["", ""]
+    ["정명훈 (Chung Myung-Whun), Seoul Philharmonic Orchestra", "IH-zp9LjiEs"],
+    ["Georg Solti", "V4qLtjCXxkg"],
+    ["Valery Gergiev, Mariinsky Theatre Orchestra (With Score)", "8VswsTffasc"],
+    ["Herbert von Karajan, Wiener Philharmonic", "KvGC8hZC29U"],
+    ["Herbert von Karajan, Vienna Philharmonic Orchestra", "-qgo1KFj0do"],
+    ["Claudio Abbado, Orquesta Sinfónica Simón Bolívar", "zIJiPlbJjs8"],
+    ["Lionel Bringuier, Frankfurt Radio Symphony Orchestra", "SVnF3x44rvU"],
+    ["Daniele Gatti, The Orchestre National de France", "NfusWGFWMq8"]
 ])
 
 let tchaikovskyFrancesca = Composition(id: 62, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Francesca da Rimini", date: "1876", era: "Romantic", genre: "Symphonic Poem", excerpts: [
@@ -913,7 +936,12 @@ let tchaikovskyFrancesca = Composition(id: 62, composer: "Pyotr Ilyich Tchaikovs
     Excerpt(id: 302, description: "Excerpt 3", avgTempo: "", measures: "[S] to 14 mm. after [S]", pictures: [["Trombone 1", "1863"], ["Trombone 2", "1864"], ["Trombone 3", "1865"]]),
     Excerpt(id: 303, description: "Excerpt 4", avgTempo: "", measures: "[U] to 8 mm. after [X]", pictures: [["Trombone 1", "1866"], ["Trombone 2", "1867"], ["Trombone 3", "1868"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["", ""]
+    ["Igor Manasherov, Moscow Philharmonic Orchestra", "xBX9rFDZ0UQ"],
+    ["Semyon Bychkov, Royal Academy of Music Symphony Orchestra", "FmKymqHg4ak"],
+    ["Veronika Dudarova, Symphony Orchestra of Russia (With Score)", "2amnA_rVrRE"],
+    ["Gustavo Dudamel, Simón Bolívar Symphony Orchestra of Venezuela", "AZ-h6ZblWL4"],
+    ["Daniel Barenboim, Chicago Symphony Orchestra", "cZCYrQ4MUk8"],
+    ["Yevgeny Mravinsky, Leningrad Philharmonic Orchestra", "xgNTwk9gQho"]
 ])
 
 let verdiForza = Composition(id: 63, composer: "Giuseppe Verdi", composerLast: "Verdi", name: "La forza del destino", date: "1862", era: "Romantic", genre: "Opera", excerpts: [
@@ -922,13 +950,30 @@ let verdiForza = Composition(id: 63, composer: "Giuseppe Verdi", composerLast: "
     Excerpt(id: 306, description: "Excerpt 3", avgTempo: "", measures: "[H] to [L]", pictures: [["Trombone 1", "1875"], ["Trombone 2", "1876"], ["Trombone 3", "1877"]]),
     Excerpt(id: 307, description: "Excerpt 4", avgTempo: "", measures: "8 mm. after [P] to End", pictures: [["Trombone 1", "1878"], ["Trombone 2", "1879"], ["Trombone 3", "1880"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["", ""]
+    ["Valery Gergiev, Mariinsky Theatre Orchestra", "GHk1RmPzA5E"],
+    ["Giuseppe Sinopoli, Vienna Philharmonic Orchestra (With Score)", "8lBI2wu4OIc"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "AUuJxE-iWbo"],
+    ["Vassil Stefanov, Sofia Symphony Orchestra", "QlfexKwKaMg"],
+    ["Arturo Toscanini, NBC Symphony Orchestra", "9JQvyg3kJ54"],
+    ["张弦 (Xian Zhang), Orchestra Sinfonica di Milano", "CkPOVYg4Bxc"],
+    ["Richard Divall, Orchestra Victoria", "-QxEAX43wL0"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "HzJk_vwABKg"],
+    ["Claudio Abbado, Berliner Philharmoniker", "DPAiznpUjwc"],
+    ["Antony Hermus, The Radio Philharmonic Orchestra", "NOeIPxKHp-Q"],
+    ["Riccardo Chailly, Rundfunk-Sinfonieorchester Berlin", "lqI8z0FdBhM"]
 ])
 
 let verdiNabucco = Composition(id: 64, composer: "Giuseppe Verdi", composerLast: "Verdi", name: "Nabucco", date: "1842", era: "Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 308, description: "Excerpt 1", avgTempo: "", measures: "Overture, mm. 1 to mm. 16", pictures: [["Trombone 1", "1881"], ["Trombone 2", "1882"], ["Trombone 3", "1883"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["", ""]
+    ["Marco Armiliato, Orchestra of the Deutsche Oper Berlin", "jGhd5kGM7dk"],
+    ["James Levine, Metropolitan opera", "Lb_jWkv8uxY"],
+    ["Giuseppe Sinopoli, Vienna Philharmonic Orchestra", "3RNBiC7q_nY"],
+    ["Oliver Dohnanyi, Slovak Radio Symphony Orchestra", "LLRBPZs-zBg"],
+    ["Pier Giorgio Morandi, Hungarian State Opera Orchestra", "eenFoCy-I78"],
+    ["Zygmunt Nitkiewicz, Orchestra Of The Józef Marcin Żebrowski Music School", "OseGETWEnCo"],
+    ["Claudio Abbado, London Symphony Orchestra", "Vvyjv7Ufc7w"],
+    ["Claudio Abbado, Berliner Philharmoniker", "maaKrLc6QlYdxz"]
 ])
 
 let wagnerRheingold = Composition(id: 65, composer: "Richard Wagner", composerLast: "Wagner", name: "Das Rheingold", date: "1854", era: "Late Romantic", genre: "Music Drama", excerpts: [
