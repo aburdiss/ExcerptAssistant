@@ -91,11 +91,11 @@ struct CompositionDetailView: View {
                         }
                     }
                 }
-                Text("Professional Advice")
-                    .padding()
-                    .font(.headline)
-                Text(self.composition.professionalAdvice)
-                    .padding(.horizontal)
+//                Text("Professional Advice")
+//                    .padding()
+//                    .font(.headline)
+//                Text(self.composition.professionalAdvice)
+//                    .padding(.horizontal)
             }
             .padding()
         }

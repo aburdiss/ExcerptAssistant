@@ -55,11 +55,11 @@ struct SettingsView: View {
                     .padding()
             }
             .navigationBarTitle("More")
-            .navigationBarItems(trailing:
-            NavigationLink(destination: SourcesView()) {
-                Text("Citations")
-            }
-        )
+//            .navigationBarItems(trailing:
+//            NavigationLink(destination: SourcesView()) {
+//                Text("Citations")
+//            }
+//        )
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }

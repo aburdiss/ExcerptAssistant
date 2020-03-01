@@ -60,7 +60,12 @@ let bachCelloSuite = Composition(id: 0, composer: "Johann Sebastian Bach", compo
     Excerpt(id: 0, description: "Sarabande", avgTempo: "72bpm", measures: "1-20 (All)", pictures: [["", "1000"]])
 ], mutes: "No", commonDifficulties: "smooth leaps, breathing", professionalAdvice: "\"As to tempo, we are left to find a comfortable tempo that communicates the gravity of the music without becoming glacial and static. Many trombonists play the Sarabande as if it was in six rather than three – such weighting of each note results in a dull, ponderous performance that is impossible to sustain musically. A tempo of quarter note = 50 is typical of that taken by many of the world’s great cello players and allows us to maintain forward motion without hurrying.\n\nKeep in mind that every measure contains a five note theme; the sixth note in several bars serves simply as a reinforcement of the cadence, a melodic movement to the key of the downbeat of the next bar, or resolution of a fifth note passing tone.\n\nBars 16-19 require a decision by the performer: whether or not to phrase over the bar lines. Many players (including myself in my 2001 version of this movement that was first posted on my website) have phrased over the bar line, making the sixth note a pickup to the next bar. But over time, I have become persuaded – as the earliest manuscripts of the Suites support – that playing all six notes in those bars as a phrase rather than giving each bar a five note theme with a pickup to the next bar makes the most cogent musical sense.\" -Douglas Yeo", videos: [
     ["Christian Jones", "jO9BGyQveRY"],
-    ["Pablo Casals", "XEN-Xhx8aDA"]
+    ["Pablo Casals", "XEN-Xhx8aDA"],
+    ["Yo-Yo Ma", "d6vZx24Whjo"],
+    ["Mischa Maisky", "oBFrEJK7oAg"],
+    ["Rostropovich", "gOk5Qtian1w"],
+    ["Pierre Fournier", "UJKByFsa8Fc"],
+    ["Inbal Segev Masterclass", "gfPqOmp9p-0"]
 ])
 
 let beethoven5 = Composition(id: 1, composer: "Ludwig Van Beethoven", composerLast: "Beethoven", name: "Symphony No. 5", date: "1808", era: "Classical", genre: "Symphony", excerpts: [
@@ -98,7 +103,9 @@ let berliozFaust = Composition(id: 4, composer: "Hector Berlioz", composerLast: 
     ["Georg Szell, Cleveland Orchestra", "4hLcKfe-L_Y"],
     ["Antal Doráti, Royal Concertgebouw Orchestra", "qfIspYcnpeY"],
     ["Igor Markevitch, Orchester Lamoureux", "Ws_YvHfG1yQ"],
+    
     ["Col. John R. Bourgeois, \"The President's Own\" Marine Band", "LkSbzdvKClM"],
+    
     ["Southeast Trombone Symposium", "TBwYSOIscw0"]
 ])
 
@@ -130,6 +137,7 @@ let berliozSymphonie = Composition(id: 7, composer: "Hector Berlioz", composerLa
     ["Leopold Stokowski, New Philharmonia Orchestra", "ewoAW-Zyuj8"],
     ["정명훈 (Chung Myung-Whun)", "5HgqPpjIH5c"],
     ["Sir Colin Davis, London Symphony Orchestra", "HSsxoPcUaaQ"],
+    
     ["Southeast Trombone Symposium", "oYSnGq5wNxU"],
     ["Joseph Alessi", "Mm8lPg8O0vw"]
 ])
@@ -164,7 +172,9 @@ let brahms2 = Composition(id: 11, composer: "Johannes Brahms", composerLast: "Br
 ], mutes: "", commonDifficulties: "Range, Potential Alto Trombone, Tempo", professionalAdvice: "Brahms also intended his first trombone parts to be played on the alto trombone. In the United States, the alto has not been a requirement on auditions, however it is being used more and more by today's players. As in the Schumann, strive for a clear, bright fortissimo that is not too loud. Attacks can be slightly more Marcato than Schubert, but not as aggressive as Mahler or Bartok.\" -Ralph Sauer", videos: [
     ["Leonard Bernstein, Wiener Philharmoniker", "6nKd-ia7_Lc"],
     ["Herbert von Karajan, Berlin Philarmonic Orchestra", "nX3RX3A3CbI"],
-    ["Carlos Kleiber, Wiener Philharmoniker", "HCkSpCh4Wcw"]
+    ["Carlos Kleiber, Wiener Philharmoniker", "HCkSpCh4Wcw"],
+    
+    ["NDR Elbphilharmonie Orchestra Trombones", "xIM-R4zWO9w"]
 ])
 
 let brahms3 = Composition(id: 12, composer: "Johannes Brahms", composerLast: "Brahms", name: "Symphony No. 3", date: "1883", era: "Romantic", genre: "Symphony", excerpts: [
@@ -246,7 +256,10 @@ let bruckner8 = Composition(id: 18, composer: "Anton Bruckner", composerLast: "B
     ["Sergiu Celibidache, Münchner Philharmoniker", "elVHvTrEM34"],
     ["Pierre Boulez, Vienna Philharmonic Orchestra", "ufqC1LCpHV4"],
     ["Herbert von Karajan, Vienna Philharmonic Orchestra", "sJf3KmAg08"],
-    ["Carlo Maria Giulini, Vienna Philharmonic Orchestra", "xT5kreOhjxU"]
+    ["Carlo Maria Giulini, Vienna Philharmonic Orchestra", "xT5kreOhjxU"],
+    
+    ["Southeast Trombone Symposium", "5fj7eri3NNY"],
+    [" London Philharmonic Orchestra Trombones", "kQEKd0qA-XE"]
 ])
 
 let bruckner9 = Composition(id: 19, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 9", date: "1887", era: "Romantic", genre: "Symphony", excerpts: [
@@ -361,7 +374,14 @@ let mahler2 = Composition(id: 25, composer: "Gustav Mahler", composerLast: "Mahl
     Excerpt(id: 121, description: "Excerpt 18", avgTempo: "", measures: "Mov. V, 2 mm. before [37] to 5 mm. before [39]", pictures: [["Trombone 1", "1361"], ["Trombone 2", "1362"], ["Trombone 3", "1363"], ["Trombone 4", "1364"]]),
     Excerpt(id: 122, description: "Excerpt 19", avgTempo: "", measures: "Mov. V, 1 mm. before [42] to [43]", pictures: [["Trombone 1", "1365"], ["Trombone 2", "1366"], ["Trombone 3", "1367"], ["Trombone 4", "1368"]]),
     Excerpt(id: 123, description: "Excerpt 20", avgTempo: "", measures: "Mov. V, [48] to End", pictures: [["Trombone 1", "1369"], ["Trombone 2", "1370"], ["Trombone 3", "1371"], ["Trombone 4", "1372"]])
-], mutes: "Yes", commonDifficulties: "", professionalAdvice: "", videos: [["Mariss Jansons, Royal Concertgebouw Orchestra", "sHsFIv8VA7w"], ["Leonard Bernstein, London Symphony Orchestra", "edA9Zard3-U"], ["Gustavo Dudamel, Simón Bolívar Symphony Orchestra of Venezuela", "rKrsEbjXYX8"]])
+], mutes: "Yes", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Mariss Jansons, Royal Concertgebouw Orchestra", "sHsFIv8VA7w"],
+    ["Leonard Bernstein, London Symphony Orchestra", "edA9Zard3-U"],
+    ["Gustavo Dudamel, Simón Bolívar Symphony Orchestra of Venezuela", "rKrsEbjXYX8"],
+
+    ["Southeast Trombone Symposium", "IQgPSZq1bzs"],
+    ["New York Philharmonic Trombones", "jpngMjN6fmQ"]
+])
 
 let mahler3 = Composition(id: 26, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 3", date: "1896", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 124, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, [13] to [17]", pictures: [["Trombone 1", "1373"], ["Trombone 2", "1374"], ["Trombone 3", "1375"], ["Trombone 4", "1376"]]),
@@ -369,7 +389,9 @@ let mahler3 = Composition(id: 26, composer: "Gustav Mahler", composerLast: "Mahl
     Excerpt(id: 126, description: "Excerpt 3", avgTempo: "", measures: "Mov. I, 1 mm. before [58] to 5 mm. before [62]", pictures: [["Trombone 1", "1378"]])
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
     [" Leonard Bernstein, Vienna Philharmonic Orchestra", "1AwFutIcnrU"],
-    ["Semyon Bychkov, WDR Sinfonie-Orchester Koln", "pRhQhUtOpPI"]
+    ["Semyon Bychkov, WDR Sinfonie-Orchester Koln", "pRhQhUtOpPI"],
+    
+    ["Dietmar Küblböck, Vienna Philharmonic Trombone Master Class", "rTpmWlGjjVU"]
 ])
 
 let mahler5 = Composition(id: 27, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 5", date: "1902", era: "Romantic", genre: "Symphony", excerpts: [
@@ -450,7 +472,11 @@ let ravelBolero = Composition(id: 31, composer: "Maurice Ravel", composerLast: "
     ["Gustavo Dudamel, Wiener Philharmoniker", "mhhkGyJ092E"],
     ["Valery Gergiev, London Symphony Orchestra", "ODeNHRtVNO4"],
     ["정명훈 (Chung Myung-Whun), Seoul Philharmonic Orchestra", "avhSABEy_i4"],
-    ["Sergiu Celibidache, The Danish National Radio Symphony Orchestra", "gy5Ve3338-E"]
+    ["Sergiu Celibidache, The Danish National Radio Symphony Orchestra", "gy5Ve3338-E"],
+    
+    ["Ian Bousfield", "wKHhzd05vZg"],
+    ["Joseph Alessi", "Va2emfJW6j4"],
+    ["Aleksey Lobikov", "d5SLpXOFStE"]
 ])
 
 let ravelDaphnis = Composition(id: 32, composer: "Maurice Ravel", composerLast: "Ravel", name: "Daphnis et Chloé", date: "1912", era: "Modern", genre: "Ballet", excerpts: [
@@ -482,7 +508,9 @@ let ravelLEnfant = Composition(id: 34, composer: "Maurice Ravel", composerLast: 
 ], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
     ["l'opéra de Lyon", "JbqySviU4YQ"],
     ["Kazushi Ono, London Philharmonic Orchestra", "TjWLxmquYCo"],
-    ["Ernest Bour, Maîtrise et Orchestre National de la Radiodiffusion Française", "gpXBOQFbnig"]
+    ["Ernest Bour, Maîtrise et Orchestre National de la Radiodiffusion Française", "gpXBOQFbnig"],
+    
+    ["Olaf Ott", "6pPK7yUTmGw"]
 ])
 
 let respighiFountains = Composition(id: 35, composer: "Ottorino Respighi", composerLast: "Respighi", name: "Fontane di Roma", date: "1916", era: "Modern", genre: "Symphonic Poem", excerpts: [
@@ -588,10 +616,14 @@ let rossiniWilliamTell = Composition(id: 41, composer: "Gioachino Rossini", comp
     ["Joni Swenson, Santa Monica High School Symphony Orchestra", "YIMJ1yfR19Y"],
     ["Gianluigi Gelmetti, Radio-Sinfonieorchester Stuttgart des SWR", "DVudBHoysXI"],
     ["Erich Kuenzel, Cincinnati Pops", "D5LVM_lIXqY"],
+    ["Colonel Jason K. Fettig, \"The President's Own\" United States Marine Band", "P0qau_1CNxY"],
     ["Colonel Michael J. Colburn, \"The President's Own\" United States Marine Band", "mZF4xHhPtRc"],
     ["Leonard Bernstein, New York Philharmonic Orchestra", "7uPuXoDHSM4"],
-    ["Col. Jason K. Fettig, \"The President's Own\" United States Marine Band", "P0qau_1CNxY"],
-    ["Georges Prêtre, Orchestra del Teatro La Fenice", "BGo2eiy0VcE"]
+    ["Georges Prêtre, Orchestra del Teatro La Fenice", "BGo2eiy0VcE"],
+    
+    ["Christian Jones (Bass Trombone)", "-VX-yxcT-gA"],
+    ["Denson Paul Pollard (Bass Trombone)", "PJPWwmgvs2w"],
+    ["Ben van Dijk (Bass Trombone)", "gZBASbkYR4c"]
 ])
 
 let saintSaens3 = Composition(id: 42, composer: "Camille Saint-Saëns", composerLast: "Saint-Saëns", name: "Symphony No. 3", date: "1886", era: "Romantic", genre: "Symphony", excerpts: [
@@ -1014,7 +1046,14 @@ let wagnerValyrie = Composition(id: 67, composer: "Richard Wagner", composerLast
     ["Adam Fischer, Vienna State Opera", "NMTc4t6RHmw"],
     ["Marek Janowski, Bayreuth Festival Orchestra", "80KUzCA71tg"],
     ["Herbert von Karajan,  Berlin Philharmonic", "w8v6rlasLyw"],
-    ["Zubin Mehta, Valencian Community Orchestra", "_C-0hH5G8MU"]
+    ["Zubin Mehta, Valencian Community Orchestra", "_C-0hH5G8MU"],
+    
+    ["Georgia Trombone Summit", "sC-BebXLtrA"],
+    ["Tim Buzbee, Jessica Buzbee, James Decker, and James Meador", "80o8Q6G_HDQ"],
+    ["Thomas Leyendecker, Carnegie Hall Trombone Master Class", "NRWlHRvaDcQ"],
+    ["Ian Bousfield, YouTube Symphony Orchestra", "0QXVKh34wVo"],
+    ["Christian Jones (Bass Trombone)", "opa8yNCIQ-g"],
+    ["Ben van Dijk (contra-basstrombone)", "94YEBjk8prY"]
 ])
 
 let wagnerLohengrin = Composition(id: 68, composer: "Richard Wagner", composerLast: "Wagner", name: "Lohengrin", date: "1850", era: "Late Romantic", genre: "Opera", excerpts: [
@@ -1154,10 +1193,6 @@ let verdi = Composer(id: 25, name: "Giuseppe Verdi", ipa: "dʒuˈzɛppe ˈverdi"
 let wagner = Composer(id: 26, name: "Richard Wagner", ipa: "ˈʁɪçaʁt ˈvaːɡnɐ", image: 2026, country: "Germany", dates: "1813-1883", bio: "Wagner is one of the most well known composers of all time. His music frequently appears in television shows and movies. He was most well known in his era for his operas, which usually run about four hours. Wagner was unusual as an opera composer because he himself wrote the liberetto for the operas he composed. Wagner had his own opera house constructed, which still stands to this day.", excerpts: [
     wagnerRheingold, wagnerFlying, wagnerValyrie, wagnerLohengrin
 ])
-
-
-
-
 
 
 class TromboneContentModel: ObservableObject {
