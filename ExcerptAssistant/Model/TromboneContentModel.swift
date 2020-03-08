@@ -60,12 +60,13 @@ let bachCelloSuite = Composition(id: 0, composer: "Johann Sebastian Bach", compo
     Excerpt(id: 0, description: "Sarabande", avgTempo: "72bpm", measures: "1-20 (All)", pictures: [["", "1000"]])
 ], mutes: "No", commonDifficulties: "smooth leaps, breathing", professionalAdvice: "\"As to tempo, we are left to find a comfortable tempo that communicates the gravity of the music without becoming glacial and static. Many trombonists play the Sarabande as if it was in six rather than three – such weighting of each note results in a dull, ponderous performance that is impossible to sustain musically. A tempo of quarter note = 50 is typical of that taken by many of the world’s great cello players and allows us to maintain forward motion without hurrying.\n\nKeep in mind that every measure contains a five note theme; the sixth note in several bars serves simply as a reinforcement of the cadence, a melodic movement to the key of the downbeat of the next bar, or resolution of a fifth note passing tone.\n\nBars 16-19 require a decision by the performer: whether or not to phrase over the bar lines. Many players (including myself in my 2001 version of this movement that was first posted on my website) have phrased over the bar line, making the sixth note a pickup to the next bar. But over time, I have become persuaded – as the earliest manuscripts of the Suites support – that playing all six notes in those bars as a phrase rather than giving each bar a five note theme with a pickup to the next bar makes the most cogent musical sense.\" -Douglas Yeo", videos: [
     ["Christian Jones", "jO9BGyQveRY"],
-    ["Pablo Casals", "XEN-Xhx8aDA"],
-    ["Yo-Yo Ma", "d6vZx24Whjo"],
     ["Mischa Maisky", "oBFrEJK7oAg"],
-    ["Rostropovich", "gOk5Qtian1w"],
+    ["Mstislav Rostropovich", "gOk5Qtian1w"],
+    ["Pablo Casals", "XEN-Xhx8aDA"],
     ["Pierre Fournier", "UJKByFsa8Fc"],
-    ["Inbal Segev Masterclass", "gfPqOmp9p-0"]
+    ["Yo-Yo Ma", "d6vZx24Whjo"],
+    // Masterclasses
+    ["Inbal Segev Masterclass", "gfPqOmp9p-0"],
 ])
 
 let beethoven5 = Composition(id: 1, composer: "Ludwig Van Beethoven", composerLast: "Beethoven", name: "Symphony No. 5", date: "1808", era: "Classical", genre: "Symphony", excerpts: [
@@ -74,79 +75,106 @@ let beethoven5 = Composition(id: 1, composer: "Ludwig Van Beethoven", composerLa
     Excerpt(id: 3, description: "Excerpt 2 (continued)", avgTempo: "", measures: "Mov. IV mm. 767 - End", pictures: [["Trombone 1", "1007"], ["Trombone 2", "1008"], ["Trombone 3", "1009"]])
 ], mutes: "No", commonDifficulties: "Range, Potential Alto Trombone", professionalAdvice: "\"Beethoven also wrote for the alto trombone and it should be used whenever possible, especially in the fifth symphony. The alto certainly makes the high range easier, but more importantly, we can achieve the right sound and blend. Strive for a projected brilliant tone. Don't be afraid to see how loud your alto can play in the proper places. Of course, this is the first known use of trombones in a symphony so I'm sure that the composer wanted them to be heard. If you must use the tenor, again consider using a smaller bore and a smaller mouthpiece to achieve brilliance without excessive volume.\" -Ralph Sauer", videos: [
     ["Bernard Haitink, London Symphony Orchestra", "DAyUzxDB9eE"],
+    ["Christian Thielemann, Vienna Philharmonic Orchestra", "olMPeiqoiic"],
+    ["Daniel Barenboim, West-Eastern Divan Orchestra", "jv2WJMVPQi8"],
+    ["Gustavo Dudamel", "msolhqi-PC0"],
+    ["Herbert von Karajan, Berlin Philharmonic (With Score)", "yKl4T5BnhOA"],
+    ["Herbert von Karajan, Philharmonia Orchestra", "OV6Lp7cnX7s"],
     ["Leonard Bernstein, Wiener Philharmoniker", "kHYBoG7hiZk"]
 ])
 
 let beethoven9 = Composition(id: 2, composer: "Ludwig Van Beethoven", composerLast: "Beethoven", name: "Symphony No. 9", date: "1824", era: "Classical", genre: "Symphony", excerpts: [
     Excerpt(id: 4, description: "Excerpt 1", avgTempo: "", measures: "Mov. IV mm. 595 - 626", pictures: [["Trombone 1", "1010"], ["Trombone 2", "1011"], ["Trombone 3", "1012"]])
 ], mutes: "No", commonDifficulties: "Range, Potential Alto Trombone", professionalAdvice: "\"The trombone section in this work has very clearly delineated roles, based on the particular context and dynamic. For example, the trombones have a purely accompanying role in the Scherzo, and in that movement, the span of the parts tends to be wider, hovering around tenths, twelfths, and even as wide as two octaves. In the ending of the Finale, the trombones have more of a tutti supporting role, and the intervals tend to be closer, including sixths, fifths, and even unisons. The chords are all in close position, with the final chords in a tight root position triad, which, as was discussed earlier, has excellent projection qualities.\" -Daniel R. Cloutier", videos: [
+    ["Arturo Toscanini, NBC Symphony Orchestra", "DuK133dK6eQ"],
+    ["정명훈 (Chung Myung-Whun), The Orchestre Philharmonique de Radio France", "KtRzuOSCOO0"],
     ["Daniel Barenboim, West-Eastern Divan Orchestra", "ChygZLpJDNE"],
+    ["Herbert von Karjan, Berlin Philharmonic (With Score)", "ixpfgm_xxSE"],
+    ["Klaus Mäkelä, Oslo Philharmonic", "QkQapdgAa7os"],
+    ["Osaka, Japan", "X6s6YKlTpfw"],
     ["Riccardo Muti, Chicago Symphony Orchestra", "rOjHhS5MtvA"],
+    ["Seiji Ozawa, Saito Kinen Orchestra", "VS6TEQ_z2wc"],
+    // Masterclasses
     ["Southeast Trombone Symposium", "Sd6es2t0eU4"]
 ])
 
 let beethovenFidelio = Composition(id: 3, composer: "Ludwig Van Beethoven", composerLast: "Beethoven", name: "Fidelio", date: "1805", era: "Classical", genre: "Opera", excerpts: [
     Excerpt(id: 5, description: "Overture", avgTempo: "", measures: "All", pictures: [["Trombone 1", "1013"], ["Trombone 2", "1014"]])
 ], mutes: "No", commonDifficulties: "Range, Potential Alto Trombone", professionalAdvice: "\"In Fidelio, the trombones never double the chorus and rarely act independently, with the exception of the dungeon scene. The trombones almost exclusively are simply two more voices in large tutti sections, especially when diminished chords are involved.\" -Daniel R. Coutier", videos: [
+    ["Claudio Abbado, Vienna Philharmonic Orchestra", "fq7g6du9S3s"],
+    ["Herbert Von Karajan, Berliner Philharmoniker", "1FB7z2ki2MQ"],
     ["James Levine, Metropolitan Opera Orchestra", "NA3bi_evCZk"],
-    ["Herbert Von Karajan, Berliner Philharmoniker", "1FB7z2ki2MQ"]])
+    ["강석희 (Kang Seok-Hee), 전주시립교향악단 (Jeonju Symphony Orchestra)", "ZkB9OgZvjSI"],
+    ["Leonard Bernstein, Vienna State Opera Orchestra (With Score)", "YI-CF_rOApI"],
+    ["Riccardo Muti, Philadelphia Orchestra", "JC_wGFGYkjs"]
+])
 
 let berliozFaust = Composition(id: 4, composer: "Hector Berlioz", composerLast: "Berlioz", name: "Damnation of Faust", date: "1846", era: "Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 6, description: "Excerpt 1", avgTempo: "96 bpm", measures: "Hungarian March, 11 mm. before [2] to 2 mm. after [2]", pictures: [["Trombone 1", "1015"], ["Trombone 2", "1016"], ["Trombone 3", "1017"]]),
     Excerpt(id: 7, description: "Excerpt 2", avgTempo: "96 bpm", measures: "Hungarian March, 6 mm. Before [4] to 2 mm. After [5]", pictures: [["Trombone 1", "1018"], ["Trombone 2", "1019"], ["Trombone 3", "1020"]]),
     Excerpt(id: 8, description: "Excerpt 3", avgTempo: "96 bpm", measures: "10 mm. before [6] to End", pictures: [["Trombone 1", "1021"], ["Trombone 2", "1022"], ["Trombone 3", "1023"]])
-], mutes: "", commonDifficulties: "Musical Style, Tempo, Intonation", professionalAdvice: "\"In the Berlioz Hungarian March, rhythm is extremely important: keep it steady. Play this excerpt a little bit louder at an audition to simulate an entire trombone section, however don't play the eighth notes too short. The passage will sound louder and fuller to the audience when the notes are broader. All things being equal, long notes will sound louder to the listener, so use this auditory phenomenon to your advantage whenever possible. Just detach the notes from each other avoid being dry and allow the dynamics to build to the climax of the section.\" -Ralph Sauer", videos: [
-    ["YouTube Symphony Orchestra", "fuqu_eNO51M"],
-    ["Georg Solti, Chicago Symphony Orchestra", "9l9xZdiwOSk"],
-    ["Leonard Bernstein, New York Philharmonic Orchestra", "c-YA9fhcJQc"],
-    ["Herbert von Karajan, Berliner Philharmoniker", "O32PuoBWKC0"],
-    ["Georg Szell, Cleveland Orchestra", "4hLcKfe-L_Y"],
+], mutes: "No", commonDifficulties: "Musical Style, Tempo, Intonation", professionalAdvice: "\"In the Berlioz Hungarian March, rhythm is extremely important: keep it steady. Play this excerpt a little bit louder at an audition to simulate an entire trombone section, however don't play the eighth notes too short. The passage will sound louder and fuller to the audience when the notes are broader. All things being equal, long notes will sound louder to the listener, so use this auditory phenomenon to your advantage whenever possible. Just detach the notes from each other avoid being dry and allow the dynamics to build to the climax of the section.\" -Ralph Sauer", videos: [
     ["Antal Doráti, Royal Concertgebouw Orchestra", "qfIspYcnpeY"],
+    ["Georg Solti, Chicago Symphony Orchestra", "9l9xZdiwOSk"],
+    ["George Szell, Cleveland Orchestra", "4hLcKfe-L_Y"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "O32PuoBWKC0"],
     ["Igor Markevitch, Orchester Lamoureux", "Ws_YvHfG1yQ"],
-    
+    ["Leonard Bernstein, New York Philharmonic Orchestra", "c-YA9fhcJQc"],
+    ["YouTube Symphony Orchestra", "fuqu_eNO51M"],
+    // Band
     ["Col. John R. Bourgeois, \"The President's Own\" Marine Band", "LkSbzdvKClM"],
-    
+    // Masterclasses
     ["Southeast Trombone Symposium", "TBwYSOIscw0"]
 ])
 
 let berliozRomanCarnival = Composition(id: 5, composer: "Hector Berlioz", composerLast: "Berlioz", name: "Le carnaval romain", date: "1844", era: "Romantic", genre: "Overture", excerpts: [
     Excerpt(id: 9, description: "Excerpt 1", avgTempo: "", measures: "15 mm. after [15] to 9 mm. before [19]", pictures: [["Trombone 1", "1024"], ["Trombone 2", "1025"], ["Trombone 3", "1026"]]),
     Excerpt(id: 10, description: "Excerpt 2", avgTempo: "", measures: ": 6 mm. after [19] to End", pictures: [["Trombone 1", "1027"], ["Trombone 2", "1028"], ["Trombone 3", "1029"]])
-], mutes: "", commonDifficulties: "Alto Clef, Musical Style", professionalAdvice: "", videos: [
-    ["YouTube Symphony Orchestra", "uYqItMmwwKE"],
-    ["Jukka Pekka Saraste, WDR Sinfonieorchester Köln", "g4qZrpGI-fk"],
+], mutes: "",
+   // TODO: Find mutes for here?
+   commonDifficulties: "Alto Clef, Musical Style", professionalAdvice: "", videos: [
     ["Charles Dutoit, Orchestre symphonique de Montréal", "LK8mdW0LF6I"],
     ["정명훈 (Chung Myung-Whun), The Orchestre Philharmonique de Radio France", "0nJUSHqSaV8"],
-    ["\"The President's Own\" U.S. Marine Band", "8GVLupxK9fI"],
-    ["Major Larry H. Lang, US Air Force Heritage of America Band", "OifAYPuJHsE"]
+    ["Jukka Pekka Saraste, WDR Sinfonieorchester Köln", "g4qZrpGI-fk"],
+    ["YouTube Symphony Orchestra", "uYqItMmwwKE"],
+    // Bands
+    ["Major Larry H. Lang, US Air Force Heritage of America Band", "OifAYPuJHsE"],
+    ["\"The President's Own\" U.S. Marine Band", "8GVLupxK9fI"]
 ])
 
 let berliozRomeoJuliet = Composition(id: 6, composer: "Hector Berlioz", composerLast: "Berlioz", name: "Roméo et Juliette", date: "1839", era: "Romantic", genre: "Symphonie Dramatique", excerpts: [
     Excerpt(id: 11, description: "Excerpt 1", avgTempo: "", measures: "14 mm. before [4] to 14 mm. after [5]", pictures: [["Trombone 1", "1030"], ["Trombone 2", "1031"], ["Trombone 3", "1032"]])
-], mutes: "", commonDifficulties: "Rhythm, Intonation", professionalAdvice: "", videos: [
+], mutes: "No", commonDifficulties: "Rhythm, Intonation", professionalAdvice: "", videos: [
     ["Arturo Toscanini, NBC Symphony Orchestra", "zzlpOh6-Z1A?t=96"],
-    ["Daniele Gatti, The Orchestre National de France", "zf7kGcB4VSQ"]
+    ["Carlo Maria Giulini, Koninklijk Concertgebouworkest", "O-FN6NwGwF8"],
+    ["Daniele Gatti, The Orchestre National de France", "zf7kGcB4VSQ"],
+    ["Sir Colin Davis, Wiener Philharmoniker", "A1JBdePepGo"],
+    ["Sir John Eliot Gardiner, Orchestra Révolutionnaire et Romantique", "6JADiAECnRQ"],
+    ["Stephan Tetzlaff, Simfonijski Orkestar i Zbor Hrvatske Radiotelevizije", "OoWf3Mpmm2s"]
 ])
 
 let berliozSymphonie = Composition(id: 7, composer: "Hector Berlioz", composerLast: "Berlioz", name: "Symphonie fantastique", date: "1830", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 12, description: "Excerpt 1", avgTempo: "", measures: "Mov. IV [56] to [57]", pictures: [["Trombone 1", "1033"], ["Trombone 2", "1034"], ["Trombone 3", "1035"]]),
     Excerpt(id: 13, description: "Excerpt 2", avgTempo: "", measures: "Mov V, [60] to [61], 11 mm. before [63] to [63]", pictures: [["Trombone 1", "1036"], ["Trombone 2", "1037"], ["Trombone 3", "1038"]]),
     Excerpt(id: 14, description: "Excerpt 3", avgTempo: "", measures: "5 mm. after [85] to end.", pictures: [["Trombone 1", "1039"], ["Trombone 2", "1040"], ["Trombone 3", "1041"]])
-], mutes: "", commonDifficulties: "Range, Potential Alto Trombone", professionalAdvice: "\"Originally written for the alto trombone, the Symphonie Fantastique is better played on the tenor today. Most conductors demand a wider dynamic range than is possible from the alto. In Berlioz, strive for a ringing brilliant sound.\" -Ralph Sauer", videos: [
-    ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc?t=284"],
-    ["Leopold Stokowski, New Philharmonia Orchestra", "ewoAW-Zyuj8"],
+], mutes: "No", commonDifficulties: "Range, Potential Alto Trombone", professionalAdvice: "\"Originally written for the alto trombone, the Symphonie Fantastique is better played on the tenor today. Most conductors demand a wider dynamic range than is possible from the alto. In Berlioz, strive for a ringing brilliant sound.\" -Ralph Sauer", videos: [
     ["정명훈 (Chung Myung-Whun)", "5HgqPpjIH5c"],
+    ["Leopold Stokowski, New Philharmonia Orchestra", "ewoAW-Zyuj8"],
+    ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc?t=284"],
     ["Sir Colin Davis, London Symphony Orchestra", "HSsxoPcUaaQ"],
-    
+    // Masterclasses
     ["Southeast Trombone Symposium", "oYSnGq5wNxU"],
     ["Joseph Alessi", "Mm8lPg8O0vw"]
 ])
 
 let bizetLArlesienne = Composition(id: 8, composer: "Georges Bizet", composerLast: "Bizet", name: "L'Arlésienne Suite #2 ", date: "1880", era: "Romantic", genre: "Incidental Music", excerpts: [
     Excerpt(id: 15, description: "Excerpt 1", avgTempo: "", measures: "Mov. IV, 1 mm. after [M] to [P]", pictures: [["Trombone 3", "1042"]])
-], mutes: "", commonDifficulties: "Range, Tempo", professionalAdvice: "", videos: [
+], mutes: "No", commonDifficulties: "Range, Tempo", professionalAdvice: "", videos: [
+    ["Eugene Ormandy, Philadelphia Orchestra", "qOUy8FbFnG4"],
     ["Herbert von Karajan, Berliner Philharmoniker", "M7p74wVffpI"],
-    ["", ""]
+    ["Kiyotaka Teraoka, Hamamatsu International Wind Instrumet Academy Festival Orchesrta", "jQIGPXu5ycU"],
+    ["Kiyotaka Keraoka, Hamamatsu International Wind Instrument Academy Festival Orchestra (With Score)", "QWEpO37VVNY"],
+    ["Nathalie Stutzmann, Stockholm Philharmonic Orchestra", "hBlNa9_RCNw"]
 ])
 
 let borodinPolovetsian = Composition(id: 9, composer: "Alexander Borodin", composerLast: "Borodin", name: "Polovetsian Dances", date: "1890", era: "Romantic", genre: "Opera", excerpts: [
@@ -155,41 +183,12 @@ let borodinPolovetsian = Composition(id: 9, composer: "Alexander Borodin", compo
     Excerpt(id: 18, description: "Excerpt 3", avgTempo: "", measures: "No. 17, [K] to 23 mm. before [M]", pictures: [["Trombone 1", "1049"], ["Trombone 2", "1050"], ["Trombone 3", "1051"]]),
     Excerpt(id: 19, description: "Excerpt 4", avgTempo: "", measures: "No. 17, [R] to 12 mm. after [S] ", pictures: [["Trombone 1", "1052"], ["Trombone 2", "1053"], ["Trombone 3", "1054"]]),
     Excerpt(id: 20, description: "Excerpt 5", avgTempo: "", measures: "No. 17, [U] to End", pictures: [["Trombone 1", "1055"], ["Trombone 2", "1056"], ["Trombone 3", "1057"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Andrzej Kucybała, Stanisław Moniuszko School of Music Symphony Orchestra", "wiexn6O9To4"],
-    ["Gustavo Dudamel, Vienna Philharmonic Orchestra", "YabEfOQRG3U"]
-])
-
-let brahms1 = Composition(id: 10, composer: "Johannes Brahms", composerLast: "Brahms", name: "Symphony No. 1", date: "1876", era: "Romantic", genre: "Symphony", excerpts: [
-    Excerpt(id: 21, description: "Excerpt 1", avgTempo: "", measures: "Mov. IV, [C] to 14 mm. after [C]", pictures: [["Trombone 1", "1058"], ["Trombone 2", "1059"], ["Trombone 3", "1060"]])
-], mutes: "", commonDifficulties: "Range, Potential Alto Trombone", professionalAdvice: "Brahms also intended his first trombone parts to be played on the alto trombone. In the United States, the alto has not been a requirement on auditions, however it is being used more and more by today's players. As in the Schumann, strive for a clear, bright fortissimo that is not too loud. Attacks can be slightly more Marcato than Schubert, but not as aggressive as Mahler or Bartok.\" -Ralph Sauer", videos: [
-    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "EGRqIGOAPcE"],
-    ["Herbert von Karajan, Berliner Philharmoniker", "45mWi4qY5v0"]
-])
-
-let brahms2 = Composition(id: 11, composer: "Johannes Brahms", composerLast: "Brahms", name: "Symphony No. 2", date: "1877", era: "Romantic", genre: "Symphony", excerpts: [
-    Excerpt(id: 22, description: "Excerpt 1", avgTempo: "", measures: "Mov. IV, [O] to 14 mm. before [P], [P] to End", pictures: [["Trombone 1", "1061"], ["Trombone 2", "1062"], ["Trombone 3", "1063"]])
-], mutes: "", commonDifficulties: "Range, Potential Alto Trombone, Tempo", professionalAdvice: "Brahms also intended his first trombone parts to be played on the alto trombone. In the United States, the alto has not been a requirement on auditions, however it is being used more and more by today's players. As in the Schumann, strive for a clear, bright fortissimo that is not too loud. Attacks can be slightly more Marcato than Schubert, but not as aggressive as Mahler or Bartok.\" -Ralph Sauer", videos: [
-    ["Leonard Bernstein, Wiener Philharmoniker", "6nKd-ia7_Lc"],
-    ["Herbert von Karajan, Berlin Philarmonic Orchestra", "nX3RX3A3CbI"],
-    ["Carlos Kleiber, Wiener Philharmoniker", "HCkSpCh4Wcw"],
-    
-    ["NDR Elbphilharmonie Orchestra Trombones", "xIM-R4zWO9w"]
-])
-
-let brahms3 = Composition(id: 12, composer: "Johannes Brahms", composerLast: "Brahms", name: "Symphony No. 3", date: "1883", era: "Romantic", genre: "Symphony", excerpts: [
-    Excerpt(id: 23, description: "Excerpt 1", avgTempo: "", measures: "Mov. IV, 1 mm. after [I] to [K]", pictures: [["Trombone 1", "1064"], ["Trombone 2", "1065"], ["Trombone 3", "1066"]]),
-    Excerpt(id: 24, description: "Excerpt 2", avgTempo: "", measures: "Mov. IV, 4 mm. before [P] to 18 mm. after [P] ", pictures: [["Trombone 1", "1067"], ["Trombone 2", "1068"], ["Trombone 3", "1069"]])
-], mutes: "", commonDifficulties: "Tempo", professionalAdvice: "Brahms also intended his first trombone parts to be played on the alto trombone. In the United States, the alto has not been a requirement on auditions, however it is being used more and more by today's players. As in the Schumann, strive for a clear, bright fortissimo that is not too loud. Attacks can be slightly more Marcato than Schubert, but not as aggressive as Mahler or Bartok.\" -Ralph Sauer", videos: [
-    ["Herbert von Karajan, Berliner Philharmoniker", "QaItCES17AY"],
-    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "u68ETRjNQME"]
-])
-
-let brahms4 = Composition(id: 13, composer: "Johannes Brahms", composerLast: "Brahms", name: "Symphony No. 4", date: "1885", era: "Romantic", genre: "Symphony", excerpts: [
-    Excerpt(id: 25, description: "Excerpt 1", avgTempo: "", measures: "Mov. IV, [E] to 23 after [E]", pictures: [["Trombone 1", "1070"], ["Trombone 2", "1071"], ["Trombone 3", "1072"]])
-], mutes: "", commonDifficulties: "Dynamics, Intonation", professionalAdvice: "Brahms also intended his first trombone parts to be played on the alto trombone. In the United States, the alto has not been a requirement on auditions, however it is being used more and more by today's players. As in the Schumann, strive for a clear, bright fortissimo that is not too loud. Attacks can be slightly more Marcato than Schubert, but not as aggressive as Mahler or Bartok.\" -Ralph Sauer", videos: [
-    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "o69YVL_XKJo"],
-    ["정명훈 (Chung Myung-Whun), The Orchestre Philharmonique de Radio France", "G8R7T0R4NC0"]
+    ["Gustavo Dudamel, Vienna Philharmonic Orchestra", "YabEfOQRG3U"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "QWU1uj9WmOM"],
+    ["Herbert von Karajan, Berliner Philharmoniker (With Score)", "wcdp-YT79Ek"],
+    ["Seiji Ozawa, Berliner Philharmoniker", "5mOPkNUVPmI"]
 ])
 
 let brahmsAcademic = Composition(id: 14, composer: "Johannes Brahms", composerLast: "Brahms", name: "Academic Festival Overture", date: "1880", era: "Romantic", genre: "Overture", excerpts: [
@@ -198,19 +197,84 @@ let brahmsAcademic = Composition(id: 14, composer: "Johannes Brahms", composerLa
     Excerpt(id: 28, description: "Excerpt 3", avgTempo: "", measures: "[K] to 11 mm. before [L]", pictures: [["Trombone 1", "1079"], ["Trombone 2", "1080"], ["Trombone 3", "1081"]]),
     Excerpt(id: 29, description: "Excerpt 4", avgTempo: "", measures: "[L] to 3 mm. after [M]", pictures: [["Trombone 1", "1082"], ["Trombone 2", "1083"], ["Trombone 3", "1084"]]),
     Excerpt(id: 30, description: "Excerpt 5", avgTempo: "", measures: "[Maestoso] to End", pictures: [["Trombone 1", "1085"], ["Trombone 2", "1086"], ["Trombone 3", "1087"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Bernard Haitink, Royal Concertgebouw Orchestra (With Score)", "5AkQrnLPvC4"],
+    ["Claudio Abbado, Berliner Philharmoniker", "iIss3Gca6Qo"],
     ["Leonard Bernstein", "Y1E6FBi-AJw"],
-    ["Bernard Haitink, Royal Concertgebouw Orchestra", "5AkQrnLPvC4"],
+    ["Otto Klemperer, Philharmonia Orchestra", "bjLrZqYguFs"],
+    ["Paavo Järvi, Orchestre de Paris", "R5pzr5655yw"],
+    ["Sir Georg Solti, Chicago Symphony Orchestra", "JMIxE-tc6r0"],
+    // Bands
     ["Mark H. Hindsley, The University of Illinois Concert Band", "fiW2N96aPoE"]
+])
+
+let brahms1 = Composition(id: 10, composer: "Johannes Brahms", composerLast: "Brahms", name: "Symphony No. 1", date: "1876", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 21, description: "Excerpt 1", avgTempo: "", measures: "Mov. IV, [C] to 14 mm. after [C]", pictures: [["Trombone 1", "1058"], ["Trombone 2", "1059"], ["Trombone 3", "1060"]])
+], mutes: "No", commonDifficulties: "Range, Potential Alto Trombone", professionalAdvice: "Brahms also intended his first trombone parts to be played on the alto trombone. In the United States, the alto has not been a requirement on auditions, however it is being used more and more by today's players. As in the Schumann, strive for a clear, bright fortissimo that is not too loud. Attacks can be slightly more Marcato than Schubert, but not as aggressive as Mahler or Bartok.\" -Ralph Sauer", videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra", "cqd4NQ-ppCY"],
+    ["Carlos Kleiber, Wiener Philharmoniker (With Score)", "HCkSpCh4Wcw"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "45mWi4qY5v0"],
+    ["Karl Böhm, Berliner Philharmoniker (With Score)", "POW-u-RGspY"],
+    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "EGRqIGOAPcE"],
+    ["Paavo Järvi, Orchestre de Paris", "BRdEgS_OHAk"],
+    ["Stanisław Skrowaczewski, Frankfurt Radio Symphony Orchestra", "9Ij6I_zhBdU"]
+])
+
+let brahms2 = Composition(id: 11, composer: "Johannes Brahms", composerLast: "Brahms", name: "Symphony No. 2", date: "1877", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 22, description: "Excerpt 1", avgTempo: "", measures: "Mov. IV, [O] to 14 mm. before [P], [P] to End", pictures: [["Trombone 1", "1061"], ["Trombone 2", "1062"], ["Trombone 3", "1063"]])
+], mutes: "No", commonDifficulties: "Range, Potential Alto Trombone, Tempo", professionalAdvice: "Brahms also intended his first trombone parts to be played on the alto trombone. In the United States, the alto has not been a requirement on auditions, however it is being used more and more by today's players. As in the Schumann, strive for a clear, bright fortissimo that is not too loud. Attacks can be slightly more Marcato than Schubert, but not as aggressive as Mahler or Bartok.\" -Ralph Sauer", videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra", "qbcfuMlNRWg"],
+    ["Carlos Kleiber, Wiener Philharmoniker", "XHmkl7GM_es"],
+    ["Carlos Kleiber, Wiener Philharmoniker (With Score)", "HCkSpCh4Wcw"],
+    ["Herbert von Karajan, Berlin Philarmonic Orchestra", "nX3RX3A3CbI"],
+    ["Kurt Masur, Gewandhausorchester Leipzig", "lSii-jC6-Uo"],
+    ["Leonard Bernstein, Wiener Philharmoniker", "6nKd-ia7_Lc"],
+    ["Philippe Herreweghe, Frankfurt Radio Symphony Orchestra", "vMPP8DkVhk8"],
+    ["Seiji Ozawa, Saito Kinen Orchestra", "QnTNiYTHQ90"],
+    // Masterclasses
+    ["NDR Elbphilharmonie Orchestra Trombones", "xIM-R4zWO9w"]
+])
+
+let brahms3 = Composition(id: 12, composer: "Johannes Brahms", composerLast: "Brahms", name: "Symphony No. 3", date: "1883", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 23, description: "Excerpt 1", avgTempo: "", measures: "Mov. IV, 1 mm. after [I] to [K]", pictures: [["Trombone 1", "1064"], ["Trombone 2", "1065"], ["Trombone 3", "1066"]]),
+    Excerpt(id: 24, description: "Excerpt 2", avgTempo: "", measures: "Mov. IV, 4 mm. before [P] to 18 mm. after [P] ", pictures: [["Trombone 1", "1067"], ["Trombone 2", "1068"], ["Trombone 3", "1069"]])
+], mutes: "No", commonDifficulties: "Tempo", professionalAdvice: "Brahms also intended his first trombone parts to be played on the alto trombone. In the United States, the alto has not been a requirement on auditions, however it is being used more and more by today's players. As in the Schumann, strive for a clear, bright fortissimo that is not too loud. Attacks can be slightly more Marcato than Schubert, but not as aggressive as Mahler or Bartok.\" -Ralph Sauer", videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "u68ETRjNQME"],
+    ["Bernard Haitink, Chamber Orchestra of Europe", "GF260OjcAjE"],
+    ["Daniel Barenboim, Chicago Symphony Orchestra", "mAjvP_b0l7E"],
+    ["Edo de Waart, The Netherlands Philharmonic Orchestra", "a9TCjM9jhks"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "QaItCES17AY"],
+    ["Leonard Bernstein, Wiener Philharmoniker", "4L0MqnAoEJM"],
+    ["Philippe Herreweghe, Frankfurt Radio Symphony Orchestra", "vMPP8DkVhk8"],
+    ["Seiji Ozawa, Saito Kinen Orchestra", "EN-ymlBxxTQ"],
+    ["Sir Georg Solti, Chicago Symphony Orchestra", "wXiHNzRhoFw"],
+    ["Sir John Barbirolli, Wiener Philharmoniker (With Score)", "Lst1Aex2vcQ"]
+])
+
+let brahms4 = Composition(id: 13, composer: "Johannes Brahms", composerLast: "Brahms", name: "Symphony No. 4", date: "1885", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 25, description: "Excerpt 1", avgTempo: "", measures: "Mov. IV, [E] to 23 after [E]", pictures: [["Trombone 1", "1070"], ["Trombone 2", "1071"], ["Trombone 3", "1072"]])
+], mutes: "No", commonDifficulties: "Dynamics, Intonation", professionalAdvice: "Brahms also intended his first trombone parts to be played on the alto trombone. In the United States, the alto has not been a requirement on auditions, however it is being used more and more by today's players. As in the Schumann, strive for a clear, bright fortissimo that is not too loud. Attacks can be slightly more Marcato than Schubert, but not as aggressive as Mahler or Bartok.\" -Ralph Sauer", videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "o69YVL_XKJo"],
+    ["Bernard Haitink, Chamber Orchestra of Europe", "7QLuYj2jxoc"],
+    ["Carlos Kleiber, Bayerische Staatsorchester", "t_L8BajLmtE"],
+    ["Carlos Kleiber, Wiener Philharmoniker (With Score)", "pT6SN4tPbv8"],
+    ["Christoph Eschenbach", "xTE7810lrGk"],
+    ["정명훈 (Chung Myung-Whun), The Orchestre Philharmonique de Radio France", "G8R7T0R4NC0"],
+    ["Leonard Bernstein, Wiener Philharmoniker", "ckuUq7im8H4"]
 ])
 
 let brahmsTragic = Composition(id: 15, composer: "Johannes Brahms", composerLast: "Brahms", name: "Tragic Overture", date: "1880", era: "Romantic", genre: "Overture", excerpts: [
     Excerpt(id: 31, description: "Excerpt 1", avgTempo: "", measures: "[E] to 8 mm. after [E]", pictures: [["Trombone 1", "1088"], ["Trombone 2", "1089"], ["Trombone 3", "1090"]]),
     Excerpt(id: 32, description: "Excerpt 2", avgTempo: "", measures: "[N] to 14 mm. before [P]", pictures: [["Trombone 1", "1091"], ["Trombone 2", "1092"], ["Trombone 3", "1093"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Claudio Abbado, Berliner Philharmoniker", "DmTMrgZ4Q3U"],
+    ["Claudio Abbado, Lucerne Festival Orchestra", "d3Ud6w5Ikn8"],
+    ["Daniele Gatti, Royal Concertgebouw Orchestra", "TQ5NEdUiIec"],
+    ["Herbert von Karajan, Berlin Philharmonic (With Score)", "3ixfKBIkz1U"],
+    ["Herbert von Karajan, Wiener Philharmoniker", "c-UKntDUWPo"],
     ["Leonard Bernstein, Vienna Philharmonic Orchestra", "siYoz9CLA2c"],
-    ["Herbert von Karajan, Berlin Philharmonic", "3ixfKBIkz1U"],
-    ["Daniele Gatti, Royal Concertgebouw Orchestra", "TQ5NEdUiIec"]
+    ["Sir Colin Davis, European Union Youth Orchestra", "4hkSZiIbJyA"],
+    ["Sir Georg Solti, Chicago Symphony Orchestra", "xcyfLyR2QZk"]
 ])
 
 let bruckner4 = Composition(id: 16, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 4", date: "1874", era: "Romantic", genre: "Symphony", excerpts: [
@@ -218,9 +282,14 @@ let bruckner4 = Composition(id: 16, composer: "Anton Bruckner", composerLast: "B
     Excerpt(id: 34, description: "Excerpt 2", avgTempo: "", measures: "Mov I, mm. 305 to mm. 327", pictures: [["Trombone 1", "1097"], ["Trombone 2", "1098"], ["Trombone 3", "1099"]]),
     Excerpt(id: 35, description: "Excerpt 3", avgTempo: "", measures: "Mov. IV, [E] to [F]", pictures: [["Trombone 1", "1100"], ["Trombone 2", "1101"], ["Trombone 3", "1102"]]),
     Excerpt(id: 36, description: "Excerpt 4", avgTempo: "", measures: "Mov. IV, [M] to [O]", pictures: [["Trombone 1", "1103"], ["Trombone 2", "1104"], ["Trombone 3", "1105"]])
-], mutes: "", commonDifficulties: "Rhythm", professionalAdvice: "", videos: [
+], mutes: "No", commonDifficulties: "Rhythm", professionalAdvice: "", videos: [
+    ["Claudio Abbado, Wiener Philharmoniker", "gcBg-tXn0fs"],
+    ["Daniel Barenboim, Royal Concertgebouw Orchestra", "xdv-9RFZX2w"],
+    ["Eliahu Inbal, Frankfurt Radio Symphony", "DEssCDEAyig"],
+    ["Gustavo Gimeno, The Radio Philharmonic Orchestra", "G_VFA988d8s"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "rCvOXwgOvOo"],
     ["Sergiu Celibidache, Münchner Philharmoniker", "LY7m119eOys"],
-    ["Gustavo Gimeno, The Radio Philharmonic Orchestra", "G_VFA988d8s&vl=en"]
+    ["Stanislaw Skrowaczewski, Orquesta Sinfónica de Galicia", "P_BXBiHtIGM"]
 ])
 
 let bruckner7 = Composition(id: 17, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 7", date: "1881", era: "Romantic", genre: "Symphony", excerpts: [
@@ -241,10 +310,16 @@ let bruckner7 = Composition(id: 17, composer: "Anton Bruckner", composerLast: "B
     Excerpt(id: 51, description: "Excerpt 14", avgTempo: "", measures: "Mov. IV, [P] to [S]", pictures: [["Trombone 1", "1148"], ["Trombone 2", "1149"], ["Trombone 3", "1150"]]),
     Excerpt(id: 52, description: "Excerpt 15", avgTempo: "", measures: "Mov. IV, mm. 251 to [X] ", pictures: [["Trombone 1", "1151"], ["Trombone 2", "1152"], ["Trombone 3", "1153"]]),
     Excerpt(id: 53, description: "Excerpt 16", avgTempo: "", measures: "Mov. IV, mm. 308 to End", pictures: [["Trombone 1", "1154"], ["Trombone 2", "1155"], ["Trombone 3", "1156"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Andris Nelsons, Gewandhausorchester Leipzig", "_6sX6aIlgJk"],
+    ["Bernard Haitink, Wiener Philharmoniker", "_6sX6aIlgJk"],
     ["Christoph Eschenbach, Frankfurt Radio Symphony", "uaV3eEJB55c"],
+    ["Christian Thielemann, Wiener Philharmoniker", "cuXPkoOM2j8"],
+    ["Herbert von Karajan, Wiener Philharmoniker", "3pioV8yB3iA"],
+    ["Herbert von Karajan, Wiener Philharmoniker", "2XfhRC03Riw"],
+    ["Otto Klemperer, ", ""],
     ["Sergiu Celibidache, Münchner Philharmoniker", "2X2bbusaOzI"],
-    ["Herbert von Karajan, Wiener Philharmoniker", "3pioV8yB3iA"]
+    ["Wilhelm Furtwängler, Berliner Philharmoniker", "ihK5eDpP2vU"]
 ])
 
 let bruckner8 = Composition(id: 18, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 8", date: "1887", era: "Romantic", genre: "Symphony", excerpts: [
@@ -252,14 +327,18 @@ let bruckner8 = Composition(id: 18, composer: "Anton Bruckner", composerLast: "B
     Excerpt(id: 55, description: "Excerpt 2", avgTempo: "", measures: "Mov. IV, [X] to [Z] ", pictures: [["Trombone 1", "1160"], ["Trombone 2", "1161"], ["Trombone 3", "1162"]]),
     Excerpt(id: 56, description: "Excerpt 3", avgTempo: "", measures: "Mov. IV, mm. 459 to [Hh]", pictures: [["Trombone 1", "1163"], ["Trombone 2", "1164"], ["Trombone 3", "1165"]]),
     Excerpt(id: 57, description: "Excerpt 4", avgTempo: "", measures: "Mov. IV, mm. 701 to End", pictures: [["Trombone 1", "1166"], ["Trombone 2", "1167"], ["Trombone 3", "1168"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Sergiu Celibidache, Münchner Philharmoniker", "elVHvTrEM34"],
-    ["Pierre Boulez, Vienna Philharmonic Orchestra", "ufqC1LCpHV4"],
-    ["Herbert von Karajan, Vienna Philharmonic Orchestra", "sJf3KmAg08"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Carlo Maria Giulini, Vienna Philharmonic Orchestra", "xT5kreOhjxU"],
-    
-    ["Southeast Trombone Symposium", "5fj7eri3NNY"],
-    [" London Philharmonic Orchestra Trombones", "kQEKd0qA-XE"]
+    ["Herbert von Karajan, Vienna Philharmonic Orchestra", "sJf3KmAg08"],
+    ["Paavo Järvi, Frankfurt Radio Symphony Orchestra", "-UPIEJAptcY"],
+    ["Pierre Boulez, Vienna Philharmonic Orchestra", "ufqC1LCpHV4"],
+    ["Sergiu Celibidache, Münchner Philharmoniker", "elVHvTrEM34"],
+    ["Wilhelm Furtwängler, Berliner Philharmoniker", "7aDNxyFgLXQ"],
+    ["Wilhelm Furtwängler, Wiener Philharmoniker", "YNona1BCvkY"],
+    ["Zubin Mehta, Wiener Philharmoniker", "razu3fSqnVE"],
+    // Masterclasses
+    ["London Philharmonic Orchestra Trombones", "kQEKd0qA-XE"],
+    ["Southeast Trombone Symposium", "5fj7eri3NNY"]
 ])
 
 let bruckner9 = Composition(id: 19, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 9", date: "1887", era: "Romantic", genre: "Symphony", excerpts: [
@@ -279,11 +358,16 @@ let bruckner9 = Composition(id: 19, composer: "Anton Bruckner", composerLast: "B
     Excerpt(id: 71, description: "Excerpt 14", avgTempo: "", measures: "Mov. III, mm. 145 to mm. 151", pictures: [["Trombone 1", "1208"], ["Trombone 2", "1209"], ["Trombone 3", "1210"]]),
     Excerpt(id: 72, description: "Excerpt 15", avgTempo: "", measures: "Mov. III, [O] to [R]", pictures: [["Trombone 1", "1211"], ["Trombone 2", "1212"], ["Trombone 3", "1213"]]),
     Excerpt(id: 73, description: "Excerpt 16", avgTempo: "", measures: "Mov. III, [Y] to End", pictures: [["Trombone 1", "1214"], ["Trombone 2", "1215"], ["Trombone 3", "1216"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "Tw2LNhwnquk"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Bernard Haitink, The Orchestre National de France", "MIJET6NO4-k"],
+    ["Claudio Abbado, Berliner Philharmoniker Orchester", "DKQCkmeWJAc"],
+    ["Claudio Abbado, Vienna Philharmonic", "jQo65DZlJ18"],
+    ["Herbert Blomstedt, Gustav Mahler Jugendorchester", "KBZgSC-8Yp0"],
+    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "Tw2LNhwnquk"],
+    ["Nézet-Séguin, Wiener Philharmoniker", "wcCamtD5ufs"],
+    ["Sergiu Celibidache, Munich Philharmonic Orchestra", "JvlkX4VGN-c"],
     ["Stanisław Skrowaczewski, Frankfurt Radio Symphony Orchestra", "Az-kHLRQhsk"],
-    ["Sergiu Celibidache, Munich Philharmonic Orchestra", "JvlkX4VGN-c"]
+    ["Wilhelm Furtwängler, Berliner Philharmoniker", "tOfTE-vbKDc"]
 ])
 
 let dvorak8 = Composition(id: 20, composer: "Antonín Dvořák", composerLast: "Dvořák", name: "Symphony No. 8", date: "1889", era: "Romantic", genre: "Symphony", excerpts: [
@@ -299,9 +383,13 @@ let dvorak8 = Composition(id: 20, composer: "Antonín Dvořák", composerLast: "
     Excerpt(id: 83, description: "Excerpt 10", avgTempo: "", measures: "Mov. IV, 1 mm. before [H] to 13 mm. after [H]", pictures: [["Trombone 1", "1244"], ["Trombone 2", "1245"], ["Trombone 3", "1246"]]),
     Excerpt(id: 84, description: "Excerpt 11", avgTempo: "", measures: "Mov. IV, 6 mm. before [K] to 7 mm. after [K]", pictures: [["Trombone 1", "1247"], ["Trombone 2", "1248"], ["Trombone 3", "1249"]]),
     Excerpt(id: 85, description: "Excerpt 12", avgTempo: "", measures: "Mov. IV, [R] to End", pictures: [["Trombone 1", "1250"], ["Trombone 2", "1251"], ["Trombone 3", "1252"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["George Szell, The Cleveland Orchestra", "GgL8JTrGbuU"],
+    ["Herbert von Karajan, Wiener Philharmoniker", "zfP29uN33L8"],
     ["Manfred Honeck, Frankfurt Radio Symphony Orchestra", "QXAv-NGppFw"],
-    ["Yannick Nézet-Séguin, Rotterdams Philharmonisch Orkest", "XRmcSm-YVZc"]
+    ["Yannick Nézet-Séguin, Rotterdams Philharmonisch Orkest", "XRmcSm-YVZc"],
+    ["Václav Neumann, Czech Philharmonic (With Score)", "6O6Nme3fw5k"],
+    ["Zubin Mehta, Los Angeles Philharmonic Orchestra", "aoQ1Sh20pvE"]
 ])
 
 let dvorak9 = Composition(id: 21, composer: "Antonín Dvořák", composerLast: "Dvořák", name: "Symphony No. 9", date: "1893", era: "Romantic", genre: "Symphony", excerpts: [
@@ -315,31 +403,38 @@ let dvorak9 = Composition(id: 21, composer: "Antonín Dvořák", composerLast: "
     Excerpt(id: 93, description: "Excerpt 8", avgTempo: "", measures: "Mov. IV, 9 mm. after [7] to 4 mm. after [9]", pictures: [["Trombone 1", "1274"], ["Trombone 2", "1275"], ["Trombone 3", "1276"]]),
     Excerpt(id: 94, description: "Excerpt 9", avgTempo: "", measures: "Mov. IV, 5 mm. after [11] to 9 mm. after [12]", pictures: [["Trombone 1", "1277"], ["Trombone 2", "1278"], ["Trombone 3", "1279"]]),
     Excerpt(id: 95, description: "Excerpt 10", avgTempo: "", measures: "Mov. IV, 26 mm. before End to End", pictures: [["Trombone 1", "1280"], ["Trombone 2", "1281"], ["Trombone 3", "1282"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Sergiu Celibidache, Münchner Philharmoniker", "_9RT2nHD6CQ"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "jOofzffyDSA"],
+    ["Ferenc Fricsay, Berliner Philharmoniker (With Score)", "oLWpgWuUaU4"],
+    ["George Szell, The Cleveland Orchestra", "jxoygdpGET0"],
     ["Kurt Redel, Slovak Philharmonic Orchestra"],
     ["Lorin Maazel, New York Philharmonic", "nSd1ye8l4RE"],
-    ["Ferenc Fricsay, Berliner Philharmoniker", "oLWpgWuUaU4"]
+    ["Mariss Jansons, Symphonieorchester des Bayerischen Rundfunks", "9_BlhOJp8RY"],
+    ["Sergiu Celibidache, Münchner Philharmoniker", "_9RT2nHD6CQ"],
+    ["Wolfgang Sawallisch, Philadelphia Orchestra", "_JsTuICpqI8"]
 ])
 
 let franckD = Composition(id: 22, composer: "César Franck", composerLast: "Franck", name: "Symphony in D minor", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 96, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, [N] to [O]", pictures: [["Trombones 1 and 2", "1283"], ["Trombone 3", "1284"]]),
     Excerpt(id: 97, description: "Excerpt 2", avgTempo: "", measures: "Mov. III, [N] to 18 mm. after [N]", pictures: [["Trombones 1 and 2", "1285"], ["Trombone 3", "1286"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Marc Minkowski, Frankfurt Radio Symphony", "uRWFjK11lfw"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Kurt Masur, New York Philharmonic Orchestra", "r0W3fqfr2CY"],
     ["Leonard Bernstein, Orchestre National de France", "uosj6PZLKKE"],
-    ["Ricardo Muti, Philadelphia Orchestra", "0nF6TobCyV4"]
+    ["Marc Minkowski, Frankfurt Radio Symphony", "uRWFjK11lfw"],
+    ["Marc Soustrot, University of Gothenburg Symphony Orchestra", "9srAs4ss2kU"],
+    ["Pierre Monteux, Chicago Symphony Orchestra", "G7obO7XyyQc"],
+    ["Ricardo Muti, Philadelphia Orchestra", "0nF6TobCyV4"],
+    ["Sergiu Celibidache, Munich Philharmonic Orchestra", "ytdSWSE7zxo"]
 ])
 
 let haydnCreation = Composition(id: 23, composer: "Franz Joseph Haydn", composerLast: "Haydn", name: "The Creation", date: "1798", era: "Classical", genre: "Oratorio", excerpts: [
     Excerpt(id: 98, description: "Excerpt 1", avgTempo: "", measures: "No. 26, Beginning to [C]", pictures: [["Trombone 1", "1287"], ["Trombone 2", "1288"], ["Trombone 3", "1289"]]),
     Excerpt(id: 99, description: "Excerpt 2", avgTempo: "", measures: "No. 28, [H] to 2 mm. before [K]", pictures: [["Trombone 1", "1290"], ["Trombone 2", "1291"], ["Trombone 3", "1292"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Phillip A. Swan, Lawrence Symphony Orchestra", "kaI8x-saprI"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Adam Fischer, Austro-Hungarian Haydn Philharmonic Orchestra & Wiener Kammerchor", "xIpSNMQZH9M"],
+    ["Christopher Hogwood, Academy of Ancient Music", "bH5KM700AlQ"],
     ["Philipp von Steinaecker, Aus dem Dom zu Brixen", "l07oRR4u-rk"],
-    ["Christopher Hogwood, Academy of Ancient Music", "bH5KM700AlQ"]
+    ["Phillip A. Swan, Lawrence Symphony Orchestra", "kaI8x-saprI"]
 ])
 
 let holstPlanets = Composition(id: 24, composer: "Gustav Holst", composerLast: "Holst", name: "The Planets", date: "1916", era: "Modern", genre: "Orchestral Suite", excerpts: [
@@ -347,10 +442,17 @@ let holstPlanets = Composition(id: 24, composer: "Gustav Holst", composerLast: "
     Excerpt(id: 101, description: "Excerpt 2", avgTempo: "", measures: "Jupiter, mm. 267 to 4 mm. before [12] ", pictures: [["Trombones 1 and 2", "1295"], ["Trombone 3", "1296"]]),
     Excerpt(id: 102, description: "Excerpt 3", avgTempo: "", measures: "Jupiter, [16] to 5 mm. after [17]", pictures: [["Trombones 1 and 2", "1297"], ["Trombone 3", "1298"]]),
     Excerpt(id: 103, description: "Excerpt 4", avgTempo: "", measures: "Uranus, [7] to [8]", pictures: [["Trombones 1 and 2", "1299"], ["Trombone 3", "1300"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+], mutes: "",
+   // TODO: Find mutes for here?
+   commonDifficulties: "", professionalAdvice: "", videos: [
+    ["André Previn,  London Symphony Orchestra (With Score)", "YRDF2YJojAM"],
     ["Edward Gardner, National Youth Orchestra", "be7uEyyNIT4"],
-    ["William Steinberg, Boston Symphony Orchestra", "Isic2Z2e2xs"],
-    ["Sir Adrian Boult, BBC Symphony Orchestra", "eSqb7gD5acY"]
+    ["Eugene Ormandy, Philadelphia Orchestra", "YtphY-4xjQw"],
+    ["Herbert Von Karajan, Berlin Philharmonic Orchestra", "gd_pt39NwFM"],
+    ["Maciej Tarnowski, Warsaw Philharmonic Orchestra", "3OD_HzdZwKk"],
+    ["Sir Adrian Boult, BBC Symphony Orchestra (With Score)", "eSqb7gD5acY"],
+    ["Sir Charles Groves, Royal Philharmonic Orchestra", "UmOTMkoCCkM"],
+    ["William Steinberg, Boston Symphony Orchestra", "Isic2Z2e2xs"]
 ])
 
 let mahler2 = Composition(id: 25, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 2", date: "1894", era: "Romantic", genre: "Symphony", excerpts: [
@@ -374,23 +476,29 @@ let mahler2 = Composition(id: 25, composer: "Gustav Mahler", composerLast: "Mahl
     Excerpt(id: 121, description: "Excerpt 18", avgTempo: "", measures: "Mov. V, 2 mm. before [37] to 5 mm. before [39]", pictures: [["Trombone 1", "1361"], ["Trombone 2", "1362"], ["Trombone 3", "1363"], ["Trombone 4", "1364"]]),
     Excerpt(id: 122, description: "Excerpt 19", avgTempo: "", measures: "Mov. V, 1 mm. before [42] to [43]", pictures: [["Trombone 1", "1365"], ["Trombone 2", "1366"], ["Trombone 3", "1367"], ["Trombone 4", "1368"]]),
     Excerpt(id: 123, description: "Excerpt 20", avgTempo: "", measures: "Mov. V, [48] to End", pictures: [["Trombone 1", "1369"], ["Trombone 2", "1370"], ["Trombone 3", "1371"], ["Trombone 4", "1372"]])
-], mutes: "Yes", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Mariss Jansons, Royal Concertgebouw Orchestra", "sHsFIv8VA7w"],
-    ["Leonard Bernstein, London Symphony Orchestra", "edA9Zard3-U"],
+], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Bernard Haitink, Koninklijk Concertgebouworkest", "oUBx_Q-xw2M"],
     ["Gustavo Dudamel, Simón Bolívar Symphony Orchestra of Venezuela", "rKrsEbjXYX8"],
-
+    ["Leonard Bernstein, London Symphony Orchestra", "edA9Zard3-U"],
+    ["Leonard Bernstein, New York Philharmonic (With Score)", "z2KcsjA_PEQ"],
+    ["Mariss Jansons, Royal Concertgebouw Orchestra", "sHsFIv8VA7w"],
+    // Masterclasses
+    ["New York Philharmonic Trombones", "jpngMjN6fmQ"],
     ["Southeast Trombone Symposium", "IQgPSZq1bzs"],
-    ["New York Philharmonic Trombones", "jpngMjN6fmQ"]
 ])
 
 let mahler3 = Composition(id: 26, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 3", date: "1896", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 124, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, [13] to [17]", pictures: [["Trombone 1", "1373"], ["Trombone 2", "1374"], ["Trombone 3", "1375"], ["Trombone 4", "1376"]]),
     Excerpt(id: 125, description: "Excerpt 2", avgTempo: "", measures: "Mov. I, 1 mm. before [33] to 2 mm. after [34]", pictures: [["Trombone 1", "1377"]]),
     Excerpt(id: 126, description: "Excerpt 3", avgTempo: "", measures: "Mov. I, 1 mm. before [58] to 5 mm. before [62]", pictures: [["Trombone 1", "1378"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    [" Leonard Bernstein, Vienna Philharmonic Orchestra", "1AwFutIcnrU"],
-    ["Semyon Bychkov, WDR Sinfonie-Orchester Koln", "pRhQhUtOpPI"],
-    
+], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra", "oSBfEPAnDsY"],
+    ["Bernard Haitink, Koninklijk Concertgebouworkest", "XYNk8VOGKa8"],
+    ["Claudio Abbado, Lucerne Festival Orchestra", "Xplx64LVENg"],
+    ["Jukka-Pekka Saraste, WDR Sinfonieorchester Köln", "Cjp-n6xS1CE"],
+    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "1AwFutIcnrU"],
+    ["Semyon Bychkov, WDR Sinfonieorchester Köln (With Score)", "pRhQhUtOpPI"],
+    // Masterclasses
     ["Dietmar Küblböck, Vienna Philharmonic Trombone Master Class", "rTpmWlGjjVU"]
 ])
 
@@ -401,10 +509,15 @@ let mahler5 = Composition(id: 27, composer: "Gustav Mahler", composerLast: "Mahl
     Excerpt(id: 130, description: "Excerpt 4", avgTempo: "", measures: "Mov. III, 12 mm. after [15] to [17]", pictures: [["Trombone 1", "1388"], ["Trombone 2", "1389"], ["Trombone 3", "1390"]]),
     Excerpt(id: 131, description: "Excerpt 5", avgTempo: "", measures: "Mov. III, 12 mm. after [23] to 16 mm. after [23]", pictures: [["Trombone 1", "1391"], ["Trombone 2", "1392"]]),
     Excerpt(id: 132, description: "Excerpt 6", avgTempo: "", measures: "Mov. V, 2 mm. after [23] to [24]", pictures: [["Trombone 1", "1393"], ["Trombone 2", "1394"], ["Trombone 3", "1395"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Valery Gergiev, World Orchestra for Peace", "UjmthMDpyco"],
-    ["Leonard Bernstein, Vienna Philharmonic", "nO0nytFsumo"],
-    ["Claudio Abbado, Lucerne Festival Orchestra", "vOvXhyldUko"]
+], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "fEGNNuEM3Fc"],
+    ["Bernard Haitink, Koninklijk Concertgebouworkest", "MruTSRVecMo"],
+    ["Christoph Eschenbach, Sinfónica de Galicia", "1tCk6nOOdzI"],
+    ["Claudio Abbado, Lucerne Festival Orchestra", "vOvXhyldUko"],
+    ["Gustavo Dudamel, Simón Bolívar Symphony Orchestra", "1F5G9JngqZY"],
+    ["Leonard Bernstein, Wiener Philharmoniker", "6EJn43FEmjo"],
+    ["Leonard Bernstein, Wiener Philharmoniker (With Score)", "nO0nytFsumo"],
+    ["Valery Gergiev, World Orchestra for Peace", "UjmthMDpyco"]
 ])
 
 let mahler7 = Composition(id: 28, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 7", date: "1905", era: "Romantic", genre: "Symphony", excerpts: [
@@ -429,27 +542,27 @@ let mahler7 = Composition(id: 28, composer: "Gustav Mahler", composerLast: "Mahl
     Excerpt(id: 151, description: "Excerpt 19", avgTempo: "", measures: "Mov. V, 3 mm. before [285] to 2 mm. after [286]", pictures: [["Trombone 1", "1450"], ["Trombone 2", "1451"], ["Trombone 3", "1452"]]),
     Excerpt(id: 152, description: "Excerpt 20", avgTempo: "", measures: "Mov. V, 3 mm. after [290] to 1 mm. before [291]", pictures: [["Trombone 1", "1453"], ["Trombone 2", "1454"], ["Trombone 3", "1455"]]),
     Excerpt(id: 153, description: "Excerpt 21", avgTempo: "", measures: "Mov. V, [293] to End", pictures: [["Trombone 1", "1456"], ["Trombone 2", "1457"], ["Trombone 3", "1458"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Claudio Abbado, Lucerne Festival Orchestra", "QdxvC7NNSLQ"],
-    ["Leonard Bernstein, Wiener Philharmoniker", "OCiKqIsF2IQ"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Bernard Haitink, Koninklijk Concertgebouworkest", "IEoYrRBAGqA"],
-    ["James Levine, Chicago Symphony Orchestra", "zUZz38kq4pw"],
+    ["Claudio Abbado, Lucerne Festival Orchestra", "QdxvC7NNSLQ"],
     ["Edo de Waart, The Radio Philharmonic Orchestra", "tGeJRmd0MSA"],
-    ["Simon Rattle, Wiener Philharmoniker", "3FxBFaxBikU"],
+    ["James Levine, Chicago Symphony Orchestra", "zUZz38kq4pw"],
+    ["Leonard Bernstein, Wiener Philharmoniker", "OCiKqIsF2IQ"],
     ["Otto Klemperer, New Philharmonia Orchestra", "0wMdEGIdZPU"],
-    ["Sir Simon Rattle, Berlin Philharmonic", "C2LGbzI6diI"],
+    ["Paavo Järvi, Frankfurt Radio Symphony Orchestra", "b0TsG3rIOU8"],
     ["Riccardo Chailly, Leipzig Gewandhaus Orchestra", "bXjaGRJNsqs"],
-    ["Paavo Järvi, Frankfurt Radio Symphony Orchestra", "b0TsG3rIOU8"]
+    ["Simon Rattle, Wiener Philharmoniker", "3FxBFaxBikU"],
+    ["Sir Simon Rattle, Berlin Philharmonic", "C2LGbzI6diI"]
 ])
 
 let mozartRequiem = Composition(id: 29, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Requiem", date: "1791", era: "Classical", genre: "Requiem", excerpts: [
     Excerpt(id: 154, description: "Excerpt 1", avgTempo: "72", measures: "Tuba Mirum, Beginning to [B]", pictures: [["Trombone 2", "1459"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["James Gaffigan, The Orchestre national de France", "Dp2SJN4UiE4"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Herbert von Karajan, Weiner Philharmoniker", "j8RXHA1M-f8"],
+    ["James Gaffigan, The Orchestre national de France", "Dp2SJN4UiE4"],
+    ["John Eliot Gardiner, English Baroque Soloists", "FjiMQbLheLE"],
     ["Sir Colin Rex Davis, London Symphony Orchestra", "D95igow6I6g"],
-    ["Sir Neville Marriner, Academy of St. Martin in the Fields", "sPlhKP0nZII"],
-    ["John Eliot Gardiner, English Baroque Soloists", "FjiMQbLheLE"]
+    ["Sir Neville Marriner, Academy of St. Martin in the Fields", "sPlhKP0nZII"]
 ])
 
 let mussorgskyPictures = Composition(id: 30, composer: "Modest Mussorgsky", composerLast: "Mussorgsky", name: "Pictures at an Exhibition", date: "1874", era: "Romantic", genre: "Piano Suite (Arranged for Orchestra by Ravel)", excerpts: [
@@ -459,24 +572,30 @@ let mussorgskyPictures = Composition(id: 30, composer: "Modest Mussorgsky", comp
     Excerpt(id: 158, description: "Excerpt 4", avgTempo: "", measures: "The Great Gate of Kiev, [107] to [109]", pictures: [["Trombones 1 and 2", "1465"], ["Trombone 3", "1466"]]),
     Excerpt(id: 159, description: "Excerpt 5", avgTempo: "", measures: "The Great Gate of Kiev, [114] to [118]", pictures: [["Trombones 1 and 2", "1467"], ["Trombone 3", "1468"]]),
     Excerpt(id: 160, description: "Excerpt 6", avgTempo: "", measures: "The Great Gate of Kiev, [120] to End", pictures: [["Trombones 1 and 2", "1469"], ["Trombone 3", "1470"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Fritz Reiner, Chicago Symphony Orchestra (With Score)", "FUgKKgVcJMA"],
     ["Georg Solti, Chicago Symphony Orchestra", "syLm-9JyhuY"],
+    ["Georg Solti, Chicago Symphony Orchestra", "DXy50exHjes"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "kkC3chi_ysw"],
+    ["Jean-Claude Casadeus, Royal Philharmonic Orchestra", "FsvpFU7KY7E"],
     ["Kurt Masur, Leipzig Gewandhaus Orchestra", "Sq7Qd9PSmR0"],
-    ["Herbert von Karajan, Berliner Philharmoniker", "kkC3chi_ysw"]
+    ["Symphonieorchester des Bayerischen Rundfunks (With Score)", "QLa_MIWZJow"],
+    ["Valery Gergiev, NHK Symphony Orchestra", "lgHG6TW8WG8"]
 ])
 
 let ravelBolero = Composition(id: 31, composer: "Maurice Ravel", composerLast: "Ravel", name: "Bolero", date: "1928", era: "Modern", genre: "Orchestral Piece", excerpts: [
     Excerpt(id: 161, description: "Excerpt 1", avgTempo: "", measures: "[10] to [11]", pictures: [["Trombone 1", "1471"]]),
     Excerpt(id: 162, description: "Excerpt 2", avgTempo: "", measures: "2 mm. after [17] to End", pictures: [["Trombones 1 and 2", "1472"], ["Trombone 3", "1473"]]),
-], mutes: "", commonDifficulties: "Range", professionalAdvice: "", videos: [
-    ["Gustavo Dudamel, Wiener Philharmoniker", "mhhkGyJ092E"],
-    ["Valery Gergiev, London Symphony Orchestra", "ODeNHRtVNO4"],
+], mutes: "No", commonDifficulties: "Range", professionalAdvice: "", videos: [
     ["정명훈 (Chung Myung-Whun), Seoul Philharmonic Orchestra", "avhSABEy_i4"],
+    ["Gustavo Dudamel, Wiener Philharmoniker", "mhhkGyJ092E"],
+    ["Riccardo Muti, l'Orchestra della Scala di Milano", "64qB8qBoRF8"],
     ["Sergiu Celibidache, The Danish National Radio Symphony Orchestra", "gy5Ve3338-E"],
-    
+    ["Valery Gergiev, London Symphony Orchestra", "ODeNHRtVNO4"],
+    // Masterclasses
+    ["Aleksey Lobikov", "d5SLpXOFStE"],
     ["Ian Bousfield", "wKHhzd05vZg"],
-    ["Joseph Alessi", "Va2emfJW6j4"],
-    ["Aleksey Lobikov", "d5SLpXOFStE"]
+    ["Joseph Alessi", "Va2emfJW6j4"]
 ])
 
 let ravelDaphnis = Composition(id: 32, composer: "Maurice Ravel", composerLast: "Ravel", name: "Daphnis et Chloé", date: "1912", era: "Modern", genre: "Ballet", excerpts: [
@@ -485,18 +604,24 @@ let ravelDaphnis = Composition(id: 32, composer: "Maurice Ravel", composerLast: 
     Excerpt(id: 165, description: "Excerpt 3", avgTempo: "", measures: "1 mm. before [38] to 4 mm. after [40]", pictures: [["Trombones 1 and 2", "1478"], ["Trombone 3", "1479"]]),
     Excerpt(id: 166, description: "Excerpt 4", avgTempo: "", measures: "[49] to 3 mm. After [49]", pictures: [["Trombones 1 and 2", "1480"]]),
     Excerpt(id: 167, description: "Excerpt 5", avgTempo: "", measures: "3 mm. after [66] to 2 mm. before [67]", pictures: [["Trombones 1 and 2", "1481"], ["Trombone 3", "1482"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Jukka-Pekka Saraste, O4lzPz3NnI0"],
+], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Charles Dutoit, Orchestre Symphonique de Montréal", "sYNlYMvFA5U"],
+    ["Charles Dutoit, Orchestre symphonique de Montréal", "-CcTjTVeOUQ"],
+    ["Daniel Smith, Frankfurt Radio Symphony Orchestra", "cnvv89Nd2pg"],
     ["David Robertson, Radio Filharmonisch Orkest and Groot Omroepkoor", "R8RjYT5CLe8"],
-    ["Charles Dutoit, Orchestre Symphonique de Montréal", "sYNlYMvFA5U"]
+    ["Jukka-Pekka Saraste, WDR Sinfonieorchester Köln", "O4lzPz3NnI0"],
+    ["Simon Rattle, Berlin Philharmonic Orchestra", "14OM6Ysnk6M"]
 ])
 
 let ravelValse = Composition(id: 33, composer: "Maurice Ravel", composerLast: "Ravel", name: "La Valse", date: "1920", era: "Modern", genre: "Orchestral Poem", excerpts: [
     Excerpt(id: 168, description: "Excerpt 1", avgTempo: "", measures: "3 mm. before [62] to [66]", pictures: [["Trombones 1 and 2", "1483"], ["Trombone 3", "1484"]]),
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Charles Dutoit, Orchestre symphonique de Montréal", "-CcTjTVeOUQ"],
+    ["Charles Munch, Boston Symphony Orchestra (With Score)", "YDk2RUaoEJQ"],
     ["정명훈 (Chung Myung-Whun), Orchestre Philharmonique de Radio France", "TMSgWhIENSk"],
-    ["Charles Munch, Boston Symphony Orchestra", "YDk2RUaoEJQ"],
+    ["Daniele Gatti, Gustav Mahler Jugendorchester", "mqv0U_D5OZY"],
     ["Leonard Bernstein, Orchestre National de France", "Fg2i2NB-i3o"],
+    ["Mikko Franck, Orchestre Philharmonique de Radio France", "qOSoCyuqDJo"],
     ["Pablo Heras-Casado, Frankfurt Radio Symphony", "UlMJ6Ri-LMM"]
 ])
 
@@ -505,11 +630,15 @@ let ravelLEnfant = Composition(id: 34, composer: "Maurice Ravel", composerLast: 
     Excerpt(id: 170, description: "Excerpt 2", avgTempo: "", measures: "2 mm. before [31] to [31]", pictures: [["Trombones 1 and 2", "1487"], ["Trombone 3", "1488"]]),
     Excerpt(id: 171, description: "Excerpt 3", avgTempo: "", measures: "[33] to 1 mm. after [35]", pictures: [["Trombones 1 and 2", "1489"], ["Trombone 3", "1490"]]),
     Excerpt(id: 172, description: "Excerpt 4", avgTempo: "", measures: "[87] to 4 mm. after [88]", pictures: [["Trombones 1 and 2", "1491"], ["Trombone 3", "1492"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["l'opéra de Lyon", "JbqySviU4YQ"],
-    ["Kazushi Ono, London Philharmonic Orchestra", "TjWLxmquYCo"],
+], mutes: "",
+   // TODO: Find mutes for here?
+   commonDifficulties: "", professionalAdvice: "", videos: [
     ["Ernest Bour, Maîtrise et Orchestre National de la Radiodiffusion Française", "gpXBOQFbnig"],
-    
+    [" Jiri Kylian Ballet", "7zQxo4kueJc"],
+    ["Kazushi Ono, London Philharmonic Orchestra", "TjWLxmquYCo"],
+    ["l'opéra de Lausanne", "QFeI8FH1zjw"],
+    ["l'opéra de Lyon", "JbqySviU4YQ"],
+    // Masterclasses
     ["Olaf Ott", "6pPK7yUTmGw"]
 ])
 
@@ -517,22 +646,25 @@ let respighiFountains = Composition(id: 35, composer: "Ottorino Respighi", compo
     Excerpt(id: 173, description: "Excerpt 1", avgTempo: "", measures: "[10] to [12]", pictures: [["Trombone 1", "1493"], ["Trombone 2", "1494"], ["Trombone 3", "1495"]]),
     Excerpt(id: 174, description: "Excerpt 2", avgTempo: "", measures: "[12] to [14]", pictures: [["Trombone 1", "1496"], ["Trombone 2", "1497"], ["Trombone 3", "1498"]]),
     Excerpt(id: 175, description: "Excerpt 3", avgTempo: "", measures: "[14] to 4 mm. before [17]", pictures: [["Trombone 1", "1499"], ["Trombone 2", "1500"], ["Trombone 3", "1501"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Herbert von Karajan, Berlin Philharmonic", "eGZ9oslaeak"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Alan Gilbert, New York Philharmonic", "kk7LTvjdv1M"],
-    ["Eugene Ormandy, Philadelphia Orchestra", "aSVOR3_aJ3M"],
     ["Arturo Toscanini, Maazel Filarmonica", "u6bRHpcxJcM"],
+    ["Eugene Ormandy, Philadelphia Orchestra", "aSVOR3_aJ3M"],
+    ["Herbert von Karajan, Berlin Philharmonic", "eGZ9oslaeak"],
+    // Bands
     ["Jerry Junkin, The University of Texas Wind Ensemble", "PM_UjFqclIc"]
 ])
 
 let rimskyKorsakovCapriccio = Composition(id: 36, composer: "Nikolai Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "Capriccio Espagnol", date: "1887", era: "Romantic", genre: "Orchestral Suite", excerpts: [
     Excerpt(id: 176, description: "Excerpt 1", avgTempo: "", measures: "Mov. V, 1 mm. before [W] to End", pictures: [["Trombone 1", "1502"], ["Trombone 2", "1503"], ["Trombone 3", "1504"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+], mutes: "",
+   // TODO: Find mutes for here
+   commonDifficulties: "", professionalAdvice: "", videos: [
     ["Leonard Bernstein, New York Philharmonic Orchestra", "3rqwvMMxeA8"],
-    ["Zubin Mehta, Berliner Philharmoniker", "Lh6mDL-VwYw"],
-    ["Pablo Heras-Casado, Frankfurt Radio Symphony", "X_HSpn3tE_A"],
     ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "vh8X9sYXvmI"],
-    ["Valery Gergiev, Mariinsky Orchestra", "I_nyInowbuU"]
+    ["Pablo Heras-Casado, Frankfurt Radio Symphony", "X_HSpn3tE_A"],
+    ["Valery Gergiev, Mariinsky Orchestra", "I_nyInowbuU"],
+    ["Zubin Mehta, Berliner Philharmoniker", "Lh6mDL-VwYw"]
 ])
 
 let rimskyKorsakovGolden = Composition(id: 37, composer: "Nikolai Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "The Golden Cockerel", date: "1907", era: "Romantic", genre: "Opera", excerpts: [
@@ -541,11 +673,11 @@ let rimskyKorsakovGolden = Composition(id: 37, composer: "Nikolai Rimsky-Korsako
     Excerpt(id: 179, description: "Excerpt 3", avgTempo: "", measures: "Mov. IV, [55] to 8 mm. after [55]", pictures: [["Trombones 1 and 2", "1511"]]),
     Excerpt(id: 180, description: "Excerpt 4", avgTempo: "", measures: "Mov. IV, 1 mm. after [56] to End", pictures: [["Trombone 1", "1512"], ["Trombone 2", "1513"], ["Trombone 3", "1514"]]),
     Excerpt(id: 181, description: "Excerpt 4 (Part 2)", avgTempo: "", measures: "[59] to end", pictures: [["Trombone 1", "1515"], ["Trombone 2", "1516"], ["Trombone 3", "1517"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Evgeny Svetlanov, Orchestra of the Bolshoi Theatre", "AJnAkpqVDcc"],
+], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Dmitri Kitaenko, Academic Symphony Orchestra of Moscow State Philharmonic", "PZt9sG5lxd0"],
-    ["Rani Calderon, Opéra national de Lorraine", "1v1szTXS7E0"],
-    ["Julius Rudel, New York State Theater", "pY1TePizviE"]
+    ["Evgeny Svetlanov, Orchestra of the Bolshoi Theatre", "AJnAkpqVDcc"],
+    ["Julius Rudel, New York State Theater", "pY1TePizviE"],
+    ["Rani Calderon, Opéra national de Lorraine", "1v1szTXS7E0"]
 ])
 
 let rimskyKorsakovRussianEaster = Composition(id: 38, composer: "Nikolai Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "Russian Easter Festival Overture", date: "1888", era: "Romantic", genre: "Concert Overture", excerpts: [
@@ -559,16 +691,16 @@ let rimskyKorsakovRussianEaster = Composition(id: 38, composer: "Nikolai Rimsky-
     Excerpt(id: 189, description: "Excerpt 8", avgTempo: "", measures: "[S] to 11 mm. after [T]", pictures: [["Trombone 1", "1537"], ["Trombone 2", "1538"], ["Trombone 3", "1539"]]),
     Excerpt(id: 190, description: "Excerpt 9", avgTempo: "", measures: "6 mm. after [V] to 9 mm. before [W]", pictures: [["Trombone 1", "1540"], ["Trombone 2", "1541"], ["Trombone 3", "1542"]]),
     Excerpt(id: 191, description: "Excerpt 10", avgTempo: "", measures: "[Y] to End", pictures: [["Trombone 1", "1543"], ["Trombone 2", "1544"], ["Trombone 3", "1545"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Leonard Slatkin, St. Louis Orchestra", "rXR0tloMmoo"],
-    ["Evgeny Svetlanov, USSR Symphony Orchestra", "z4e8CvxV4Ho"],
-    ["Valery Gergiev, Mariinsky orchestra", "hbDYtAHTQoE"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Andrés Cárdenes, Carnegie Mellon University Philharmonic", "oH8dS9gKPzw"],
     ["Antal Dorati, London Symphony Orchestra", "d5cZHc5p870"],
+    ["Evgeny Svetlanov, USSR Symphony Orchestra", "z4e8CvxV4Ho"],
+    ["Jos van Immerseel, Anima Eterna Orchestra", "7FHFJ0lU9Us"],
+    ["Leonard Slatkin, St. Louis Orchestra", "rXR0tloMmoo"],
+    ["Leopold Stokowski, Chicago Symphony Orchestra", "bHLWUiqa3Z0"],
     ["Pavel Kravchuk, Slavic Chorale Orchestra", "ANUbQ9TavKc"],
     ["Seiji Ozawa, Wiener Philharmoniker", "yak5D-6BKn0"],
-    ["Jos van Immerseel, Anima Eterna Orchestra", "7FHFJ0lU9Us"],
-    ["Leopold Stokowski, Chicago Symphony Orchestra", "bHLWUiqa3Z0"],
-    ["Andrés Cárdenes, Carnegie Mellon University Philharmonic", "oH8dS9gKPzw"]
+    ["Valery Gergiev, Mariinsky orchestra", "hbDYtAHTQoE"]
 ])
 
 let rimskyKorsakovScheherazade = Composition(id: 39, composer: "Nikolai Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "Scheherazade", date: "1888", era: "Romantic", genre: "Symphonic Suite", excerpts: [
@@ -584,13 +716,13 @@ let rimskyKorsakovScheherazade = Composition(id: 39, composer: "Nikolai Rimsky-K
     Excerpt(id: 201, description: "Excerpt 10", avgTempo: "", measures: "Mov. IV, [P] to 3 mm. before [T], ", pictures: [["Trombone 1", "1573"], ["Trombone 2", "1574"], ["Trombone 3", "1575"]]),
     Excerpt(id: 202, description: "Excerpt 11", avgTempo: "", measures: "Mov. IV, 4 mm. before [W] to 10 mm. before [Z]", pictures: [["Trombone 1", "1576"], ["Trombone 2", "1577"], ["Trombone 3", "1578"]]),
     Excerpt(id: 203, description: "Excerpt 11 (Part 2)", avgTempo: "", measures: "[Allegro non troppo e maestoso] to 10 mm. before [Z]", pictures: [["Trombone 1", "1579"], ["Trombone 2", "1580"], ["Trombone 3", "1581"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Valery Gergiev, Vienna Philharmonic", "SQNymNaTr-Y"],
-    ["Leif Segerstam, Sinfónica de Galicia", "zY4w4_W30aQ"],
-    ["Yevgeny Svetlanov, USSR State Symphony Orchestra", "jR_Q7NbLzyU"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["André Previn, Vienna Philharmonic Orchestra", "p_iPn1GbUUU"],
-    ["Nejc Bečan, Gimnazija Kranj Symphony Orchestra", "17lEx0ytE_0"],
     ["Eugene Ormandy, Philadelphia Orchestra", "LEN5ObBND88"],
+    ["Leif Segerstam, Sinfónica de Galicia", "zY4w4_W30aQ"],
+    ["Nejc Bečan, Gimnazija Kranj Symphony Orchestra", "17lEx0ytE_0"],
+    ["Valery Gergiev, Vienna Philharmonic", "SQNymNaTr-Y"],
+    ["Yevgeny Svetlanov, USSR State Symphony Orchestra", "jR_Q7NbLzyU"],
     ["Yuri Temirkanov, Saint-Petersburg Philharmonic Orchestra", "vdnUBQT5Bqw"]
 ])
 
@@ -598,29 +730,30 @@ let rossiniLaGazza = Composition(id: 40, composer: "Gioachino Rossini", composer
     Excerpt(id: 204, description: "Excerpt 1", avgTempo: "", measures: "[C] to mm. 139", pictures: [["Trombone", "1582"]]),
     Excerpt(id: 205, description: "Excerpt 2", avgTempo: "", measures: "[F] to 16 mm. After [F]", pictures: [["Trombone", "1583"]]),
     Excerpt(id: 206, description: "Excerpt 3", avgTempo: "", measures: "[I] to 14 mm. after [I]", pictures: [["Trombone", "1584"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Daniel Harding, Orchestra del Teatro La Fenice", "UjDXNqG0Deg"],
-    ["Michael Halasz, Zagreb Festival Orchestra", "Qqa_NADTVQw"],
-    ["Sir Thomas Beecham,  the Royal Philharmonic Orchestra", "Kw1bfRa83EQ"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Boian Videnoff, Mannheimer Philharmoniker", "KYfaKAIf-SU"],
+    ["Daniel Harding, Orchestra del Teatro La Fenice", "UjDXNqG0Deg"],
+    ["Gianluigi Gelmetti, Orchestra Sinfonica della RAI di Torino", "0F73mZjtMXU"],
     ["Gustavo Dudamel, Wiener Philharmoniker", "3MIbDR1QRHs"],
-    ["Gianluigi Gelmetti, Orchestra Sinfonica della RAI di Torino", "0F73mZjtMXU"]
+    ["Michael Halasz, Zagreb Festival Orchestra", "Qqa_NADTVQw"],
+    ["Sir Thomas Beecham,  the Royal Philharmonic Orchestra", "Kw1bfRa83EQ"]
 ])
 
 let rossiniWilliamTell = Composition(id: 41, composer: "Gioachino Rossini", composerLast: "Rossini", name: "William Tell", date: "1829", era: "Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 207, description: "Excerpt 1", avgTempo: "", measures: "[C] to 8 mm. after [D]", pictures: [["Trombone 1", "1585"], ["Trombone 2", "1586"], ["Trombone 3", "1587"]]),
     Excerpt(id: 208, description: "Excerpt 2", avgTempo: "", measures: "[O] to 7 mm. before [Q]", pictures: [["Trombone 1", "1588"], ["Trombone 2", "1589"], ["Trombone 3", "1590"]]),
     Excerpt(id: 209, description: "Excerpt 3", avgTempo: "", measures: "1 mm. after [Q] to End", pictures: [["Trombone 1", "1591"], ["Trombone 2", "1592"], ["Trombone 3", "1593"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Alfred Scholz, London Philharmonic", "xoBE69wdSkQ"],
-    ["Joni Swenson, Santa Monica High School Symphony Orchestra", "YIMJ1yfR19Y"],
-    ["Gianluigi Gelmetti, Radio-Sinfonieorchester Stuttgart des SWR", "DVudBHoysXI"],
     ["Erich Kuenzel, Cincinnati Pops", "D5LVM_lIXqY"],
+    ["Georges Prêtre, Orchestra del Teatro La Fenice", "BGo2eiy0VcE"],
+    ["Gianluigi Gelmetti, Radio-Sinfonieorchester Stuttgart des SWR", "DVudBHoysXI"],
+    ["Joni Swenson, Santa Monica High School Symphony Orchestra", "YIMJ1yfR19Y"],
+    ["Leonard Bernstein, New York Philharmonic Orchestra", "7uPuXoDHSM4"],
+    // Bands
     ["Colonel Jason K. Fettig, \"The President's Own\" United States Marine Band", "P0qau_1CNxY"],
     ["Colonel Michael J. Colburn, \"The President's Own\" United States Marine Band", "mZF4xHhPtRc"],
-    ["Leonard Bernstein, New York Philharmonic Orchestra", "7uPuXoDHSM4"],
-    ["Georges Prêtre, Orchestra del Teatro La Fenice", "BGo2eiy0VcE"],
-    
+    // Masterclasses
     ["Christian Jones (Bass Trombone)", "-VX-yxcT-gA"],
     ["Denson Paul Pollard (Bass Trombone)", "PJPWwmgvs2w"],
     ["Ben van Dijk (Bass Trombone)", "gZBASbkYR4c"]
@@ -628,27 +761,27 @@ let rossiniWilliamTell = Composition(id: 41, composer: "Gioachino Rossini", comp
 
 let saintSaens3 = Composition(id: 42, composer: "Camille Saint-Saëns", composerLast: "Saint-Saëns", name: "Symphony No. 3", date: "1886", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 210, description: "Excerpt 1", avgTempo: "", measures: "Mov. I, [Q] to 2 mm. before [R], 11 mm. after [R] to 1 mm. after [S]", pictures: [["Trombone 1", "1594"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Paavo Järvi, Orchestre de Paris", "ZWCZq33BrOo"],
-    ["Mariss Jansons, Symphonieorchester des Bayerischen Rundfunks", "y60L-N9iY9k"],
-    ["Paavo Järvi, Philharmonie de Paris", "TPvhPHIdjs0"],
-    ["Conrad van Alphen, Sinfonia Rotterdam", "8cnDMQFt3TQ"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Charles Dutoit, Orchestre symphonique de Montréal", "Vo24ojUaKCg"],
+    ["Conrad van Alphen, Sinfonia Rotterdam", "8cnDMQFt3TQ"],
+    ["Daniel Barenboim, Orchestre de Paris", "V-bTxNw4ny8"],
     ["Herbert von Karajan, Berlin Philharmonic Orchestra", "ivcpGPrdKd8"],
-    ["Daniel Barenboim, Orchestre de Paris", "V-bTxNw4ny8"]
+    ["Mariss Jansons, Symphonieorchester des Bayerischen Rundfunks", "y60L-N9iY9k"],
+    ["Paavo Järvi, Orchestre de Paris", "ZWCZq33BrOo"],
+    ["Paavo Järvi, Philharmonie de Paris", "TPvhPHIdjs0"]
 ])
 
 let schubert8 = Composition(id: 43, composer: "Franz Schubert", composerLast: "Schubert", name: "Symphony No. 8", date: "1822", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 211, description: "Excerpt 1", avgTempo: "", measures: "Mov. II, [A] to 12 mm. after [A]", pictures: [["Trombone 1", "1595"], ["Trombone 2", "1596"], ["Trombone 3", "1597"]]),
     Excerpt(id: 212, description: "Excerpt 2", avgTempo: "", measures: "[D] to [F]", pictures: [["Trombone 1", "1598"], ["Trombone 2", "1599"], ["Trombone 3", "1600"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Leonard Bernstein, Concertgebouw Orchestra", "uWnKMzAedK4"],
-    ["Wolfgang Sawallisch, Staatskapelle Dresden", "0mnrHf7p0jM"],
-    ["Philippe Jordan, Wiener Symphoniker", "TgZj4Vd3HHk"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Christoph Eschenbach, Frankfurt Radio Symphony Orchestra", "oBPwpX3VDZE"],
+    ["Elisabeth Fuchs, Philharmonie Salzburg", "YU3b723XEVY"],
     ["Georg Solti, Chicago Symphony Orchestra", "1-p58OSYhG0"],
+    ["Leonard Bernstein, Concertgebouw Orchestra", "uWnKMzAedK4"],
+    ["Philippe Jordan, Wiener Symphoniker", "TgZj4Vd3HHk"],
     ["Seiji Ozawa, Westminster Philharmonic Orchestra"],
-    ["Elisabeth Fuchs, Philharmonie Salzburg", "YU3b723XEVY"]
+    ["Wolfgang Sawallisch, Staatskapelle Dresden", "0mnrHf7p0jM"]
 ])
 
 let schubert9 = Composition(id: 44, composer: "Franz Schubert", composerLast: "Schubert", name: "Symphony No. 9", date: "1824", era: "Romantic", genre: "Symphony", excerpts: [
@@ -656,15 +789,15 @@ let schubert9 = Composition(id: 44, composer: "Franz Schubert", composerLast: "S
     Excerpt(id: 214, description: "Excerpt 2", avgTempo: "", measures: "Mov. I, 13 mm. after [F] to 12 mm. after [G]", pictures: [["Trombone 1", "1604"], ["Trombone 2", "1605"], ["Trombone 3", "1606"]]),
     Excerpt(id: 215, description: "Excerpt 3", avgTempo: "", measures: "Mov. I, 12 mm. before [H] to 10 mm. after [H]", pictures: [["Trombone 1", "1607"], ["Trombone 2", "1608"], ["Trombone 3", "1609"]]),
     Excerpt(id: 216, description: "Excerpt 4", avgTempo: "", measures: "Mov. I, 7 mm. after [M] to [Piu moto]", pictures: [["Trombone 1", "1610"], ["Trombone 2", "1611"], ["Trombone 3", "1612"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Wolfgang Sawallisch, Wiener Philharmoniker", "kNocKxKd8-I"],
-    ["Leonard Bernstein, Symphonieorchester des Bayerischen Rundfunks", "hCuC8--m-98"],
-    ["John Eliot Gardiner, Wiener Philarmoniker", "TPpvJnwf5BU"],
-    ["Riccardo Muti, Vienna Philharmonic Orchestra", "bA6pzRx6gBE"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "z9RTvJS8F64"],
+    ["John Eliot Gardiner, Wiener Philarmoniker", "TPpvJnwf5BU"],
     ["Josef Krips, London Symphony Orchestra", "Vi85_BDRFXo"],
+    ["Leonard Bernstein, Symphonieorchester des Bayerischen Rundfunks", "hCuC8--m-98"],
+    ["Lorin Maazel, Bavarian Radio Symphony", "5kQTHhcIWnI"],
+    ["Riccardo Muti, Vienna Philharmonic Orchestra", "bA6pzRx6gBE"],
     ["Seiji Ozawa, Saito Kinen Orchestra", "X4qN_dE39VQ"],
-    ["Lorin Maazel, Bavarian Radio Symphony", "5kQTHhcIWnI"]
+    ["Wolfgang Sawallisch, Wiener Philharmoniker", "kNocKxKd8-I"]
 ])
 
 let schumann1 = Composition(id: 45, composer: "Robert Schumann", composerLast: "Schumann", name: "Symphony No. 1", date: "1841", era: "Romantic", genre: "Symphony", excerpts: [
@@ -673,14 +806,16 @@ let schumann1 = Composition(id: 45, composer: "Robert Schumann", composerLast: "
     Excerpt(id: 219, description: "Excerpt 3", avgTempo: "", measures: "Mov. IV, mm. 81 to mm. 89", pictures: [["Trombone 1", "1619"], ["Trombone 2", "1620"], ["Trombone 3", "1621"]]),
     Excerpt(id: 220, description: "Excerpt 4", avgTempo: "", measures: "Mov. IV, mm. 120 to mm. 152", pictures: [["Trombone 1", "1622"], ["Trombone 2", "1623"], ["Trombone 3", "1624"]]),
     Excerpt(id: 221, description: "Excerpt 5", avgTempo: "", measures: "Mov. IV, mm. 301 to mm. 335", pictures: [["Trombone 1", "1625"], ["Trombone 2", "1626"], ["Trombone 3", "1627"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Zubin Mehta, The Buchmann-Mehta School of Music Symphony Orchestra", "abrie8X9seU"],
-    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "FuBDGAHBedo"],
+], mutes: "",
+   // TODO: Find mutes for here
+   commonDifficulties: "", professionalAdvice: "", videos: [
+    ["David Zinman, Tonhalle Zürich", "SOhl73QnZIA"],
+    ["George Szell, The Cleveland Orchestra", "RjTb5mypZ3A"],
     ["Gerard Oskamp, Philharmonie Südwestfalen", "1Lk2V6YOcIc"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "FuBDGAHBedo"],
     ["Leonard Bernstein, Vienna Philharmonic", "2TEBBskS0qE"],
     ["Yannick Nézet-Séguin, Chamber Orchestra of Europe", "a5PGq1Q3nEg"],
-    ["George Szell, The Cleveland Orchestra", "RjTb5mypZ3A"],
-    ["David Zinman, Tonhalle Zürich", "SOhl73QnZIA"]
+    ["Zubin Mehta, The Buchmann-Mehta School of Music Symphony Orchestra", "abrie8X9seU"]
 ])
 
 let schumann2 = Composition(id: 46, composer: "Robert Schumann", composerLast: "Schumann", name: "Symphony No. 2", date: "1847", era: "Romantic", genre: "Symphony", excerpts: [
@@ -688,37 +823,37 @@ let schumann2 = Composition(id: 46, composer: "Robert Schumann", composerLast: "
     Excerpt(id: 223, description: "Excerpt 2", avgTempo: "", measures: "Mov. IV, mm. 165 to mm. 179", pictures: [["Trombone 1", "1631"], ["Trombone 2", "1632"], ["Trombone 3", "1633"]]),
     Excerpt(id: 224, description: "Excerpt 3", avgTempo: "", measures: "Mov. IV, mm. 423 to mm. 492", pictures: [["Trombone 1", "1634"], ["Trombone 2", "1635"], ["Trombone 3", "1636"]]),
     Excerpt(id: 225, description: "Excerpt 4", avgTempo: "", measures: "Mov. IV, mm. 533 to End", pictures: [["Trombone 1", "1637"], ["Trombone 2", "1638"], ["Trombone 3", "1639"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Marek Janowski, Frankfurt Radio Symphony", "YD-dluM2gJQ"],
-    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "2eGkxHaGu0"],
-    ["Daniel Harding, Mahler Chamber Orchestra", "oQk8jQydMqc"],
-    ["Sergiu Celibidache, Munich Philharmonic Orchestra", "uhvbX1F9jHI"],
-    ["George Szell, The Cleveland Orchestra", "f6_gZYQNhpI"],
-    ["Philippe Herreweghe, SWR Symphonieorchester", "zpJaeSpDDus"],
-    ["Leonard Bernstein, New York Philharmonic", "kpCDIn8Q2ss"],
-    ["Vladimir Ashkenazy, Chamber Orchestra of Europe", "DjXKJndgu_s"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Christoph Eschenbach, Wiener Philharmoniker", "FsHtpMt4dfc"],
-    ["Paavo Järvi, Staatskapelle Dresden", "6O58OkBRLek"]
+    ["Daniel Harding, Mahler Chamber Orchestra", "oQk8jQydMqc"],
+    ["George Szell, The Cleveland Orchestra", "f6_gZYQNhpI"],
+    ["Leonard Bernstein, New York Philharmonic", "kpCDIn8Q2ss"],
+    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "2eGkxHaGu0"],
+    ["Marek Janowski, Frankfurt Radio Symphony", "YD-dluM2gJQ"],
+    ["Paavo Järvi, Staatskapelle Dresden", "6O58OkBRLek"],
+    ["Philippe Herreweghe, SWR Symphonieorchester", "zpJaeSpDDus"],
+    ["Sergiu Celibidache, Munich Philharmonic Orchestra", "uhvbX1F9jHI"],
+    ["Vladimir Ashkenazy, Chamber Orchestra of Europe", "DjXKJndgu_s"]
 ])
 
 let schumann3 = Composition(id: 47, composer: "Robert Schumann", composerLast: "Schumann", name: "Symphony No. 3", date: "1850", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 226, description: "Excerpt 1", avgTempo: "", measures: "Mov. IV, mm. 1 to mm. 23, [B] to End", pictures: [["Trombone 1", "1640"], ["Trombone 2", "1641"], ["Trombone 3", "1642"]])
-], mutes: "", commonDifficulties: "Range", professionalAdvice: "", videos: [
-    ["Marek Janowski, Frankfurt Radio Symphony", "3lRdCGIp-rg"],
-    ["Riccardo Muti, Berliner Philharmoniker", "G8cIVO8KmcU"],
-    ["Leonard Bernstein, Wiener Philharmoniker", "OfR8d3aJKEs"],
-    ["Leonard Bernstein, Wiener Philharmoniker (With Score)", "VOliHAx_OBo"],
-    ["Sergiu Celibidache, Munich Philharmonic Orchestra", "7GB8K5uSIJo"],
-    ["Paavo Järvi, NHK Symphony Orchestra", "PEuM0c5U5W8"],
+], mutes: "No", commonDifficulties: "Range", professionalAdvice: "", videos: [
     ["Giuseppe Sinopoli, Staatskapelle Dresden", "jcXkhEFXQGE"],
     ["Leonard Bernstein, New York Philharmonic", "TmKfrccpny0"],
-    
-    ["Michael Boder, Berliner Philharmoniker (Trombone Tutorial)", "ZkDkfWJy2S0"],
+    ["Leonard Bernstein, Wiener Philharmoniker", "OfR8d3aJKEs"],
+    ["Leonard Bernstein, Wiener Philharmoniker (With Score)", "VOliHAx_OBo"],
+    ["Marek Janowski, Frankfurt Radio Symphony", "3lRdCGIp-rg"],
+    ["Paavo Järvi, NHK Symphony Orchestra", "PEuM0c5U5W8"],
+    ["Riccardo Muti, Berliner Philharmoniker", "G8cIVO8KmcU"],
+    ["Sergiu Celibidache, Munich Philharmonic Orchestra", "7GB8K5uSIJo"],
+    // Masterclasses
+    ["Christian Jones (Bass Trombone)", "nryEtKOG4QU"],
     ["Joseph Alessi, New York Philharmonic Trombone Section", "hQjDXgxMvD8"],
+    ["Michael Boder, Berliner Philharmoniker (Trombone Tutorial)", "ZkDkfWJy2S0"],
+    ["Nicola Ferro (Alto Trombone)", "kLFL-gwXHc0"],
     ["North Carolina Symphony Trombonists", "fVxYY8qN368"],
     ["Thomas Leyendecker, Carnegie Hall Trombone Masterclass", "lumY89CpVbw"],
-    ["Nicola Ferro (Alto Trombone)", "kLFL-gwXHc0"],
-    ["Christian Jones (Bass Trombone)", "nryEtKOG4QU"]
 ])
 
 let schumann4 = Composition(id: 48, composer: "Robert Schumann", composerLast: "Schumann", name: "Symphony No. 4", date: "1841", era: "Romantic", genre: "Symphony", excerpts: [
@@ -729,19 +864,19 @@ let schumann4 = Composition(id: 48, composer: "Robert Schumann", composerLast: "
     Excerpt(id: 231, description: "Excerpt 5", avgTempo: "", measures: "Mov. IV, 12 mm. after [V] to [W]", pictures: [["Trombone 1", "1655"], ["Trombone 2", "1656"], ["Trombone 3", "1657"]]),
     Excerpt(id: 232, description: "Excerpt 6", avgTempo: "", measures: "Mov. IV, 12 mm. after [Z] to 4 mm. after [AA]", pictures: [["Trombone 1", "1658"], ["Trombone 2", "1659"], ["Trombone 3", "1660"]]),
     Excerpt(id: 233, description: "Excerpt 7", avgTempo: "", measures: "Mov. IV, 10 mm. before End to End", pictures: [["Trombone 1", "1661"], ["Trombone 2", "1662"], ["Trombone 3", "1663"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Philippe Herreweghe, Frankfurt Radio Symphony Orchestra", "Fq98d0JOiKQ"],
-    ["Marek Janowski, Frankfurt Radio Symphony", "GOKN3hh6mGE"],
-    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "yunhjIVTG_U"],
-    ["Leonard Bernstein, Vienna Philharmonic Orchestra (With Score)", "aFkI_qOYy64"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["George Szell, The Cleveland Orchestra", "i5A_FFahysY"],
     ["Herbert von Karajan, Berlin Philharmonic Orchestra", "gCAZsC6nmps"],
     ["Herbert von Karajan, Berlin Philharmonic Orchestra", "YyLRSc8hww"],
     ["Herbert von Karajan, Staatskapelle Dresden", "3GSN0a0z_O8"],
+    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "yunhjIVTG_U"],
+    ["Leonard Bernstein, Vienna Philharmonic Orchestra (With Score)", "aFkI_qOYy64"],
+    ["Marek Janowski, Frankfurt Radio Symphony", "GOKN3hh6mGE"],
+    ["Philippe Herreweghe, Frankfurt Radio Symphony Orchestra", "Fq98d0JOiKQ"],
     ["Sergiu Celibidache, Munich Philharmonic Orchestra", "sT1XVKOmwxY"],
     ["Sir Roger Norrington, Tapiola Sinfonietta", "SqDucfjKVPw"],
-    ["George Szell, The Cleveland Orchestra", "i5A_FFahysY"],
     ["Wolfgang Sawallisch, Staatskapelle Dresden (With Score)", "BfLxzNakUZw"],
-    
+    // Masterclasses
     ["Christian Jones (Bass Trombone)", "OwRFnXpeVbs"]
 ])
 
@@ -749,12 +884,12 @@ let smetanaBarteredBride = Composition(id: 49, composer: "Bedřich Smetana", com
     Excerpt(id: 234, description: "Excerpt 1", avgTempo: "", measures: "44 mm. after [A] to 39 mm. before [B]", pictures: [["Trombone 1", "1664"], ["Trombone 2", "1665"], ["Trombone 3", "1666"]]),
     Excerpt(id: 235, description: "Excerpt 2", avgTempo: "", measures: "[C] to 23 mm. after [C]", pictures: [["Trombone 1", "1667"], ["Trombone 2", "1668"], ["Trombone 3", "1669"]]),
     Excerpt(id: 236, description: "Excerpt 3", avgTempo: "", measures: "49 mm. before End to End", pictures: [["Trombone 1", "1670"], ["Trombone 2", "1671"], ["Trombone 3", "1672"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Theodore Kuchar, Janáček Philharmonic Orchestra", "nk8g9VvD9M4"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Jac van Steen, Garsington Opera", "bBHSzJoDNC4"],
+    ["Jiří Bělohlávek, Česká filharmonie", "9eWXqxKX0KI"],
     ["Mariss Jansons, Berliner Philharmoniker", "QLUm_yvnyo4"],
-    ["Zděnek Košler, Česká filharmonie", "nv1uDEg92-4"],
-    ["Jiří Bělohlávek, Česká filharmonie", "9eWXqxKX0KI"]
+    ["Theodore Kuchar, Janáček Philharmonic Orchestra", "nk8g9VvD9M4"],
+    ["Zděnek Košler, Česká filharmonie", "nv1uDEg92-4"]
 ])
 
 let straussAlpine = Composition(id: 50, composer: "Richard Strauss", composerLast: "Strauss", name: "An Alpine Symphony", date: "1915", era: "Late Romantic", genre: "Tone Poem", excerpts: [
@@ -767,34 +902,34 @@ let straussAlpine = Composition(id: 50, composer: "Richard Strauss", composerLas
     Excerpt(id: 243, description: "Excerpt 7", avgTempo: "", measures: "[96] to [97]", pictures: [["Trombone 1", "1697"], ["Trombone 2", "1698"], ["Trombone 3", "1699"], ["Trombone 4", "1700"]]),
     Excerpt(id: 244, description: "Excerpt 8", avgTempo: "", measures: "[120] to 1 mm. before [121]", pictures: [["Trombone 1", "1701"], ["Trombone 2", "1702"], ["Trombone 3", "1703"], ["Trombone 4", "1704"]]),
     Excerpt(id: 245, description: "Excerpt 9", avgTempo: "", measures: "[122] to [123]", pictures: [["Trombone 1", "1705"], ["Trombone 2", "1706"], ["Trombone 3", "1707"], ["Trombone 4", "1708"]]),
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Bernard Haitink, Vienna Philharmonic Orchestra", "FQhpWsRhQGs"],
-    ["Herbert von Karajan, Berliner Philharmoniker", "Tzr2Fw_0nY8"],
+], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "zsTo7QxxgYg"],
-    ["Zdeněk Košler, Czech Philharmonic Orchestra (With Score)", "iIpOzPaQoSg"],
+    ["Bernard Haitink, Vienna Philharmonic Orchestra", "FQhpWsRhQGs"],
     ["Daniel Barenboim, Chicago Symphony Orchestra", "HGaa-2AIAhs"],
+    ["Giuseppe Sinopoli, Sächsische Staatskapelle Dresden", "ltumZOfxpqM"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "Tzr2Fw_0nY8"],
     ["Mariss Jansons, Symphonieorchester des Bayerischen Rundfunks", "83aR2T9AQ7E"],
-    ["Sir Antonio Pappano, The National Youth Orchestra of the United States of America", "tAvgr92cGLI"],
     ["Prof. Nicolás Pasquet, Orchestra of the University of Music FRANZ LISZT Weimar", "JmeOz7ujjeY"],
-    ["Giuseppe Sinopoli, Sächsische Staatskapelle Dresden", "ltumZOfxpqM"]
+    ["Sir Antonio Pappano, The National Youth Orchestra of the United States of America", "tAvgr92cGLI"],
+    ["Zdeněk Košler, Czech Philharmonic Orchestra (With Score)", "iIpOzPaQoSg"]
 ])
 
 let straussZarathustra = Composition(id: 51, composer: "Richard Strauss", composerLast: "Strauss", name: "Also sprach Zarathustra", date: "1896", era: "Late Romantic", genre: "Tone Poem", excerpts: [
     Excerpt(id: 246, description: "Excerpt 1", avgTempo: "", measures: "8 mm. before [6] to 3 mm. after [6]", pictures: [["Trombone 1", "1709"], ["Trombone 2", "1710"], ["Trombone 3", "1711"]]),
     Excerpt(id: 247, description: "Excerpt 2", avgTempo: "", measures: "4 mm. before [16] to [16]", pictures: [["Trombone 1", "1712"]]),
     Excerpt(id: 248, description: "Excerpt 3", avgTempo: "", measures: "6 mm. after [50] to 4 mm. after [53]", pictures: [["Trombone 1", "1713"], ["Trombone 2", "1714"], ["Trombone 3", "1715"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Gustavo Dudamel, Vienna Philharmonic Orchestra", "ETveS23djXM"],
+], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Andris Nelsons, Berliner Philharmoniker", "xJoYv6A-UOU"],
     ["Georg Solti, Chicago Symphony Orchestra", "IFPwm0e_K98"],
-    ["Mariss Jansons, Royal Concertgebouw Orchestra", "D4d88IgvhK4"],
+    ["Giuseppe Sinopoli, Staatskapelle Dresden", "LpNRBublNr0"],
+    ["Gustavo Dudamel, Vienna Philharmonic Orchestra", "ETveS23djXM"],
     ["Herbert von Karajan, Berlin Philharmonic Orchestra (With Score)", "c8r_pZoaZf0"],
     ["Herbert von Karajan, Vienna Philharmonic", "h3eEHZCahVU"],
-    ["Giuseppe Sinopoli, Staatskapelle Dresden", "LpNRBublNr0"],
-    ["Andris Nelsons, Berliner Philharmoniker", "xJoYv6A-UOU"],
-    ["Jonathan Nott, Gustav Mahler Youth Orchestra", "6RdZ7rO_cr0"],
-    ["Mariss Jansons, Symphonieorchester des Bayerischen Rundfunks", "hC-PA0YGzK0"],
     ["Jakub Hrůša, NHK Symphony Orchestra", "t3xUbPiTIk0"],
-    
+    ["Jonathan Nott, Gustav Mahler Youth Orchestra", "6RdZ7rO_cr0"],
+    ["Mariss Jansons, Royal Concertgebouw Orchestra", "D4d88IgvhK4"],
+    ["Mariss Jansons, Symphonieorchester des Bayerischen Rundfunks", "hC-PA0YGzK0"],
+    // Masterclasses
     ["Joseph Alessi", "Mm8lPg8O0vw"]
 ])
 
@@ -802,12 +937,12 @@ let straussBourgeois = Composition(id: 52, composer: "Richard Strauss", composer
     Excerpt(id: 249, description: "Excerpt 1", avgTempo: "", measures: "No. 3, Beginning to [38]", pictures: [["Trombone", "1716"]]),
     Excerpt(id: 250, description: "Excerpt 2", avgTempo: "", measures: "No. 4, [46] to [50]", pictures: [["Trombone", "1717"]]),
     Excerpt(id: 251, description: "Excerpt 3", avgTempo: "", measures: "No. 9, [72] to [75]", pictures: [["Trombone", "1718"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Lorin Maazel, Royal Concertgebouw Orchestra", "CheXfDxIm5Y"],
-    ["Klaus Tennstedt, London Philharmonic Orchestra", "_0BIEdy9WNU"],
+], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Gerard Schwarz, New York Chamber Chorus and Symphony Orchestra", "ZNmhpzmQazk"],
     ["JoAnn Falletta, Norrlandsoperans Symfoniorkester", "7YG5vvsW1u0"],
-    ["Oscar Shumsky, Glenn Gould", "hZIq116v6uc"],
-    ["Gerard Schwarz, New York Chamber Chorus and Symphony Orchestra", "ZNmhpzmQazk"]
+    ["Klaus Tennstedt, London Philharmonic Orchestra", "_0BIEdy9WNU"],
+    ["Lorin Maazel, Royal Concertgebouw Orchestra", "CheXfDxIm5Y"],
+    ["Oscar Shumsky, Glenn Gould", "hZIq116v6uc"]
 ])
 
 let straussDeathAndTransfiguration = Composition(id: 53, composer: "Richard Strauss", composerLast: "Strauss", name: "Death and Transfiguration", date: "1889", era: "Late Romantic", genre: "Tone Poem", excerpts: [
@@ -815,29 +950,29 @@ let straussDeathAndTransfiguration = Composition(id: 53, composer: "Richard Stra
     Excerpt(id: 253, description: "Excerpt 2", avgTempo: "", measures: "8 mm. after [P] to 9 mm. after [S]", pictures: [["Trombone 1", "1722"], ["Trombone 2", "1723"], ["Trombone 3", "1724"]]),
     Excerpt(id: 254, description: "Excerpt 3", avgTempo: "", measures: "12 mm. before [X] to 24 mm. before [Y]", pictures: [["Trombone 1", "1725"], ["Trombone 2", "1726"], ["Trombone 3", "1727"]]),
     Excerpt(id: 255, description: "Excerpt 4", avgTempo: "", measures: "[Aa] to End", pictures: [["Trombone 1", "1728"], ["Trombone 2", "1729"], ["Trombone 3", "1730"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Jan Latham-Koenig, Symfonieorkest Vlaanderen", "mu2M67IQ68Q"],
-    ["David Zinman & Zurich Tonhalle Orchestra", "3D5Up1aYJJs"],
-    ["David Zinman, Tonhalle Orchestra Zürich (With Score)", "6hfQpaePuxo"],
-    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "4f92pYZYGfc"],
-    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "W6M3NdqyXNc"],
-    ["Mikko Franck, Orchestre Philharmonique de Radio France", "umfttWN5xYo"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Alexis Hauser, McGill Symphony Orchestra", "Pd_GmPLPpRg"],
     ["Arturo Toscanini, NBC Orchestra (With Score)", "L3bD7g3mp_Y"],
+    ["David Zinman, Tonhalle Orchestra Zürich (With Score)", "6hfQpaePuxo"],
+    ["David Zinman, Zurich Tonhalle Orchestra", "3D5Up1aYJJs"],
     ["George Szell, Cleveland Orchestra", "4K3E1wZWSn0"],
     ["George Szell, Cleveland Orchestra", "jHiNvJr-OxY"],
-    ["Alexis Hauser, McGill Symphony Orchestra", "Pd_GmPLPpRg"]
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "4f92pYZYGfc"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "W6M3NdqyXNc"],
+    ["Jan Latham-Koenig, Symfonieorkest Vlaanderen", "mu2M67IQ68Q"],
+    ["Mikko Franck, Orchestre Philharmonique de Radio France", "umfttWN5xYo"]
 ])
 
 let straussDonJuan = Composition(id: 54, composer: "Richard Strauss", composerLast: "Strauss", name: "Don Juan", date: "1888", era: "Late Romantic", genre: "Tone Poem", excerpts: [
     Excerpt(id: 256, description: "Excerpt 1", avgTempo: "", measures: "4 mm. before [P] to 14 mm. before [Q]", pictures: [["Trombone 1", "1731"], ["Trombone 2", "1732"], ["Trombone 3", "1733"]]),
     Excerpt(id: 257, description: "Excerpt 2", avgTempo: "", measures: "[X] to 2 mm. after [Y]", pictures: [["Trombone 1", "1734"], ["Trombone 2", "1735"], ["Trombone 3", "1736"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Wolfgang Sawallisch, Philadelphia Orchestra", "KP89c9KfetA"],
-    ["Paavo Järvi, NHK Symphony Orchestra", "DYQfLOjvPf8"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "XG4uBRBMdzY"],
-    ["Thomas Schippers, Cincinnati Symphony Orchestra (With Score)", "8woshq-F21s"],
     ["Georg Solti, Chicago Symphony Orchestra", "_um5yLJx-RM"],
-    ["Herbert von Karajan, Osaka Philharmonic Orchestra", "F_V5KhUxWG8"]
+    ["Herbert von Karajan, Osaka Philharmonic Orchestra", "F_V5KhUxWG8"],
+    ["Paavo Järvi, NHK Symphony Orchestra", "DYQfLOjvPf8"],
+    ["Thomas Schippers, Cincinnati Symphony Orchestra (With Score)", "8woshq-F21s"],
+    ["Wolfgang Sawallisch, Philadelphia Orchestra", "KP89c9KfetA"]
 ])
 
 let straussHeldenleben = Composition(id: 55, composer: "Richard Strauss", composerLast: "Strauss", name: "Ein Heldenleben", date: "1898", era: "", genre: "Late Romantic", excerpts: [
@@ -850,15 +985,15 @@ let straussHeldenleben = Composition(id: 55, composer: "Richard Strauss", compos
     Excerpt(id: 264, description: "Excerpt 7", avgTempo: "", measures: "[55] to [59]", pictures: [["Trombone 1", "1753"], ["Trombone 2", "1754"], ["Trombone 3", "1755"]]),
     Excerpt(id: 265, description: "Excerpt 8", avgTempo: "", measures: "2 mm. before [60] to [66]", pictures: [["Trombone 1", "1756"], ["Trombone 2", "1757"], ["Trombone 3", "1758"]]),
     Excerpt(id: 266, description: "Excerpt 9", avgTempo: "", measures: "[68] to [74]", pictures: [["Trombone 1", "1759"], ["Trombone 2", "1760"], ["Trombone 3", "1761"]]),
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Mariss Jansons, Symphonie-Orchestrer des Bayerischen Rundfunks", "_2-dLoWorUs"],
+], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra (With Score)", "mE-mZUEXWsg"],
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra", "Us1jfC7bMpA"],
-    ["Manfred Honeck, Pittsburgh Symphony Orchestra", "NGlzlNlnw_w"],
-    ["Valery Gergiev, Munich Philharmonic Orchestra", "m-aaCruKsLI"],
     ["Herbert von Karajan, Berlin Philharmonic Orchestra", "nu5AXJGmkJk"],
+    ["Manfred Honeck, Pittsburgh Symphony Orchestra", "NGlzlNlnw_w"],
+    ["Mariss Jansons, Symphonie-Orchestrer des Bayerischen Rundfunks", "_2-dLoWorUs"],
     ["Paavo Järvi, NHK Symphony Orchestra", "8nJoNtnNHIY"],
-    
+    ["Valery Gergiev, Munich Philharmonic Orchestra", "m-aaCruKsLI"],
+    // Masterclasses
     ["Southeast Trombone Symposium", "YqBPA00DBIU"],
     ["Christian Jones (Bass Trombone)", "gM056qAPT_4"],
     ["Ben van Dijk (Bass Trombone)", "0s9wId6IBGQ"],
@@ -866,13 +1001,13 @@ let straussHeldenleben = Composition(id: 55, composer: "Richard Strauss", compos
 ])
 
 let straussSalome = Composition(id: 56, composer: "Richard Strauss", composerLast: "Strauss", name: "Salome", date: "1905", era: "Late Romantic", genre: "Opera", excerpts: [
-    Excerpt(id: 267, description: "Excerpt 1", avgTempo: "", measures: "Dance of the Seven Veils: [f] to 3 mm. after [k]", pictures: [["Trombone 1", "1762"], ["Trombone 2", "1763"], ["Trombone 3", "1764"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Stefan Soltesz, Berlin Deutsches Symphony Orchestra", "umMeLSNlYMU"],
+    Excerpt(id: 267, description: "Excerpt 1", avgTempo: "", measures: "Dance of the Seven Veils: [f] to 3 mm. after [k]", pictures: [["Trombone 1", "1762"], ["Trombone 2", "1763"], ["Trombone 3", "1764"], ["Trombone 4", "1939"]])
+], mutes: "Straight (Trombones 3 and 4)", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Daniel Harding, Teatro Alla Scala", "4Ey9wE_r37U"],
+    ["Edo de Waart, De Nederlandse Opera", "mgpXRy09Gx4"],
     ["Giuseppe Sinopoli, Berlin Opera Orchestra (With Score)", "ViLcRFqtTpk"],
     ["Karl Böhm, Vienna Philharmonic", "MJ1kHi1HjQE"],
-    ["Edo de Waart, De Nederlandse Opera", "mgpXRy09Gx4"],
-    ["Daniel Harding, Teatro Alla Scala", "4Ey9wE_r37U"]
+    ["Stefan Soltesz, Berlin Deutsches Symphony Orchestra", "umMeLSNlYMU"]
 ])
 
 let straussEulenspiegel = Composition(id: 57, composer: "Richard Strauss", composerLast: "Strauss", name: "Till Eulenspiegel's Merry Pranks", date: "1895", era: "Late Romantic", genre: "Tone Poem", excerpts: [
@@ -880,27 +1015,27 @@ let straussEulenspiegel = Composition(id: 57, composer: "Richard Strauss", compo
     Excerpt(id: 269, description: "Excerpt 2", avgTempo: "", measures: "2 mm. after [18] to 6 mm. before [20]", pictures: [["Trombone 1", "1766"], ["Trombone 2", "1767"], ["Trombone 3", "1768"]]),
     Excerpt(id: 270, description: "Excerpt 3", avgTempo: "", measures: "[31] to [32]", pictures: [["Trombone 1", "1769"], ["Trombone 2", "1770"], ["Trombone 3", "1771"]]),
     Excerpt(id: 271, description: "Excerpt 4", avgTempo: "", measures: "4 mm. before [36] to 4 mm. before [38]", pictures: [["Trombone 1", "1772"], ["Trombone 2", "1773"], ["Trombone 3", "1774"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Masahiko Tanaka, Waseda Symphony Orchestra", "S7O9Oa22nsQ"],
-    ["Lorin Maazel, Symphonieorchester des Bayerischen Rundfunk (With Score)", "QV5r9KG1eyc"],
-    ["Zubin Mehta, New York Philharmonic", "ZU556MvQN6c"],
+], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Christoph von Dohnányi, NDR Elbphilharmonie Orchester", "EMcQQFWAnA0"],
     ["Georg Solti, Wiener Philharmoniker", "ZpA47nVfgBY"],
     ["Herbert von Karajan, Berliner Philharmoniker", "99qWgSItaNQ"],
-    ["Christoph von Dohnányi, NDR Elbphilharmonie Orchester", "EMcQQFWAnA0"],
+    ["Leonard Bernstein, New York Philharmonic Orchestra (With Score)", "1zbCfP9wGt4"],
+    ["Lorin Maazel, Symphonieorchester des Bayerischen Rundfunk (With Score)", "QV5r9KG1eyc"],
     ["Richard Strauss, Vienna Philharmonic", "IouFZBgEG3s"],
-    ["Leonard Bernstein, New York Philharmonic Orchestra (With Score)", "1zbCfP9wGt4"]
+    ["Masahiko Tanaka, Waseda Symphony Orchestra", "S7O9Oa22nsQ"],
+    ["Zubin Mehta, New York Philharmonic", "ZU556MvQN6c"]
 ])
 
 let stravinskyFirebird = Composition(id: 58, composer: "Igor Stravinsky", composerLast: "Stravinsky", name: "The Firebird", date: "1919", era: "Modern", genre: "Ballet", excerpts: [
     Excerpt(id: 272, description: "Excerpt 1", avgTempo: "", measures: "Danse Infernale du Roi Kastchei: 2 mm. before [1] to [3]", pictures: [["Trombone 1", "1775"], ["Trombone 2", "1776"], ["Trombone 3", "1777"]]),
     Excerpt(id: 273, description: "Excerpt 2", avgTempo: "", measures: "Danse Infernale du Roi Kastchei: [10] to 4 mm. before [14]", pictures: [["Trombone 1", "1778"], ["Trombone 2", "1779"], ["Trombone 3", "1780"]]),
     Excerpt(id: 274, description: "Excerpt 3", avgTempo: "", measures: "Finale: [17] to End", pictures: [["Trombone 1", "1781"], ["Trombone 2", "1782"], ["Trombone 3", "1783"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Valery Gergiev, Vienna Philharmonic", "RZkIAVGlfWk"],
-    ["Pierre Boulez, Chicago Symphony Orchestra (With Score)", "MHmk7yccvws"],
+], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
     ["정명훈 (Chung Myung-Whun), Orchestre de l'Opera Bastille (With Score)", "6wbkKWrUD-A"],
+    ["Igor Stravinsky, New York Philharmonic", "IrMGqAmjbug"],
     ["Peter Oundjian, Toronto Symphony Orchestra", "pHxstiIybz4"],
-    ["Igor Stravinsky, New York Philharmonic", "IrMGqAmjbug"]
+    ["Pierre Boulez, Chicago Symphony Orchestra (With Score)", "MHmk7yccvws"],
+    ["Valery Gergiev, Vienna Philharmonic", "RZkIAVGlfWk"]
 ])
 
 let tchaikovsky4 = Composition(id: 59, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 4", date: "1878", era: "Romantic", genre: "Symphony", excerpts: [
@@ -908,13 +1043,13 @@ let tchaikovsky4 = Composition(id: 59, composer: "Pyotr Ilyich Tchaikovsky", com
     Excerpt(id: 276, description: "Excerpt 2", avgTempo: "", measures: "Mov. I, 1 mm. after [P] to 15 mm. before [R]", pictures: [["Trombone 1", "1787"], ["Trombone 2", "1788"], ["Trombone 3", "1789"]]),
     Excerpt(id: 277, description: "Excerpt 3", avgTempo: "", measures: "Mov. IV, mm. 38 - [B]", pictures: [["Trombone 1", "1790"], ["Trombone 2", "1791"], ["Trombone 3", "1792"]]),
     Excerpt(id: 278, description: "Excerpt 4", avgTempo: "", measures: "Mov. IV, [H] to End", pictures: [["Trombone 1", "1793"], ["Trombone 2", "1794"], ["Trombone 3", "1795"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Leonard Bernstein, New York Philharmonic", "4d1Me2gRZIQ"],
-    ["Claudio Abbado, Chicago Symphony Orchestra", "XxvTGgoStcY"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Carlos Miguel Prieto, Frankfurt Radio Symphony", "Y7G5ithbFys"],
-    ["Gennady Rozhdestvensky, USSR State TV and Radio Symphony Orchestra (With Score)", "_Xldfaf4NGw"],
     ["Christian Lindberg, The Arctic Philharmonic Orchestra", "ieYFdj1wI_M"],
-    ["Herbert Von Karajan, Vienna Philharmonic Orchestra", "cnXd4ZqN_c8"]
+    ["Claudio Abbado, Chicago Symphony Orchestra", "XxvTGgoStcY"],
+    ["Gennady Rozhdestvensky, USSR State TV and Radio Symphony Orchestra (With Score)", "_Xldfaf4NGw"],
+    ["Herbert Von Karajan, Vienna Philharmonic Orchestra", "cnXd4ZqN_c8"],
+    ["Leonard Bernstein, New York Philharmonic", "4d1Me2gRZIQ"]
 ])
 
 let tchaikovsky5 = Composition(id: 60, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 5", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
@@ -930,15 +1065,15 @@ let tchaikovsky5 = Composition(id: 60, composer: "Pyotr Ilyich Tchaikovsky", com
     Excerpt(id: 288, description: "Excerpt 10", avgTempo: "", measures: "Mov. IV, [T] to 10 mm. after [U]", pictures: [["Trombone 1", "1823"], ["Trombone 2", "1824"], ["Trombone 3", "1825"]]),
     Excerpt(id: 289, description: "Excerpt 11", avgTempo: "", measures: "Mov. IV, [X] to [Molto Vivace]", pictures: [["Trombone 1", "1826"], ["Trombone 2", "1827"], ["Trombone 3", "1828"]]),
     Excerpt(id: 290, description: "Excerpt 12", avgTempo: "", measures: "Mov. IV, [Aa] to End", pictures: [["Trombone 1", "1829"], ["Trombone 2", "1830"], ["Trombone 3", "1831"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Leonard Bernstein, Boston Symphony Orchestra", "w2JBT0HC98I"],
-    ["Herbert von Karajan, Berliner Philharmoniker", "NeNeQrUXymg"],
-    ["Manfred Honeck, Frankfurt Radio Symphony", "a_B02BZp-5Y"],
-    ["Leonard Bernstein, New York Philharmonic Orchestra (With Score)", "4_PSjr47AUo"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Elim Chan, Netherlands Philharmonic Orchestra", "xFf5GA2UpMs"],
-    ["Vasily Petrenko, The Oslo Philharmonic", "JUk0WZVCnk4"],
+    ["Emmanuel Krivine, Orchestre National de France", "Z1hFlRVB7DI"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "NeNeQrUXymg"],
+    ["Leonard Bernstein, Boston Symphony Orchestra", "w2JBT0HC98I"],
+    ["Leonard Bernstein, New York Philharmonic Orchestra (With Score)", "4_PSjr47AUo"],
+    ["Manfred Honeck, Frankfurt Radio Symphony", "a_B02BZp-5Y"],
     ["Valery Gergiev, Mariinsky Orchestra", "nmMLFvjkcEs"],
-    ["Emmanuel Krivine, Orchestre National de France", "Z1hFlRVB7DI"]
+    ["Vasily Petrenko, The Oslo Philharmonic", "JUk0WZVCnk4"],
 ])
 
 let tchaikovsky6 = Composition(id: 61, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 6", date: "1893", era: "Romantic", genre: "Symphony", excerpts: [
@@ -951,15 +1086,15 @@ let tchaikovsky6 = Composition(id: 61, composer: "Pyotr Ilyich Tchaikovsky", com
     Excerpt(id: 297, description: "Excerpt 7", avgTempo: "", measures: "Mov. III, 3 mm. after [Ii] to End", pictures: [["Trombone 1", "1850"], ["Trombone 2", "1851"], ["Trombone 3", "1852"]]),
     Excerpt(id: 298, description: "Excerpt 8", avgTempo: "", measures: "Mov. IV, 4 mm. before [D] to 5 mm. after [D]", pictures: [["Trombone 1", "1853"], ["Trombone 2", "1854"]]),
     Excerpt(id: 299, description: "Excerpt 9", avgTempo: "", measures: "Mov. IV, [L] to 3 mm. before [N]", pictures: [["Trombone 1", "1855"], ["Trombone 2", "1856"], ["Trombone 3", "1857"]]),
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["정명훈 (Chung Myung-Whun), Seoul Philharmonic Orchestra", "IH-zp9LjiEs"],
-    ["Georg Solti", "V4qLtjCXxkg"],
-    ["Valery Gergiev, Mariinsky Theatre Orchestra (With Score)", "8VswsTffasc"],
-    ["Herbert von Karajan, Wiener Philharmonic", "KvGC8hZC29U"],
-    ["Herbert von Karajan, Vienna Philharmonic Orchestra", "-qgo1KFj0do"],
     ["Claudio Abbado, Orquesta Sinfónica Simón Bolívar", "zIJiPlbJjs8"],
+    ["Daniele Gatti, The Orchestre National de France", "NfusWGFWMq8"],
+    ["Georg Solti", "V4qLtjCXxkg"],
+    ["Herbert von Karajan, Wiener Philharmonic", "KvGC8hZC29U"],
+    ["Herbert von Karajan, Wiener Philharmonic", "-qgo1KFj0do"],
     ["Lionel Bringuier, Frankfurt Radio Symphony Orchestra", "SVnF3x44rvU"],
-    ["Daniele Gatti, The Orchestre National de France", "NfusWGFWMq8"]
+    ["Valery Gergiev, Mariinsky Theatre Orchestra (With Score)", "8VswsTffasc"]
 ])
 
 let tchaikovskyFrancesca = Composition(id: 62, composer: "Pyotr Ilyich Tchaikovsky", composerLast: "Tchaikovsky", name: "Francesca da Rimini", date: "1876", era: "Romantic", genre: "Symphonic Poem", excerpts: [
@@ -967,12 +1102,12 @@ let tchaikovskyFrancesca = Composition(id: 62, composer: "Pyotr Ilyich Tchaikovs
     Excerpt(id: 301, description: "Excerpt 2", avgTempo: "", measures: "[F] to [G]", pictures: [["Trombone 1", "1860"], ["Trombone 2", "1861"], ["Trombone 3", "1862"]]),
     Excerpt(id: 302, description: "Excerpt 3", avgTempo: "", measures: "[S] to 14 mm. after [S]", pictures: [["Trombone 1", "1863"], ["Trombone 2", "1864"], ["Trombone 3", "1865"]]),
     Excerpt(id: 303, description: "Excerpt 4", avgTempo: "", measures: "[U] to 8 mm. after [X]", pictures: [["Trombone 1", "1866"], ["Trombone 2", "1867"], ["Trombone 3", "1868"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Daniel Barenboim, Chicago Symphony Orchestra", "cZCYrQ4MUk8"],
+    ["Gustavo Dudamel, Simón Bolívar Symphony Orchestra of Venezuela", "AZ-h6ZblWL4"],
     ["Igor Manasherov, Moscow Philharmonic Orchestra", "xBX9rFDZ0UQ"],
     ["Semyon Bychkov, Royal Academy of Music Symphony Orchestra", "FmKymqHg4ak"],
     ["Veronika Dudarova, Symphony Orchestra of Russia (With Score)", "2amnA_rVrRE"],
-    ["Gustavo Dudamel, Simón Bolívar Symphony Orchestra of Venezuela", "AZ-h6ZblWL4"],
-    ["Daniel Barenboim, Chicago Symphony Orchestra", "cZCYrQ4MUk8"],
     ["Yevgeny Mravinsky, Leningrad Philharmonic Orchestra", "xgNTwk9gQho"]
 ])
 
@@ -981,31 +1116,31 @@ let verdiForza = Composition(id: 63, composer: "Giuseppe Verdi", composerLast: "
     Excerpt(id: 305, description: "Excerpt 2", avgTempo: "", measures: "6 mm. before [E] to 3 mm. after [E]", pictures: [["Trombone 1", "1872"], ["Trombone 2", "1873"], ["Trombone 3", "1874"]]),
     Excerpt(id: 306, description: "Excerpt 3", avgTempo: "", measures: "[H] to [L]", pictures: [["Trombone 1", "1875"], ["Trombone 2", "1876"], ["Trombone 3", "1877"]]),
     Excerpt(id: 307, description: "Excerpt 4", avgTempo: "", measures: "8 mm. after [P] to End", pictures: [["Trombone 1", "1878"], ["Trombone 2", "1879"], ["Trombone 3", "1880"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Valery Gergiev, Mariinsky Theatre Orchestra", "GHk1RmPzA5E"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Antony Hermus, The Radio Philharmonic Orchestra", "NOeIPxKHp-Q"],
+    ["Arturo Toscanini, NBC Symphony Orchestra", "9JQvyg3kJ54"],
+    ["Claudio Abbado, Berliner Philharmoniker", "DPAiznpUjwc"],
     ["Giuseppe Sinopoli, Vienna Philharmonic Orchestra (With Score)", "8lBI2wu4OIc"],
     ["Herbert von Karajan, Berliner Philharmoniker", "AUuJxE-iWbo"],
-    ["Vassil Stefanov, Sofia Symphony Orchestra", "QlfexKwKaMg"],
-    ["Arturo Toscanini, NBC Symphony Orchestra", "9JQvyg3kJ54"],
-    ["张弦 (Xian Zhang), Orchestra Sinfonica di Milano", "CkPOVYg4Bxc"],
-    ["Richard Divall, Orchestra Victoria", "-QxEAX43wL0"],
     ["Herbert von Karajan, Berliner Philharmoniker", "HzJk_vwABKg"],
-    ["Claudio Abbado, Berliner Philharmoniker", "DPAiznpUjwc"],
-    ["Antony Hermus, The Radio Philharmonic Orchestra", "NOeIPxKHp-Q"],
-    ["Riccardo Chailly, Rundfunk-Sinfonieorchester Berlin", "lqI8z0FdBhM"]
+    ["Richard Divall, Orchestra Victoria", "-QxEAX43wL0"],
+    ["Riccardo Chailly, Rundfunk-Sinfonieorchester Berlin", "lqI8z0FdBhM"],
+    ["Valery Gergiev, Mariinsky Theatre Orchestra", "GHk1RmPzA5E"],
+    ["Vassil Stefanov, Sofia Symphony Orchestra", "QlfexKwKaMg"],
+    ["张弦 (Xian Zhang), Orchestra Sinfonica di Milano", "CkPOVYg4Bxc"]
 ])
 
 let verdiNabucco = Composition(id: 64, composer: "Giuseppe Verdi", composerLast: "Verdi", name: "Nabucco", date: "1842", era: "Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 308, description: "Excerpt 1", avgTempo: "", measures: "Overture, mm. 1 to mm. 16", pictures: [["Trombone 1", "1881"], ["Trombone 2", "1882"], ["Trombone 3", "1883"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Marco Armiliato, Orchestra of the Deutsche Oper Berlin", "jGhd5kGM7dk"],
-    ["James Levine, Metropolitan opera", "Lb_jWkv8uxY"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["Claudio Abbado, Berliner Philharmoniker", "maaKrLc6QlYdxz"],
+    ["Claudio Abbado, London Symphony Orchestra", "Vvyjv7Ufc7w"],
     ["Giuseppe Sinopoli, Vienna Philharmonic Orchestra", "3RNBiC7q_nY"],
+    ["James Levine, Metropolitan opera", "Lb_jWkv8uxY"],
+    ["Marco Armiliato, Orchestra of the Deutsche Oper Berlin", "jGhd5kGM7dk"],
     ["Oliver Dohnanyi, Slovak Radio Symphony Orchestra", "LLRBPZs-zBg"],
     ["Pier Giorgio Morandi, Hungarian State Opera Orchestra", "eenFoCy-I78"],
-    ["Zygmunt Nitkiewicz, Orchestra Of The Józef Marcin Żebrowski Music School", "OseGETWEnCo"],
-    ["Claudio Abbado, London Symphony Orchestra", "Vvyjv7Ufc7w"],
-    ["Claudio Abbado, Berliner Philharmoniker", "maaKrLc6QlYdxz"]
+    ["Zygmunt Nitkiewicz, Orchestra Of The Józef Marcin Żebrowski Music School", "OseGETWEnCo"]
 ])
 
 let wagnerRheingold = Composition(id: 65, composer: "Richard Wagner", composerLast: "Wagner", name: "Das Rheingold", date: "1854", era: "Late Romantic", genre: "Music Drama", excerpts: [
@@ -1013,14 +1148,14 @@ let wagnerRheingold = Composition(id: 65, composer: "Richard Wagner", composerLa
     Excerpt(id: 310, description: "Excerpt 2", avgTempo: "", measures: "Scene 2, [a tempo] to [Common Time]", pictures: [["Trombone 1", "1888"], ["Trombone 2", "1889"], ["Trombone 3", "1890"], ["Trombone 4", "1891"]]),
     Excerpt(id: 311, description: "Excerpt 3", avgTempo: "", measures: "Scene 2, [modulation to C] to [7 mm. after modulation]", pictures: [["Trombone 1", "1892"], ["Trombone 2", "1893"], ["Trombone 3", "1894"], ["Trombone 4", "1895"]]),
     Excerpt(id: 312, description: "Excerpt 4", avgTempo: "", measures: "Scene 4, 21 mm. before End to End", pictures: [["Trombone 1", "1896"], ["Trombone 2", "1897"], ["Trombone 3", "1898"], ["Trombone 4", "1899"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
+    ["China National Opera House", "9d-3nqzKTKU"],
+    ["Georg Solti, Vienna Philharmonic Orchestra (With Score)", "loTqK2Fyrrw"],
+    ["Georg Solti, Vienna Philharmonic Orchestra (With Score)", "VsR11uFzBJg"],
     ["Herbert von Karajan", "dBi0YXM3zmI"],
     ["Pierre Boulez", "3ZP-yXsNV2E"],
-    ["Georg Solti, Vienna Philharmonic Orchestra (With Score)", "VsR11uFzBJg"],
-    ["Zubin Mehta, Valencian Community Orchestra", "XgX14XYfYxQ"],
     ["Sir Simon Rattle, Orchestra of the Age of Enlightenment", "CUFWNKFajjA"],
-    ["China National Opera House", "9d-3nqzKTKU"],
-    ["Georg Solti, Vienna Philharmonic Orchestra (With Score)", "loTqK2Fyrrw"]
+    ["Zubin Mehta, Valencian Community Orchestra", "XgX14XYfYxQ"]
 ])
 
 let wagnerFlying = Composition(id: 66, composer: "Richard Wagner", composerLast: "Wagner", name: "The Flying Dutchman", date: "1843", era: "Late Romantic", genre: "Opera", excerpts: [
@@ -1028,32 +1163,32 @@ let wagnerFlying = Composition(id: 66, composer: "Richard Wagner", composerLast:
     Excerpt(id: 314, description: "Excerpt 2", avgTempo: "", measures: "Overture, [C] to [D]", pictures: [["Trombone 1", "1903"], ["Trombone 2", "1904"], ["Trombone 3", "1905"]]),
     Excerpt(id: 315, description: "Excerpt 3", avgTempo: "", measures: "Overture, [G] to 1 mm. before [H]", pictures: [["Trombone 1", "1906"], ["Trombone 2", "1907"], ["Trombone 3", "1908"]]),
     Excerpt(id: 316, description: "Excerpt 4", avgTempo: "", measures: "Overture, 41 mm. before End to End", pictures: [["Trombone 1", "1909"], ["Trombone 2", "1910"], ["Trombone 3", "1911"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Joseph Keilberth, Bayreuth Festival Orchestra (With Score)", "HI3CS0xfico"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Andris Nelsons, Orchestra of the Royal Opera House", "EW1yXBl_aQA"],
-    ["Marek Janowski, Frankfurt Radio Symphony", "Ezqen5-UxlQ"],
-    ["Franz Konwitschny, Staatskapelle Berlin", "CvIIajk4M2k"],
     ["Antal Dorati, Orchestra of the Royal Opera House", "cum3HoVhMIs"],
     ["Christian Thielemann, Bayreuther Festspiele", "mFqX_oZPL6g"],
-    ["Georg Solti", "_qhNF1R6AYk"]
+    ["Franz Konwitschny, Staatskapelle Berlin", "CvIIajk4M2k"],
+    ["Georg Solti", "_qhNF1R6AYk"],
+    ["Joseph Keilberth, Bayreuth Festival Orchestra (With Score)", "HI3CS0xfico"],
+    ["Marek Janowski, Frankfurt Radio Symphony", "Ezqen5-UxlQ"]
 ])
 
 let wagnerValyrie = Composition(id: 67, composer: "Richard Wagner", composerLast: "Wagner", name: "Die Walküre", date: "1870", era: "Late Romantic", genre: "Music Drama", excerpts: [
     Excerpt(id: 317, description: "Excerpt 1", avgTempo: "", measures: "", pictures: [["Trombone 1", "1912"], ["Trombone 2", "1913"], ["Trombone 3", "1914"]]),
     Excerpt(id: 318, description: "Excerpt 2", avgTempo: "", measures: "8 mm. before [11] to [12]", pictures: [["Trombone 1", "1915"], ["Trombone 2", "1916"], ["Trombone 3", "1917"]]),
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Georg Solti, Vienna Philharmonic Orchestra (With Score)", "Qx55EmiFadg"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Adam Fischer, Vienna State Opera", "NMTc4t6RHmw"],
-    ["Marek Janowski, Bayreuth Festival Orchestra", "80KUzCA71tg"],
+    ["Georg Solti, Vienna Philharmonic Orchestra (With Score)", "Qx55EmiFadg"],
     ["Herbert von Karajan,  Berlin Philharmonic", "w8v6rlasLyw"],
+    ["Marek Janowski, Bayreuth Festival Orchestra", "80KUzCA71tg"],
     ["Zubin Mehta, Valencian Community Orchestra", "_C-0hH5G8MU"],
-    
-    ["Georgia Trombone Summit", "sC-BebXLtrA"],
-    ["Tim Buzbee, Jessica Buzbee, James Decker, and James Meador", "80o8Q6G_HDQ"],
-    ["Thomas Leyendecker, Carnegie Hall Trombone Master Class", "NRWlHRvaDcQ"],
-    ["Ian Bousfield, YouTube Symphony Orchestra", "0QXVKh34wVo"],
+    // Masterclasses
+    ["Ben van Dijk (contra-basstrombone)", "94YEBjk8prY"],
     ["Christian Jones (Bass Trombone)", "opa8yNCIQ-g"],
-    ["Ben van Dijk (contra-basstrombone)", "94YEBjk8prY"]
+    ["Georgia Trombone Summit", "sC-BebXLtrA"],
+    ["Ian Bousfield, YouTube Symphony Orchestra", "0QXVKh34wVo"],
+    ["Thomas Leyendecker, Carnegie Hall Trombone Master Class", "NRWlHRvaDcQ"],
+    ["Tim Buzbee, Jessica Buzbee, James Decker, and James Meador", "80o8Q6G_HDQ"]
 ])
 
 let wagnerLohengrin = Composition(id: 68, composer: "Richard Wagner", composerLast: "Wagner", name: "Lohengrin", date: "1850", era: "Late Romantic", genre: "Opera", excerpts: [
@@ -1062,21 +1197,21 @@ let wagnerLohengrin = Composition(id: 68, composer: "Richard Wagner", composerLa
     Excerpt(id: 321, description: "Excerpt 3", avgTempo: "", measures: "Prelude to Act III, 1 mm. after [5] to 5 mm. after [6]", pictures: [["Trombone 1", "1924"], ["Trombone 2", "1925"], ["Trombone 3", "1926"]]),
     Excerpt(id: 322, description: "Excerpt 4", avgTempo: "", measures: "Act III, Scene 3, [47] to 4 mm. before [49]", pictures: [["Trombone 1", "1927"], ["Trombone 2", "1928"], ["Trombone 3", "1929"]]),
     Excerpt(id: 323, description: "Excerpt 5", avgTempo: "", measures: "Act III, Scene 3, [62] to 17 mm. after [62]", pictures: [["Trombone 1", "1930"], ["Trombone 2", "1931"], ["Trombone 3", "1932"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Silvio Varviso, Bayreuth Festival Orchestra and Chorus", "_ReY89_fM0g"],
-    ["Georg Solti, Vienna Philharmonic Orchestra", "zUrXqwmf3ZU"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Andris Nelsons, Bayreuth Festival", "VXwSV0sjYzg"],
-    ["Daniel Barenboim, Orchestra of the Milan Scala", "kSzkYafY0pM"]
+    ["Daniel Barenboim, Orchestra of the Milan Scala", "kSzkYafY0pM"],
+    ["Georg Solti, Vienna Philharmonic Orchestra", "zUrXqwmf3ZU"],
+    ["Silvio Varviso, Bayreuth Festival Orchestra and Chorus", "_ReY89_fM0g"]
 ])
 
 let wagnerTannhauser = Composition(id: 69, composer: "Richard Wagner", composerLast: "Wagner", name: "Tannhäuser", date: "1845", era: "Late Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 324, description: "Excerpt 1", avgTempo: "", measures: "Overture, [A] to 27 mm. before [B]", pictures: [["Trombone 1", "1933"], ["Trombone 2", "1934"], ["Trombone 3", "1935"]]),
     Excerpt(id: 325, description: "Excerpt 2", avgTempo: "", measures: "Overture, 1 mm. before [M] to End", pictures: [["Trombone 1", "1936"], ["Trombone 2", "1937"], ["Trombone 3", "1938"]])
-], mutes: "", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Daniel Barenboim", "Ozp8CbktEwQ"],
-    ["Wolfgang Sawallisch, Bayreuth Festival Orchestra & Choir (With Score)", "LyZlLsBWwbo"],
-    ["Klaus Tennstedt, Berliner Philharmoniker", "AWIjohOIYNc"],
+], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Christian Thielemann, Münchner Philharmoniker", "KTM7E4-DN0o"],
+    ["Daniel Barenboim", "Ozp8CbktEwQ"],
+    ["Klaus Tennstedt, Berliner Philharmoniker", "AWIjohOIYNc"],
+    ["Wolfgang Sawallisch, Bayreuth Festival Orchestra & Choir (With Score)", "LyZlLsBWwbo"],
     ["Zubin Mehta, New York Philharmonic Orchestra (With Score)", "3_Eq9H4bSdQ"]
 ])
 
@@ -1107,7 +1242,7 @@ let borodin = Composer(id: 4, name: "Alexander Borodin", ipa: "ɐlʲɪkˈsandr b
 ])
 
 let brahms = Composer(id: 5, name: "Johannes Brahms", ipa: "joˈhanəs ˈbʁaːms", image: 2005, country: "Germany", dates: "1833-1897", bio: "Johannes Brahms was one of the most famous composers of all time. He is most famous for his four symphonies, but he wrote for many diverse ensembles. Brahms was a perfectionist in all that he did, and was known to occaisionally destroy some of his work to prevent it from being seen by the outside world.", excerpts: [
-    brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic
+    brahmsAcademic, brahms1, brahms2, brahms3, brahms4, brahmsTragic
 ])
 
 let bruckner = Composer(id: 6, name: "Anton Bruckner", ipa: " 'antɔn ˈbʁʊknɐ", image: 2006, country: "Austria", dates: "1824-1896", bio: "Anton Bruckner was an Austrian organist, music theorist, and composer of the romantic era. He is best known for his symphonies and religious music. Bruckner was unlike other composers of his time, in that he was very a very humble man.", excerpts: [
@@ -1197,7 +1332,7 @@ let wagner = Composer(id: 26, name: "Richard Wagner", ipa: "ˈʁɪçaʁt ˈvaː�
 
 class TromboneContentModel: ObservableObject {
     var excerpts: [Composition] = [
-        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahms1, brahms2, brahms3, brahms4, brahmsAcademic, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, mussorgskyPictures, ravelBolero, ravelDaphnis, ravelValse, ravelLEnfant, respighiFountains, rimskyKorsakovCapriccio, rimskyKorsakovGolden, rimskyKorsakovRussianEaster, rimskyKorsakovScheherazade, rossiniLaGazza, rossiniWilliamTell, saintSaens3, schubert8, schubert9, schumann1, schumann2, schumann3, schumann4, smetanaBarteredBride, straussAlpine, straussZarathustra, straussBourgeois, straussDeathAndTransfiguration, straussDonJuan, straussHeldenleben, straussSalome, straussEulenspiegel, stravinskyFirebird, tchaikovsky4, tchaikovsky5, tchaikovsky6, tchaikovskyFrancesca, verdiForza, verdiNabucco, wagnerRheingold, wagnerFlying, wagnerValyrie, wagnerLohengrin
+        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahmsAcademic, brahms1, brahms2, brahms3, brahms4, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, mussorgskyPictures, ravelBolero, ravelDaphnis, ravelValse, ravelLEnfant, respighiFountains, rimskyKorsakovCapriccio, rimskyKorsakovGolden, rimskyKorsakovRussianEaster, rimskyKorsakovScheherazade, rossiniLaGazza, rossiniWilliamTell, saintSaens3, schubert8, schubert9, schumann1, schumann2, schumann3, schumann4, smetanaBarteredBride, straussAlpine, straussZarathustra, straussBourgeois, straussDeathAndTransfiguration, straussDonJuan, straussHeldenleben, straussSalome, straussEulenspiegel, stravinskyFirebird, tchaikovsky4, tchaikovsky5, tchaikovsky6, tchaikovskyFrancesca, verdiForza, verdiNabucco, wagnerRheingold, wagnerFlying, wagnerValyrie, wagnerLohengrin
     ]
     
     var composers: [Composer] = [

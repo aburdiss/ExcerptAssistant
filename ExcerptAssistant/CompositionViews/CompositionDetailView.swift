@@ -45,6 +45,12 @@ struct CompositionDetailView: View {
                         Text(self.composition.genre)
                     }
                     .padding(.horizontal)
+                    HStack {
+                        Text("Mutes:")
+                            .font(.headline)
+                        Text(self.composition.mutes)
+                    }
+                    .padding(.horizontal)
                     Divider()
                         .background(Color.green)
                         .padding(.horizontal)
@@ -107,6 +113,6 @@ struct CompositionDetailView_Previews: PreviewProvider {
     static var previews: some View {
         CompositionDetailView(
             composition: brahms4
-        ).environment(\.colorScheme, .dark)
+        )
     }
 }
