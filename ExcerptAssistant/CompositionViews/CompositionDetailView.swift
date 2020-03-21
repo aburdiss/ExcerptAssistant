@@ -18,47 +18,47 @@ struct CompositionDetailView: View {
     var composition: Composition
     
     var body: some View {
-        ScrollView {
+        ScrollView(.vertical) {
             VStack(alignment: .leading) {
                 Text(self.composition.name)
                     .font(.largeTitle)
                     .bold()
                     .padding()
                 Group {
-                    Text(self.composition
+                    Text(composition
                             .composer)
                         .font(.headline)
                         .padding(.horizontal)
-                    Text(self.composition.date)
+                    Text(composition.date)
                         .padding(.horizontal)
                 }
                 Group {
                     HStack {
                         Text("Era:")
                             .font(.headline)
-                        Text(self.composition.era)
+                        Text(composition.era)
                     }
                     .padding(.horizontal)
                     HStack {
                         Text("Genre:")
                             .font(.headline)
-                        Text(self.composition.genre)
+                        Text(composition.genre)
                     }
                     .padding(.horizontal)
                     HStack {
                         Text("Mutes:")
                             .font(.headline)
-                        Text(self.composition.mutes)
+                        Text(composition.mutes)
                     }
                     .padding(.horizontal)
                     Divider()
                         .background(Color.green)
                         .padding(.horizontal)
                 }
+                // MARK: Excerpt Group
                 
-                    // Excerpt Group
                 Group {
-                    ForEach(self.composition.excerpts) { item in
+                    ForEach(composition.excerpts) { item in
                         Group {
                             Text(item.description)
                                 .font(.headline)
@@ -86,7 +86,7 @@ struct CompositionDetailView: View {
                     .font(.headline)
                     .padding(.bottom)
                     .padding(.leading)
-                ForEach(self.composition.videos, id: \.self) { item in
+                ForEach(composition.videos, id: \.self) { item in
                     VStack(alignment: .leading) {
                         Button(action: {
                             UIApplication.shared.open(URL(string: "https://youtu.be/\(item[1])")!)
@@ -105,7 +105,7 @@ struct CompositionDetailView: View {
             }
             .padding()
         }
-        .navigationBarTitle(Text(""), displayMode: .inline)
+        .navigationBarTitle(Text(composition.name), displayMode: .inline)
     }
 }
 

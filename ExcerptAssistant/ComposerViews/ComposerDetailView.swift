@@ -18,9 +18,6 @@ struct ComposerDetailView: View {
         ScrollView(.vertical) {
             VStack {
                 Text("\\\(composer.ipa)\\")
-                //Divider()
-                    //.background(Color.green)
-                    //.padding(.horizontal)
                 Image("\(composer.image)")
                     .resizable()
                     .scaledToFit()

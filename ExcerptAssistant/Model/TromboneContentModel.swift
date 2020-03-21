@@ -53,17 +53,13 @@ struct Composer: Identifiable {
     var excerpts: [Composition]
 }
 
-
-//********************************************************//
-//                                                        //
-//                       Excerpts                         //
-//                                                        //
-//********************************************************//
+//MARK: Excerpts
 
 let bachCelloSuite = Composition(id: 0, composer: "Johann Sebastian Bach", composerLast: "Bach", name: "Cello Suite No. 5", date: "ca. 1720", era: "Baroque", genre: "Cello Suite", excerpts: [
     Excerpt(id: 0, description: "Sarabande", avgTempo: "72bpm", measures: "1-20 (All)", pictures: [["", "1000"]])
 ], mutes: "No", commonDifficulties: "smooth leaps, breathing", professionalAdvice: "\"As to tempo, we are left to find a comfortable tempo that communicates the gravity of the music without becoming glacial and static. Many trombonists play the Sarabande as if it was in six rather than three – such weighting of each note results in a dull, ponderous performance that is impossible to sustain musically. A tempo of quarter note = 50 is typical of that taken by many of the world’s great cello players and allows us to maintain forward motion without hurrying.\n\nKeep in mind that every measure contains a five note theme; the sixth note in several bars serves simply as a reinforcement of the cadence, a melodic movement to the key of the downbeat of the next bar, or resolution of a fifth note passing tone.\n\nBars 16-19 require a decision by the performer: whether or not to phrase over the bar lines. Many players (including myself in my 2001 version of this movement that was first posted on my website) have phrased over the bar line, making the sixth note a pickup to the next bar. But over time, I have become persuaded – as the earliest manuscripts of the Suites support – that playing all six notes in those bars as a phrase rather than giving each bar a five note theme with a pickup to the next bar makes the most cogent musical sense.\" -Douglas Yeo", videos: [
     ["Christian Jones", "jO9BGyQveRY"],
+    ["Denson Paul Pollard", "WYwDU-EoBA8"],
     ["Mischa Maisky", "oBFrEJK7oAg"],
     ["Mstislav Rostropovich", "gOk5Qtian1w"],
     ["Pablo Casals", "XEN-Xhx8aDA"],
@@ -130,6 +126,7 @@ let berliozFaust = Composition(id: 4, composer: "Hector Berlioz", composerLast: 
     // Band
     ["Col. John R. Bourgeois, \"The President's Own\" Marine Band", "LkSbzdvKClM"],
     // Masterclasses
+    ["Denson Paul Pollard", "btjbSrM2jhQ"],
     ["Ralph Sauer", "tGkfrDcx0JI"],
     ["Southeast Trombone Symposium", "TBwYSOIscw0"]
 ])
@@ -223,7 +220,6 @@ let brahms1 = Composition(id: 10, composer: "Johannes Brahms", composerLast: "Br
     Excerpt(id: 21, description: "Excerpt 1", avgTempo: "", measures: "Mov. IV, [C] to 14 mm. after [C]", pictures: [["Trombone 1", "1058"], ["Trombone 2", "1059"], ["Trombone 3", "1060"]])
 ], mutes: "No", commonDifficulties: "Range, Potential Alto Trombone", professionalAdvice: "Brahms also intended his first trombone parts to be played on the alto trombone. In the United States, the alto has not been a requirement on auditions, however it is being used more and more by today's players. As in the Schumann, strive for a clear, bright fortissimo that is not too loud. Attacks can be slightly more Marcato than Schubert, but not as aggressive as Mahler or Bartok.\" -Ralph Sauer", videos: [
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra", "cqd4NQ-ppCY"],
-    ["Carlos Kleiber, Wiener Philharmoniker (With Score)", "HCkSpCh4Wcw"],
     ["Herbert von Karajan, Berliner Philharmoniker", "45mWi4qY5v0"],
     ["Karl Böhm, Berliner Philharmoniker (With Score)", "POW-u-RGspY"],
     ["Leonard Bernstein, Vienna Philharmonic Orchestra", "EGRqIGOAPcE"],
@@ -272,7 +268,8 @@ let brahms4 = Composition(id: 13, composer: "Johannes Brahms", composerLast: "Br
     ["Bernard Haitink, Chamber Orchestra of Europe", "7QLuYj2jxoc"],
     ["Carlos Kleiber, Bayerische Staatsorchester", "t_L8BajLmtE"],
     ["Carlos Kleiber, Wiener Philharmoniker (With Score)", "pT6SN4tPbv8"],
-    ["Christoph Eschenbach", "xTE7810lrGk"],
+    // TODO: Fix This Link
+    //["Christoph Eschenbach", "xTE7810lrGk"],
     ["정명훈 (Chung Myung-Whun), The Orchestre Philharmonique de Radio France", "G8R7T0R4NC0"],
     ["Leonard Bernstein, Wiener Philharmoniker", "ckuUq7im8H4"]
 ])
@@ -333,7 +330,8 @@ let bruckner7 = Composition(id: 17, composer: "Anton Bruckner", composerLast: "B
     ["Christian Thielemann, Wiener Philharmoniker", "cuXPkoOM2j8"],
     ["Herbert von Karajan, Wiener Philharmoniker", "3pioV8yB3iA"],
     ["Herbert von Karajan, Wiener Philharmoniker", "2XfhRC03Riw"],
-    ["Otto Klemperer, ", ""],
+    // TODO: Find this Video
+    //["Otto Klemperer, ", ""],
     ["Sergiu Celibidache, Münchner Philharmoniker", "2X2bbusaOzI"],
     ["Wilhelm Furtwängler, Berliner Philharmoniker", "ihK5eDpP2vU"],
     // Masterclasses
@@ -348,7 +346,8 @@ let bruckner8 = Composition(id: 18, composer: "Anton Bruckner", composerLast: "B
     Excerpt(id: 57, description: "Excerpt 4", avgTempo: "", measures: "Mov. IV, mm. 701 to End", pictures: [["Trombone 1", "1166"], ["Trombone 2", "1167"], ["Trombone 3", "1168"]])
 ], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Carlo Maria Giulini, Vienna Philharmonic Orchestra", "xT5kreOhjxU"],
-    ["Herbert von Karajan, Vienna Philharmonic Orchestra", "sJf3KmAg08"],
+    //TODO: Fix this video
+    //["Herbert von Karajan, Vienna Philharmonic Orchestra", "sJf3KmAg08"],
     ["Paavo Järvi, Frankfurt Radio Symphony Orchestra", "-UPIEJAptcY"],
     ["Pierre Boulez, Vienna Philharmonic Orchestra", "ufqC1LCpHV4"],
     ["Sergiu Celibidache, Münchner Philharmoniker", "elVHvTrEM34"],
@@ -426,7 +425,8 @@ let dvorak9 = Composition(id: 21, composer: "Antonín Dvořák", composerLast: "
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "jOofzffyDSA"],
     ["Ferenc Fricsay, Berliner Philharmoniker (With Score)", "oLWpgWuUaU4"],
     ["George Szell, The Cleveland Orchestra", "jxoygdpGET0"],
-    ["Kurt Redel, Slovak Philharmonic Orchestra"],
+    // TODO: Find this video
+    //["Kurt Redel, Slovak Philharmonic Orchestra", ""],
     ["Lorin Maazel, New York Philharmonic", "nSd1ye8l4RE"],
     ["Mariss Jansons, Symphonieorchester des Bayerischen Rundfunks", "9_BlhOJp8RY"],
     ["Sergiu Celibidache, Münchner Philharmoniker", "_9RT2nHD6CQ"],
@@ -461,7 +461,9 @@ let haydnCreation = Composition(id: 23, composer: "Franz Joseph Haydn", composer
     ["Phillip A. Swan, Lawrence Symphony Orchestra", "kaI8x-saprI"],
     ["Richard Egarr, Orquesta Sinfónica de Galicia", "NmMA_WNtGa4"],
     ["Richard Sparks, UNT Symphony Orchestra and Grand Chorus", "eqwHKoCqCHU"],
-    ["William Cutter, The MIT Concert Choir", "IXijFfheCbg"]
+    ["William Cutter, The MIT Concert Choir", "IXijFfheCbg"],
+    // Masterclasses
+    ["Denson Paul Pollard", "3gaT_BhYSIY"]
 ])
 
 let holstPlanets = Composition(id: 24, composer: "Gustav Holst", composerLast: "Holst", name: "The Planets", date: "1916", era: "Modern", genre: "Orchestral Suite", excerpts: [
@@ -609,19 +611,16 @@ let mussorgskyPictures = Composition(id: 30, composer: "Modest Mussorgsky", comp
 ], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Fritz Reiner, Chicago Symphony Orchestra (With Score)", "FUgKKgVcJMA"],
     ["Georg Solti, Chicago Symphony Orchestra", "syLm-9JyhuY"],
-    ["Georg Solti, Chicago Symphony Orchestra", "DXy50exHjes"],
     ["Herbert von Karajan, Berliner Philharmoniker", "kkC3chi_ysw"],
     ["Jean-Claude Casadeus, Royal Philharmonic Orchestra", "FsvpFU7KY7E"],
     ["Kurt Masur, Leipzig Gewandhaus Orchestra", "Sq7Qd9PSmR0"],
-    ["Symphonieorchester des Bayerischen Rundfunks (With Score)", "QLa_MIWZJow"],
-    ["Valery Gergiev, NHK Symphony Orchestra", "lgHG6TW8WG8"]
+    ["Symphonieorchester des Bayerischen Rundfunks (With Score)", "QLa_MIWZJow"]
 ])
 
 let ravelBolero = Composition(id: 31, composer: "Maurice Ravel", composerLast: "Ravel", name: "Bolero", date: "1928", era: "Modern", genre: "Orchestral Piece", excerpts: [
     Excerpt(id: 161, description: "Excerpt 1", avgTempo: "", measures: "[10] to [11]", pictures: [["Trombone 1", "1471"]]),
     Excerpt(id: 162, description: "Excerpt 2", avgTempo: "", measures: "2 mm. after [17] to End", pictures: [["Trombones 1 and 2", "1472"], ["Trombone 3", "1473"]]),
 ], mutes: "No", commonDifficulties: "Range", professionalAdvice: "", videos: [
-    ["정명훈 (Chung Myung-Whun), Seoul Philharmonic Orchestra", "avhSABEy_i4"],
     ["Gustavo Dudamel, Wiener Philharmoniker", "mhhkGyJ092E"],
     ["Riccardo Muti, l'Orchestra della Scala di Milano", "64qB8qBoRF8"],
     ["Sergiu Celibidache, The Danish National Radio Symphony Orchestra", "gy5Ve3338-E"],
@@ -687,7 +686,9 @@ let respighiFountains = Composition(id: 35, composer: "Ottorino Respighi", compo
     ["Eugene Ormandy, Philadelphia Orchestra", "aSVOR3_aJ3M"],
     ["Herbert von Karajan, Berlin Philharmonic", "eGZ9oslaeak"],
     // Bands
-    ["Jerry Junkin, The University of Texas Wind Ensemble", "PM_UjFqclIc"]
+    ["Jerry Junkin, The University of Texas Wind Ensemble", "PM_UjFqclIc"],
+    // Masterclasses
+    ["Denson Paul Pollard", "VLVwu9dtY6Y"]
 ])
 
 let rimskyKorsakovCapriccio = Composition(id: 36, composer: "Nikolai Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "Capriccio Espagnol", date: "1887", era: "Romantic", genre: "Orchestral Suite", excerpts: [
@@ -823,7 +824,8 @@ let schubert8 = Composition(id: 43, composer: "Franz Schubert", composerLast: "S
     ["Georg Solti, Chicago Symphony Orchestra", "1-p58OSYhG0"],
     ["Leonard Bernstein, Concertgebouw Orchestra", "uWnKMzAedK4"],
     ["Philippe Jordan, Wiener Symphoniker", "TgZj4Vd3HHk"],
-    ["Seiji Ozawa, Westminster Philharmonic Orchestra"],
+    // TODO: Find this video
+    ["Seiji Ozawa, Westminster Philharmonic Orchestra", ""],
     ["Wolfgang Sawallisch, Staatskapelle Dresden", "0mnrHf7p0jM"]
 ])
 
@@ -868,11 +870,9 @@ let schumann2 = Composition(id: 46, composer: "Robert Schumann", composerLast: "
     Excerpt(id: 224, description: "Excerpt 3", avgTempo: "", measures: "Mov. IV, mm. 423 to mm. 492", pictures: [["Trombone 1", "1634"], ["Trombone 2", "1635"], ["Trombone 3", "1636"]]),
     Excerpt(id: 225, description: "Excerpt 4", avgTempo: "", measures: "Mov. IV, mm. 533 to End", pictures: [["Trombone 1", "1637"], ["Trombone 2", "1638"], ["Trombone 3", "1639"]])
 ], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Christoph Eschenbach, Wiener Philharmoniker", "FsHtpMt4dfc"],
     ["Daniel Harding, Mahler Chamber Orchestra", "oQk8jQydMqc"],
     ["George Szell, The Cleveland Orchestra", "f6_gZYQNhpI"],
     ["Leonard Bernstein, New York Philharmonic", "kpCDIn8Q2ss"],
-    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "2eGkxHaGu0"],
     ["Marek Janowski, Frankfurt Radio Symphony", "YD-dluM2gJQ"],
     ["Paavo Järvi, Staatskapelle Dresden", "6O58OkBRLek"],
     ["Philippe Herreweghe, SWR Symphonieorchester", "zpJaeSpDDus"],
@@ -895,6 +895,7 @@ let schumann3 = Composition(id: 47, composer: "Robert Schumann", composerLast: "
     ["Sergiu Celibidache, Munich Philharmonic Orchestra", "7GB8K5uSIJo"],
     // Masterclasses
     ["Christian Jones (Bass Trombone)", "nryEtKOG4QU"],
+    ["Denson Paul Pollard (Bass Trombone)", "rejwWXuahW0"],
     ["Joseph Alessi, New York Philharmonic Trombone Section", "hQjDXgxMvD8"],
     ["Michael Boder, Berliner Philharmoniker (Trombone Tutorial)", "ZkDkfWJy2S0"],
     ["Nicola Ferro (Alto Trombone)", "kLFL-gwXHc0"],
@@ -914,7 +915,6 @@ let schumann4 = Composition(id: 48, composer: "Robert Schumann", composerLast: "
 ], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["George Szell, The Cleveland Orchestra", "i5A_FFahysY"],
     ["Herbert von Karajan, Berlin Philharmonic Orchestra", "gCAZsC6nmps"],
-    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "YyLRSc8hww"],
     ["Herbert von Karajan, Staatskapelle Dresden", "3GSN0a0z_O8"],
     ["Leonard Bernstein, Vienna Philharmonic Orchestra", "yunhjIVTG_U"],
     ["Leonard Bernstein, Vienna Philharmonic Orchestra (With Score)", "aFkI_qOYy64"],
@@ -973,7 +973,6 @@ let straussZarathustra = Composition(id: 51, composer: "Richard Strauss", compos
     ["Gustavo Dudamel, Vienna Philharmonic Orchestra", "ETveS23djXM"],
     ["Herbert von Karajan, Berlin Philharmonic Orchestra (With Score)", "c8r_pZoaZf0"],
     ["Herbert von Karajan, Vienna Philharmonic", "h3eEHZCahVU"],
-    ["Jakub Hrůša, NHK Symphony Orchestra", "t3xUbPiTIk0"],
     ["Jonathan Nott, Gustav Mahler Youth Orchestra", "6RdZ7rO_cr0"],
     ["Mariss Jansons, Royal Concertgebouw Orchestra", "D4d88IgvhK4"],
     ["Mariss Jansons, Symphonieorchester des Bayerischen Rundfunks", "hC-PA0YGzK0"],
@@ -1019,7 +1018,6 @@ let straussDonJuan = Composition(id: 54, composer: "Richard Strauss", composerLa
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "XG4uBRBMdzY"],
     ["Georg Solti, Chicago Symphony Orchestra", "_um5yLJx-RM"],
     ["Herbert von Karajan, Osaka Philharmonic Orchestra", "F_V5KhUxWG8"],
-    ["Paavo Järvi, NHK Symphony Orchestra", "DYQfLOjvPf8"],
     ["Thomas Schippers, Cincinnati Symphony Orchestra (With Score)", "8woshq-F21s"],
     ["Wolfgang Sawallisch, Philadelphia Orchestra", "KP89c9KfetA"]
 ])
@@ -1040,7 +1038,6 @@ let straussHeldenleben = Composition(id: 55, composer: "Richard Strauss", compos
     ["Herbert von Karajan, Berlin Philharmonic Orchestra", "nu5AXJGmkJk"],
     ["Manfred Honeck, Pittsburgh Symphony Orchestra", "NGlzlNlnw_w"],
     ["Mariss Jansons, Symphonie-Orchestrer des Bayerischen Rundfunks", "_2-dLoWorUs"],
-    ["Paavo Järvi, NHK Symphony Orchestra", "8nJoNtnNHIY"],
     ["Valery Gergiev, Munich Philharmonic Orchestra", "m-aaCruKsLI"],
     // Masterclasses
     ["Ben van Dijk (Bass Trombone)", "0s9wId6IBGQ"],
@@ -1221,7 +1218,9 @@ let wagnerRheingold = Composition(id: 65, composer: "Richard Wagner", composerLa
     ["Herbert von Karajan", "dBi0YXM3zmI"],
     ["Pierre Boulez", "3ZP-yXsNV2E"],
     ["Sir Simon Rattle, Orchestra of the Age of Enlightenment", "CUFWNKFajjA"],
-    ["Zubin Mehta, Valencian Community Orchestra", "XgX14XYfYxQ"]
+    ["Zubin Mehta, Valencian Community Orchestra", "XgX14XYfYxQ"],
+    // Masterclasses
+    ["Denson Paul Pollard (Bass Trombone)", "I-FObGwz8-U"]
 ])
 
 let wagnerFlying = Composition(id: 66, composer: "Richard Wagner", composerLast: "Wagner", name: "The Flying Dutchman", date: "1843", era: "Late Romantic", genre: "Opera", excerpts: [
@@ -1251,6 +1250,7 @@ let wagnerValyrie = Composition(id: 67, composer: "Richard Wagner", composerLast
     // Masterclasses
     ["Ben van Dijk (contra-basstrombone)", "94YEBjk8prY"],
     ["Christian Jones (Bass Trombone)", "opa8yNCIQ-g"],
+    ["Denson Paul Pollard (Bass Trombone)", "dtgB3yWySOI"],
     ["Georgia Trombone Summit", "sC-BebXLtrA"],
     ["Ian Bousfield, YouTube Symphony Orchestra", "0QXVKh34wVo"],
     ["Ralph Sauer", "b83be3aogOM"],
@@ -1286,11 +1286,7 @@ let wagnerTannhauser = Composition(id: 69, composer: "Richard Wagner", composerL
     ["Ralph Sauer", "b83be3aogOM"]
 ])
 
-//********************************************************//
-//                                                        //
-//                       Composers                        //
-//                                                        //
-//********************************************************//
+//MARK: Composers
 
 let bach = Composer(id: 0, name: "Johann Sebastian Bach", ipa: "joˈhan zeˈbastjan bɑx", image: 2000, country: "Germany", dates: "1685-1750", bio: "Johann Sebastian Bach was a German Baroque composer and musician. He is most well known for is keyboard works, and works for voice and orchestra. Bach was a master of counterpoint and harmonic organization and his influences in these fields continue to affect composers to this day.", excerpts: [
     bachCelloSuite
