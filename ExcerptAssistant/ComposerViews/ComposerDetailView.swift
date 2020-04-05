@@ -18,6 +18,7 @@ struct ComposerDetailView: View {
         ScrollView(.vertical) {
             VStack {
                 Text("\\\(composer.ipa)\\")
+                    .padding()
                 Image("\(composer.image)")
                     .resizable()
                     .scaledToFit()
@@ -74,7 +75,9 @@ struct ComposerDetailView: View {
                     .padding(.leading)
             }
         }
-        .navigationBarTitle(composer.name)
+        .navigationBarTitle(
+            Text(composer.name),
+            displayMode: .inline)
     }
 }
 

@@ -6,8 +6,6 @@
 //  Copyright © 2020 Alex Burdiss. All rights reserved.
 //
 
-// TODO: Implement this correctly as an observable object.
-
 import Foundation
 
 /**
@@ -25,7 +23,7 @@ struct Composition: Identifiable {
     var mutes: String
     var commonDifficulties: String /// Currently not implemented
     var professionalAdvice: String /// Currently not implemented
-    var videos: [[String]] // [Name, YouTubeID]
+    var videos: [[String]] /// [Name, YouTubeID]
 }
 
 /**
@@ -36,7 +34,7 @@ struct Excerpt: Identifiable {
     var description: String
     var avgTempo: String /// Currently not implemented
     var measures: String
-    var pictures: [[String]] // [Part, PictureNo.]
+    var pictures: [[String]] /// [Part, PictureNo.]
 }
 
 /**
@@ -268,8 +266,7 @@ let brahms4 = Composition(id: 13, composer: "Johannes Brahms", composerLast: "Br
     ["Bernard Haitink, Chamber Orchestra of Europe", "7QLuYj2jxoc"],
     ["Carlos Kleiber, Bayerische Staatsorchester", "t_L8BajLmtE"],
     ["Carlos Kleiber, Wiener Philharmoniker (With Score)", "pT6SN4tPbv8"],
-    // TODO: Fix This Link
-    //["Christoph Eschenbach", "xTE7810lrGk"],
+    ["Christoph Eschenbach", "0jvpWs0sq9s"],
     ["정명훈 (Chung Myung-Whun), The Orchestre Philharmonique de Radio France", "G8R7T0R4NC0"],
     ["Leonard Bernstein, Wiener Philharmoniker", "ckuUq7im8H4"]
 ])
@@ -330,8 +327,7 @@ let bruckner7 = Composition(id: 17, composer: "Anton Bruckner", composerLast: "B
     ["Christian Thielemann, Wiener Philharmoniker", "cuXPkoOM2j8"],
     ["Herbert von Karajan, Wiener Philharmoniker", "3pioV8yB3iA"],
     ["Herbert von Karajan, Wiener Philharmoniker", "2XfhRC03Riw"],
-    // TODO: Find this Video
-    //["Otto Klemperer, ", ""],
+    ["Otto Klemperer, ", "wGoYMjVagqQ"],
     ["Sergiu Celibidache, Münchner Philharmoniker", "2X2bbusaOzI"],
     ["Wilhelm Furtwängler, Berliner Philharmoniker", "ihK5eDpP2vU"],
     // Masterclasses
@@ -346,8 +342,7 @@ let bruckner8 = Composition(id: 18, composer: "Anton Bruckner", composerLast: "B
     Excerpt(id: 57, description: "Excerpt 4", avgTempo: "", measures: "Mov. IV, mm. 701 to End", pictures: [["Trombone 1", "1166"], ["Trombone 2", "1167"], ["Trombone 3", "1168"]])
 ], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Carlo Maria Giulini, Vienna Philharmonic Orchestra", "xT5kreOhjxU"],
-    //TODO: Fix this video
-    //["Herbert von Karajan, Vienna Philharmonic Orchestra", "sJf3KmAg08"],
+    ["Herbert von Karajan, Vienna Philharmonic Orchestra", "qqCsF_dIN5A"],
     ["Paavo Järvi, Frankfurt Radio Symphony Orchestra", "-UPIEJAptcY"],
     ["Pierre Boulez, Vienna Philharmonic Orchestra", "ufqC1LCpHV4"],
     ["Sergiu Celibidache, Münchner Philharmoniker", "elVHvTrEM34"],
@@ -425,8 +420,6 @@ let dvorak9 = Composition(id: 21, composer: "Antonín Dvořák", composerLast: "
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "jOofzffyDSA"],
     ["Ferenc Fricsay, Berliner Philharmoniker (With Score)", "oLWpgWuUaU4"],
     ["George Szell, The Cleveland Orchestra", "jxoygdpGET0"],
-    // TODO: Find this video
-    //["Kurt Redel, Slovak Philharmonic Orchestra", ""],
     ["Lorin Maazel, New York Philharmonic", "nSd1ye8l4RE"],
     ["Mariss Jansons, Symphonieorchester des Bayerischen Rundfunks", "9_BlhOJp8RY"],
     ["Sergiu Celibidache, Münchner Philharmoniker", "_9RT2nHD6CQ"],
@@ -824,8 +817,7 @@ let schubert8 = Composition(id: 43, composer: "Franz Schubert", composerLast: "S
     ["Georg Solti, Chicago Symphony Orchestra", "1-p58OSYhG0"],
     ["Leonard Bernstein, Concertgebouw Orchestra", "uWnKMzAedK4"],
     ["Philippe Jordan, Wiener Symphoniker", "TgZj4Vd3HHk"],
-    // TODO: Find this video
-    ["Seiji Ozawa, Westminster Philharmonic Orchestra", ""],
+    ["Seiji Ozawa, Westminster Philharmonic Orchestra", "Ip4cBnYJ1Hw"],
     ["Wolfgang Sawallisch, Staatskapelle Dresden", "0mnrHf7p0jM"]
 ])
 
@@ -1336,7 +1328,7 @@ let mahler = Composer(id: 11, name: "Gustav Mahler", ipa: "ˈgʊs tɑf ˈmɑ�
     mahler2, mahler3, mahler5, mahler7
 ])
 
-let mozart = Composer(id: 12, name: "Wolfgang Amadeus Mozart", ipa: "ˈwʊlf gæŋ ˌæm əˈdeɪ əs ˈmoʊt sɑrt", image: 2012, country: "Germant", dates: "1756-1791", bio: "Mozart gained popularity as a pianist and composer at an early age. He gained employment as a court musician at the Salzburg court, but quickly lost interest and began traveling looking for other employment. In Vienna, he found great fame, but worked his whole life trying to achieve financial stability: a goal he was never able to achieve. Mozart's death is also very mysterious and controvercial.", excerpts: [
+let mozart = Composer(id: 12, name: "Wolfgang Amadeus Mozart", ipa: "ˈwʊlf gæŋ ˌæm əˈdeɪ əs ˈmoʊt sɑrt", image: 2012, country: "Germany", dates: "1756-1791", bio: "Mozart gained popularity as a pianist and composer at an early age. He gained employment as a court musician at the Salzburg court, but quickly lost interest and began traveling looking for other employment. In Vienna, he found great fame, but worked his whole life trying to achieve financial stability: a goal he was never able to achieve. Mozart's death is also very mysterious and controvercial.", excerpts: [
     mozartRequiem
 ])
 
