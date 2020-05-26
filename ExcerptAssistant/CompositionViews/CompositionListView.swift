@@ -7,12 +7,13 @@
 //
 
 
-// TODO: Document this file!
-
-
 import SwiftUI
 
 struct CompositionListView: View {
+    @EnvironmentObject var favorites: Favorites
+    
+    
+    @State private var resettingFavoritesAlert = false
     
     var model = TromboneContentModel().excerpts
     
@@ -26,25 +27,46 @@ struct CompositionListView: View {
                                 .bold()
                             Text(item.name)
                             Spacer()
+                            if self.favorites.contains(String(item.id)) {
+                                Spacer()
+                                Image(systemName: "heart.fill")
+                                    .accessibility(label: Text("This is a favorite exercise"))
+                                    .foregroundColor(.red)
+                            }
                         }
                     }
                 }
             }
         .navigationBarTitle("TbnXcerpts")
-//        .navigationBarItems(trailing:
-//            NavigationLink(destination: FavoriteExcerpts()) {
-//                HStack {
-//                    Image(systemName: "star")
-//                    Text("Favorites")
-//                }
-//            })
+            .navigationBarItems(leading: Button(action: {
+                self.resettingFavoritesAlert = true
+            }) {
+                Text("Reset")
+                Image(systemName: "heart.slash")
+            }
+            .alert(isPresented: $resettingFavoritesAlert) {
+                Alert(title: Text("All favorites will be removed"), message: Text("This cannot be undone!"), primaryButton: .destructive(Text("Reset")) {
+                    self.resetFavorites()
+                    }, secondaryButton: .cancel())
+            },
+                trailing: NavigationLink(destination: RandomCompositionView()) {
+                HStack {
+                    Image(systemName: "cube")
+                    Text("Random")
+                }
+            })
         }
         .navigationViewStyle(StackNavigationViewStyle())
+    }
+    
+    func resetFavorites() {
+        self.favorites.removeAll()
     }
 }
 
 struct CompositionListView_Previews: PreviewProvider {
     static var previews: some View {
         CompositionListView()
+            .environmentObject(Favorites())
     }
 }

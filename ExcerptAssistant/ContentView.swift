@@ -7,8 +7,6 @@
 //
 
 //TODO: Document this file
-//TODO: find how to embed youtube links, even if it is just a website.
-
 
 import SwiftUI
 
@@ -31,6 +29,8 @@ struct ContentView: View {
                     Text("More")
             }
         }
+        .environmentObject(settingsModel())
+        .environmentObject(Favorites())
         .accentColor(Color.green)
     }
 }
