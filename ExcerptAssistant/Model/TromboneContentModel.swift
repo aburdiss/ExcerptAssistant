@@ -618,8 +618,8 @@ let mussorgskyPictures = Composition(id: 30, composer: "Modest Mussorgsky", comp
 ])
 
 let ravelBolero = Composition(id: 31, composer: "Maurice Ravel", composerLast: "Ravel", name: "Bolero", date: "1928", era: "Modern", genre: "Orchestral Piece", excerpts: [
-    Excerpt(id: 161, description: "Excerpt 1", avgTempo: "", measures: "[10] to [11]", pictures: [["Trombone 1", "1471"]]),
-    Excerpt(id: 162, description: "Excerpt 2", avgTempo: "", measures: "2 mm. after [17] to End", pictures: [["Trombones 1 and 2", "1472"], ["Trombone 3", "1473"]]),
+    Excerpt(id: 161, description: "Excerpt 1", avgTempo: "", measures: "[10] to [11]", pictures: [["Trombones", "none"]]),
+    Excerpt(id: 162, description: "Excerpt 2", avgTempo: "", measures: "2 mm. after [17] to End", pictures: [["Trombones", "none"]]),
 ], mutes: "No", commonDifficulties: "Range", professionalAdvice: "", videos: [
     ["Gustavo Dudamel, Wiener Philharmoniker", "mhhkGyJ092E"],
     ["Riccardo Muti, l'Orchestra della Scala di Milano", "64qB8qBoRF8"],
@@ -632,54 +632,10 @@ let ravelBolero = Composition(id: 31, composer: "Maurice Ravel", composerLast: "
     ["Ralph Sauer", "_9yDmNiHv3I"]
 ])
 
-let ravelDaphnis = Composition(id: 32, composer: "Maurice Ravel", composerLast: "Ravel", name: "Daphnis et Chloé", date: "1912", era: "Modern", genre: "Ballet", excerpts: [
-    Excerpt(id: 163, description: "Excerpt 1", avgTempo: "", measures: "1 mm. before [14] to 4 mm. after [14]", pictures: [["Trombones 1 and 2", "1474"], ["Trombone 3", "1475"]]),
-    Excerpt(id: 164, description: "Excerpt 2", avgTempo: "", measures: "3 mm. before [36] to [36]", pictures: [["Trombones 1 and 2", "1476"], ["Trombone 3", "1477"]]),
-    Excerpt(id: 165, description: "Excerpt 3", avgTempo: "", measures: "1 mm. before [38] to 4 mm. after [40]", pictures: [["Trombones 1 and 2", "1478"], ["Trombone 3", "1479"]]),
-    Excerpt(id: 166, description: "Excerpt 4", avgTempo: "", measures: "[49] to 3 mm. After [49]", pictures: [["Trombones 1 and 2", "1480"]]),
-    Excerpt(id: 167, description: "Excerpt 5", avgTempo: "", measures: "3 mm. after [66] to 2 mm. before [67]", pictures: [["Trombones 1 and 2", "1481"], ["Trombone 3", "1482"]])
-], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Charles Dutoit, Orchestre Symphonique de Montréal", "sYNlYMvFA5U"],
-    ["Charles Dutoit, Orchestre symphonique de Montréal", "-CcTjTVeOUQ"],
-    ["Daniel Smith, Frankfurt Radio Symphony Orchestra", "cnvv89Nd2pg"],
-    ["David Robertson, Radio Filharmonisch Orkest and Groot Omroepkoor", "R8RjYT5CLe8"],
-    ["Jukka-Pekka Saraste, WDR Sinfonieorchester Köln", "O4lzPz3NnI0"],
-    ["Simon Rattle, Berlin Philharmonic Orchestra", "14OM6Ysnk6M"]
-])
-
-let ravelValse = Composition(id: 33, composer: "Maurice Ravel", composerLast: "Ravel", name: "La Valse", date: "1920", era: "Modern", genre: "Orchestral Poem", excerpts: [
-    Excerpt(id: 168, description: "Excerpt 1", avgTempo: "", measures: "3 mm. before [62] to [66]", pictures: [["Trombones 1 and 2", "1483"], ["Trombone 3", "1484"]]),
-], mutes: "Straight", commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Charles Dutoit, Orchestre symphonique de Montréal", "-CcTjTVeOUQ"],
-    ["Charles Munch, Boston Symphony Orchestra (With Score)", "YDk2RUaoEJQ"],
-    ["정명훈 (Chung Myung-Whun), Orchestre Philharmonique de Radio France", "TMSgWhIENSk"],
-    ["Daniele Gatti, Gustav Mahler Jugendorchester", "mqv0U_D5OZY"],
-    ["Leonard Bernstein, Orchestre National de France", "Fg2i2NB-i3o"],
-    ["Mikko Franck, Orchestre Philharmonique de Radio France", "qOSoCyuqDJo"],
-    ["Pablo Heras-Casado, Frankfurt Radio Symphony", "UlMJ6Ri-LMM"]
-])
-
-let ravelLEnfant = Composition(id: 34, composer: "Maurice Ravel", composerLast: "Ravel", name: "L’enfant et les Sortileges", date: "1925", era: "Modern", genre: "Opera", excerpts: [
-    Excerpt(id: 169, description: "Excerpt 1", avgTempo: "", measures: "[14] to 6 mm. after [14]", pictures: [["Trombones 1 and 2", "1485"], ["Trombone 3", "1486"]]),
-    Excerpt(id: 170, description: "Excerpt 2", avgTempo: "", measures: "2 mm. before [31] to [31]", pictures: [["Trombones 1 and 2", "1487"], ["Trombone 3", "1488"]]),
-    Excerpt(id: 171, description: "Excerpt 3", avgTempo: "", measures: "[33] to 1 mm. after [35]", pictures: [["Trombones 1 and 2", "1489"], ["Trombone 3", "1490"]]),
-    Excerpt(id: 172, description: "Excerpt 4", avgTempo: "", measures: "[87] to 4 mm. after [88]", pictures: [["Trombones 1 and 2", "1491"], ["Trombone 3", "1492"]])
-], mutes: "Straight",
-   commonDifficulties: "", professionalAdvice: "", videos: [
-    ["Ernest Bour, French National Radio Orchestra", "WCrU1CeVFm8"],
-    ["Ernest Bour, Maîtrise et Orchestre National de la Radiodiffusion Française", "gpXBOQFbnig"],
-    ["Jiri Kylian Ballet", "7zQxo4kueJc"],
-    ["Kazushi Ono, London Philharmonic Orchestra", "TjWLxmquYCo"],
-    ["l'opéra de Lausanne", "QFeI8FH1zjw"],
-    ["l'opéra de Lyon", "JbqySviU4YQ"],
-    // Masterclasses
-    ["Olaf Ott", "6pPK7yUTmGw"]
-])
-
 let respighiFountains = Composition(id: 35, composer: "Ottorino Respighi", composerLast: "Respighi", name: "Fontane di Roma", date: "1916", era: "Modern", genre: "Symphonic Poem", excerpts: [
-    Excerpt(id: 173, description: "Excerpt 1", avgTempo: "", measures: "[10] to [12]", pictures: [["Trombone 1", "1493"], ["Trombone 2", "1494"], ["Trombone 3", "1495"]]),
-    Excerpt(id: 174, description: "Excerpt 2", avgTempo: "", measures: "[12] to [14]", pictures: [["Trombone 1", "1496"], ["Trombone 2", "1497"], ["Trombone 3", "1498"]]),
-    Excerpt(id: 175, description: "Excerpt 3", avgTempo: "", measures: "[14] to 4 mm. before [17]", pictures: [["Trombone 1", "1499"], ["Trombone 2", "1500"], ["Trombone 3", "1501"]])
+    Excerpt(id: 173, description: "Excerpt 1", avgTempo: "", measures: "[10] to [12]", pictures: [["Trombones", "none"]]),
+    Excerpt(id: 174, description: "Excerpt 2", avgTempo: "", measures: "[12] to [14]", pictures: [["Trombones", "none"]]),
+    Excerpt(id: 175, description: "Excerpt 3", avgTempo: "", measures: "[14] to 4 mm. before [17]", pictures: [["Trombones", "none"]])
 ], mutes: "No", commonDifficulties: "", professionalAdvice: "", videos: [
     ["Alan Gilbert, New York Philharmonic", "kk7LTvjdv1M"],
     ["Arturo Toscanini, Maazel Filarmonica", "u6bRHpcxJcM"],
@@ -1357,7 +1313,7 @@ let mussorgsky = Composer(id: 13, name: "Modest Mussorgsky", ipa: "moʊˈdɛst m
 ])
 
 let ravel = Composer(id: 14, name: "Maurice Ravel", ipa: "moʊˈris rəˈvɛl", image: 2014, country: "France", dates: "1875-1937", bio: "Ravel was an impressionist French composer. He was a careful, and slow composer, and composed much less compared to many other composers. He was also one of the first composers to realize the potential of recorded music, and was one of the first composers to record their music and marked it to a larger audience this way.", excerpts: [
-    ravelBolero, ravelDaphnis, ravelValse, ravelLEnfant
+    ravelBolero
 ])
 
 let respighi = Composer(id: 15, name: "Ottorino Respighi", ipa: "ottoˈriːno reˈspiːɡi", image: 2015, country: "Italy", dates: "1879-1936", bio: "Respighi was an Italian violinist, composer, and musicologist. Hist interest in musicology led to the composition of his three most famous compositions: \"Fountains of Rome\", \"Pines of Rome\", and \"Roman Festivals\"", excerpts: [
@@ -1416,7 +1372,7 @@ class TromboneContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahmsAcademic, brahms1, brahms2, brahms3, brahms4, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, ravelBolero, ravelDaphnis, ravelValse, ravelLEnfant, respighiFountains, rimskyKorsakovCapriccio, rimskyKorsakovGolden, rimskyKorsakovRussianEaster, rimskyKorsakovScheherazade, rossiniLaGazza, rossiniWilliamTell, saintSaens3, schubert8, schubert9, schumann1, schumann2, schumann3, schumann4, smetanaBarteredBride, straussAlpine, straussZarathustra, straussBourgeois, straussDeathAndTransfiguration, straussDonJuan, straussDonQuixote, straussHeldenleben, straussSalome, straussEulenspiegel, stravinskyFirebird, tchaikovsky4, tchaikovsky5, tchaikovsky6, tchaikovskyFrancesca, verdiForza, verdiNabucco, wagnerRheingold, wagnerFlying, wagnerValyrie, wagnerLohengrin, wagnerTannhauser
+        bachCelloSuite, beethoven5, beethoven9, beethovenFidelio, berliozFaust, berliozRomanCarnival, berliozRomeoJuliet, berliozSymphonie, bizetLArlesienne, borodinPolovetsian, brahmsAcademic, brahms1, brahms2, brahms3, brahms4, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, dvorak8, dvorak9, franckD, haydnCreation, holstPlanets, mahler2, mahler3, mahler5, mahler7, mozartRequiem, ravelBolero, respighiFountains, rimskyKorsakovCapriccio, rimskyKorsakovGolden, rimskyKorsakovRussianEaster, rimskyKorsakovScheherazade, rossiniLaGazza, rossiniWilliamTell, saintSaens3, schubert8, schubert9, schumann1, schumann2, schumann3, schumann4, smetanaBarteredBride, straussAlpine, straussZarathustra, straussBourgeois, straussDeathAndTransfiguration, straussDonJuan, straussDonQuixote, straussHeldenleben, straussSalome, straussEulenspiegel, stravinskyFirebird, tchaikovsky4, tchaikovsky5, tchaikovsky6, tchaikovskyFrancesca, verdiForza, verdiNabucco, wagnerRheingold, wagnerFlying, wagnerValyrie, wagnerLohengrin, wagnerTannhauser
     ]
     
     /**
