@@ -7,14 +7,24 @@
 //
 
 import SwiftUI
-import WebKit
-import UIKit
 
+/**
+ A detailed view of a composition. All excerpts are displayed, as well as links to listen and functionality for adding the excerpt to the favorites.
+ */
 struct CompositionDetailView: View {
+    /**
+     The user selected colleciton of favorite excerpts.
+     */
     @EnvironmentObject var favorites: Favorites
     
+    /**
+     The composition that is being displayed.
+     */
     var composition: Composition
     
+    /**
+     The user interface
+     */
     var body: some View {
         VStack {
             ScrollView(.vertical) {

@@ -8,17 +8,48 @@
 
 import SwiftUI
 
+/**
+ A view of a random excerpt from a random composition. Logic for randomizing the composition is also dealt with in this view
+ */
 struct RandomCompositionView: View {
-    @EnvironmentObject var settings: settingsModel
+    /**
+     The user selected settings for the app.
+     */
+    @EnvironmentObject var settings: Settings
+    
+    /**
+     The user selected favorites for the app.
+     */
     @EnvironmentObject var favorites: Favorites
     
+    /**
+     The complete list of excerpts for the app.
+     */
     let allCompositions = TromboneContentModel().excerpts
+    
+    /**
+     An array holding the user selected favorite compositions.
+     */
     @State var favoriteCompositions: [Composition] = []
     
+    /**
+     The currently selected random composition.
+     */
     @State var randomComposition: Composition = bachCelloSuite
+    
+    /**
+     The index of the random excerpt from the favoriteCompositions array.
+     */
     @State var randomExcerpt: Int = 0
+    
+    /**
+     The index of the random part from the randomExcerpt.
+     */
     @State var randomPart: Int = 0
     
+    /**
+     The user interface
+     */
     var body: some View {
         ScrollView(.vertical) {
             VStack(alignment: .leading) {
@@ -100,6 +131,9 @@ struct RandomCompositionView: View {
         })
     }
     
+    /**
+     Runs on view load. Filters all excerpts by searching favorites and appending favorites to favoritesArray.
+     */
     func populateFavorites() {
         var favoritesArray: [Composition] = []
         
@@ -111,7 +145,9 @@ struct RandomCompositionView: View {
         self.favoriteCompositions = favoritesArray
     }
     
-    
+    /**
+     Runs on view load and navigation bar button press. Generates a new random excerpt that is different from the previous excerpt, if there are more than one excerpts selected.
+     */
     func generateExcerpt() {
         var tempRandomComposition: Composition
         if settings.selectedRandoms == 1 && favoriteCompositions.count > 0 {
@@ -134,8 +170,6 @@ struct RandomCompositionView: View {
 struct RandomCompositionView_Previews: PreviewProvider {
     static var previews: some View {
         RandomCompositionView()
-        .environmentObject(settingsModel())
-        .environmentObject(Favorites())
     }
 }
 

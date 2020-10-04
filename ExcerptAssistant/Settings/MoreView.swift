@@ -8,9 +8,28 @@
 
 import SwiftUI
 
-struct SettingsView: View {
-    @EnvironmentObject var settings: settingsModel
+/**
+ The View that displays additional resources and settings for the app
+ */
+struct MoreView: View {
+    /**
+     The model that stores the user preferences for the app.
+     */
+    @EnvironmentObject var settings: Settings
     
+    /**
+     The model that stores the user selected favorites
+     */
+    @EnvironmentObject var favorites: Favorites
+    
+    /**
+     Determines whether the Resetting Favorites Alert should show
+     */
+    @State private var resettingFavoritesAlert = false
+    
+    /**
+     The user interface
+     */
     var body: some View {
         NavigationView {
             List {
@@ -21,6 +40,21 @@ struct SettingsView: View {
                             }
                         }
                     .pickerStyle(SegmentedPickerStyle())
+                }
+                Section(header: Text("Favorites Settings")) {
+                    Button(action: {
+                        self.resettingFavoritesAlert = true
+                    }) {
+                        HStack {
+                            Text("Reset Favorites")
+                            Image(systemName: "heart.slash")
+                        }
+                    }
+                    .alert(isPresented: $resettingFavoritesAlert) {
+                        Alert(title: Text("All favorites will be removed"), message: Text("This cannot be undone!"), primaryButton: .destructive(Text("Reset")) {
+                            self.resetFavorites()
+                        }, secondaryButton: .cancel())
+                    }
                 }
                 Section(header: Text("Resources")) {
                     HStack {
@@ -127,10 +161,17 @@ struct SettingsView: View {
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }
+    
+    /**
+     Removes all favorites from the app.
+     */
+    func resetFavorites() {
+        self.favorites.removeAll()
+    }
 }
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsView().environmentObject(settingsModel())
+        MoreView().environmentObject(Settings())
     }
 }

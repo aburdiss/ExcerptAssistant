@@ -6,15 +6,25 @@
 //  Copyright © 2020 Alex Burdiss. All rights reserved.
 //
 
-// TODO: Document this file!
-
 import SwiftUI
 
+/**
+ Detailed view of an individual composer in the app, also showing a list of all of their compositions.
+ */
 struct ComposerDetailView: View {
+    /**
+     The user selected favorites of the app.
+     */
     @EnvironmentObject var favorites: Favorites
     
+    /**
+     The current composer being displayed.
+     */
     var composer: Composer
     
+    /**
+     The user interface.
+     */
     var body: some View {
         ScrollView(.vertical) {
             VStack {

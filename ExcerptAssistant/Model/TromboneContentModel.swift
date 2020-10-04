@@ -168,8 +168,12 @@ let berliozSymphonie = Composition(id: 7, composer: "Hector Berlioz", composerLa
     Excerpt(id: 13, description: "Excerpt 2", avgTempo: "", measures: "Mov V, [60] to [61], 11 mm. before [63] to [63]", pictures: [["Trombone 1", "1036"], ["Trombone 2", "1037"], ["Trombone 3", "1038"]]),
     Excerpt(id: 14, description: "Excerpt 3", avgTempo: "", measures: "5 mm. after [85] to end.", pictures: [["Trombone 1", "1039"], ["Trombone 2", "1040"], ["Trombone 3", "1041"]])
 ], mutes: "No", commonDifficulties: "Range, Potential Alto Trombone", professionalAdvice: "\"Originally written for the alto trombone, the Symphonie Fantastique is better played on the tenor today. Most conductors demand a wider dynamic range than is possible from the alto. In Berlioz, strive for a ringing brilliant sound.\" -Ralph Sauer", videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra", "AgXW-57UDMc"],
     ["정명훈 (Chung Myung-Whun)", "5HgqPpjIH5c"],
-    ["Leopold Stokowski, New Philharmonia Orchestra", "ewoAW-Zyuj8"],
+    ["Gustavo Dudamel, Orchestre philharmonique de Radio France", "HDHPgqv4hsw"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "sK4dz6Gbcdk"],
+    ["Leonard Bernstein, Orchestre National de France", "rQXtC6B3CKQ"],
+    ["Leopold Stokowski, New Philharmonia Orchestra (With Score)", "ewoAW-Zyuj8"],
     ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc?t=284"],
     // Masterclasses
     ["Southeast Trombone Symposium", "oYSnGq5wNxU"],
@@ -1440,7 +1444,7 @@ class Favorites: ObservableObject {
 /**
  A model for saving user settings. Data is readable and writeable directly to memory from accessing and setting published variables.
  */
-class settingsModel: ObservableObject {
+class Settings: ObservableObject {
     /**
      A static list to display names of random options in the Picker.
      */
